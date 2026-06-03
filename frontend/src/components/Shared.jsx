@@ -47,8 +47,23 @@ export function InstrumentCard({ label, value, unit = '', color = 'cyan', sub })
 }
 
 export const AIRLINE_COLORS = {
+  // US Carriers
   'UA':'#00D4FF','AA':'#FF3B3B','WN':'#FFB800','DL':'#B45EFF',
   'B6':'#00FF88','NK':'#FF8C00','F9':'#00CCFF','AS':'#4488FF',
+  // Middle East
+  'EK':'#CC0000','QR':'#8B0000','EY':'#C8A951',
+  // Europe
+  'TK':'#E30A17','LH':'#05164D','BA':'#075AAA','AF':'#002157',
+  'KL':'#00A1DE','IB':'#FF0000','AZ':'#007AC2','SK':'#003C93',
+  'LX':'#CC0000','OS':'#CC0000',
+  // Asia-Pacific
+  'NZ':'#00247D','QF':'#FF0000','SQ':'#003580','NH':'#4169E1',
+  'JL':'#CC0000','CX':'#006564','KE':'#0066B3','OZ':'#00437B',
+  'TG':'#610B21','MH':'#003580',
+  // Americas
+  'AC':'#FF0000','AM':'#00539B','LA':'#E30613','CM':'#003087','AV':'#CF0A2C',
+  // Africa
+  'ET':'#009A44','MS':'#B22234',
 }
 export const CAUSE_COLORS = {
   carrier:'#FFB800', weather:'#00D4FF', nas:'#B45EFF', security:'#FF3B3B', late_aircraft:'#FF8C00'

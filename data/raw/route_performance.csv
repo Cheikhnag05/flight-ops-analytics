@@ -1,225 +1,2433 @@
 origin,dest,carrier,flight_type,total_flights,avg_dep_delay,avg_arr_delay,avg_flight_time,otp_count,distance_mi,otp_rate,airline_name
-IAH,DFW,AA,Domestic,14424,6.32,7.58,41.38,2605,239,81.94,American Airlines
-HOU,DAL,WN,Domestic,12220,7.17,8.61,41.43,2463,239,79.84,Southwest Airlines
-HOU,BWI,WN,Domestic,7938,6.97,8.36,174.27,1580,1235,80.1,Southwest Airlines
-IAH,MIA,AA,Domestic,7351,6.43,7.71,138.03,1314,964,82.12,American Airlines
-IAH,ORD,UA,Domestic,7117,5.88,7.11,132.83,1214,925,82.94,United Airlines
-HOU,LAS,WN,Domestic,6999,6.74,8.05,172.49,1330,1222,81.0,Southwest Airlines
-IAH,ATL,DL,Domestic,6885,5.46,6.53,114.72,1043,789,84.85,Delta Air Lines
-HOU,ORL,WN,Domestic,6844,7.14,8.48,140.89,1336,985,80.48,Southwest Airlines
-HOU,MDW,WN,Domestic,6835,7.31,8.78,132.91,1350,925,80.25,Southwest Airlines
-HOU,ATL,WN,Domestic,6595,6.56,7.92,114.89,1282,791,80.56,Southwest Airlines
-HOU,PHX,WN,Domestic,6552,7.03,8.38,144.04,1272,1009,80.59,Southwest Airlines
-IAH,LGA,UA,Domestic,6524,5.53,6.72,198.2,1063,1416,83.71,United Airlines
-IAH,PHX,AA,Domestic,6517,6.87,8.17,144.0,1207,1009,81.48,American Airlines
-HOU,DEN,WN,Domestic,6223,6.79,8.15,126.62,1195,879,80.8,Southwest Airlines
-HOU,LAX,WN,Domestic,5989,6.61,7.95,192.7,1161,1374,80.61,Southwest Airlines
-IAH,LAX,UA,Domestic,5965,5.72,6.88,193.36,975,1379,83.65,United Airlines
-HOU,MCO,NK,Domestic,5906,7.9,9.44,140.84,1317,985,77.7,Spirit Airlines
-IAH,DEN,UA,Domestic,5104,5.77,6.86,126.58,817,879,83.99,United Airlines
-IAH,SFO,UA,Domestic,4535,5.7,6.77,227.48,730,1635,83.9,United Airlines
-IAH,GDL,AA,International,3093,7.01,8.35,117.58,577,865,81.34,American Airlines
-IAH,SEA,UA,Domestic,3092,6.19,7.37,259.41,532,1874,82.79,United Airlines
-IAH,BOG,UA,International,2858,5.33,6.45,260.23,451,2006,84.22,United Airlines
-HOU,MEX,WN,International,2821,6.73,8.0,102.17,549,741,80.54,Southwest Airlines
-IAH,MEX,UA,International,2299,5.02,6.09,101.69,362,737,84.25,United Airlines
-IAH,LHR,UA,International,2243,6.24,7.33,612.33,376,4822,83.24,United Airlines
-HOU,CUN,WN,International,2017,7.01,8.5,118.89,397,874,80.32,Southwest Airlines
-IAH,GRU,UA,International,2005,5.36,6.34,605.07,305,4767,84.79,United Airlines
-IAH,CDG,UA,International,1984,5.8,7.01,676.77,322,5338,83.77,United Airlines
-IAH,DFW,B6,Domestic,628,6.45,7.86,41.22,119,239,81.05,JetBlue Airways
-IAH,DFW,DL,Domestic,605,4.28,5.16,40.92,76,239,87.44,Delta Air Lines
-IAH,DFW,NK,Domestic,603,6.83,8.37,41.29,143,239,76.29,Spirit Airlines
-IAH,DFW,F9,Domestic,602,8.0,10.07,41.48,147,239,75.58,Frontier Airlines
-IAH,DFW,UA,Domestic,587,6.05,7.19,41.4,95,239,83.82,United Airlines
-IAH,DFW,WN,Domestic,556,7.57,9.33,41.46,126,239,77.34,Southwest Airlines
-IAH,DFW,AS,Domestic,534,6.15,7.4,41.08,86,239,83.9,Alaska Airlines
-HOU,DAL,AA,Domestic,496,7.5,8.76,41.13,88,239,82.26,American Airlines
-HOU,DAL,F9,Domestic,493,7.63,9.26,41.1,111,239,77.48,Frontier Airlines
-HOU,DAL,DL,Domestic,490,4.13,5.21,41.28,64,239,86.94,Delta Air Lines
-HOU,DAL,B6,Domestic,487,7.41,8.79,41.47,98,239,79.88,JetBlue Airways
-HOU,DAL,NK,Domestic,483,10.77,12.52,41.26,112,239,76.81,Spirit Airlines
-HOU,DAL,UA,Domestic,478,6.08,7.44,41.59,85,239,82.22,United Airlines
-HOU,DAL,AS,Domestic,478,6.21,7.38,41.81,80,239,83.26,Alaska Airlines
-HOU,BWI,B6,Domestic,332,7.23,9.04,174.41,70,1235,78.92,JetBlue Airways
-HOU,BWI,UA,Domestic,329,5.81,7.11,174.24,59,1235,82.07,United Airlines
-HOU,BWI,DL,Domestic,327,6.0,7.26,173.98,62,1235,81.04,Delta Air Lines
-HOU,BWI,AA,Domestic,320,8.74,9.96,174.4,67,1235,79.06,American Airlines
-HOU,BWI,AS,Domestic,317,7.19,8.2,173.82,52,1235,83.6,Alaska Airlines
-HOU,LAS,AA,Domestic,316,8.5,9.79,172.8,66,1222,79.11,American Airlines
-IAH,MIA,WN,Domestic,310,8.16,9.5,138.25,67,964,78.39,Southwest Airlines
-HOU,LAS,AS,Domestic,309,4.85,6.21,172.57,42,1222,86.41,Alaska Airlines
-IAH,MIA,NK,Domestic,309,8.21,9.47,138.06,57,964,81.55,Spirit Airlines
-IAH,ORD,NK,Domestic,305,9.31,10.87,132.95,66,925,78.36,Spirit Airlines
-HOU,BWI,F9,Domestic,302,8.86,10.3,174.2,66,1235,78.15,Frontier Airlines
-IAH,MIA,B6,Domestic,301,5.8,7.2,138.19,54,964,82.06,JetBlue Airways
-HOU,BWI,NK,Domestic,300,8.66,10.47,173.9,72,1235,76.0,Spirit Airlines
-HOU,LAS,F9,Domestic,298,9.82,11.73,172.79,76,1222,74.5,Frontier Airlines
-IAH,MIA,F9,Domestic,296,7.08,8.81,138.44,63,964,78.72,Frontier Airlines
-IAH,MIA,UA,Domestic,295,6.23,7.44,137.44,51,964,82.71,United Airlines
-IAH,ORD,F9,Domestic,294,7.5,9.01,133.35,71,925,75.85,Frontier Airlines
-HOU,MDW,F9,Domestic,294,9.01,10.7,132.37,66,925,77.55,Frontier Airlines
-HOU,ORL,B6,Domestic,291,7.83,9.32,140.93,60,985,79.38,JetBlue Airways
-IAH,MIA,DL,Domestic,291,5.1,6.01,138.54,42,964,85.57,Delta Air Lines
-HOU,LAS,DL,Domestic,289,6.5,7.44,172.11,46,1222,84.08,Delta Air Lines
-HOU,LAS,NK,Domestic,284,8.09,9.57,172.24,61,1222,78.52,Spirit Airlines
-IAH,PHX,F9,Domestic,283,6.54,7.75,144.15,46,1009,83.75,Frontier Airlines
-IAH,ORD,WN,Domestic,282,7.59,9.18,133.26,63,925,77.66,Southwest Airlines
-HOU,LAS,B6,Domestic,281,5.63,6.9,172.91,43,1222,84.7,JetBlue Airways
-HOU,DEN,B6,Domestic,281,7.34,8.66,127.0,62,879,77.94,JetBlue Airways
-IAH,ORD,AA,Domestic,281,7.89,9.05,133.17,55,925,80.43,American Airlines
-HOU,ORL,AA,Domestic,277,7.83,9.17,140.55,59,985,78.7,American Airlines
-HOU,LAS,UA,Domestic,276,5.28,6.34,172.82,41,1222,85.14,United Airlines
-HOU,MCO,AS,Domestic,275,4.94,5.88,141.18,41,985,85.09,Alaska Airlines
-IAH,LGA,DL,Domestic,275,5.5,6.83,198.14,52,1416,81.09,Delta Air Lines
-IAH,PHX,WN,Domestic,274,7.12,8.57,144.04,54,1009,80.29,Southwest Airlines
-HOU,PHX,NK,Domestic,274,10.27,12.09,143.98,72,1009,73.72,Spirit Airlines
-HOU,ORL,AS,Domestic,274,6.31,7.91,140.56,48,985,82.48,Alaska Airlines
-IAH,MIA,AS,Domestic,273,5.68,6.58,138.12,38,964,86.08,Alaska Airlines
-IAH,ATL,WN,Domestic,273,7.52,8.7,115.17,53,789,80.59,Southwest Airlines
-IAH,ORD,B6,Domestic,273,5.68,6.87,133.34,48,925,82.42,JetBlue Airways
-HOU,PHX,AA,Domestic,272,6.86,7.83,143.88,44,1009,83.82,American Airlines
-HOU,MDW,UA,Domestic,272,8.26,9.75,132.88,49,925,81.99,United Airlines
-IAH,PHX,NK,Domestic,269,8.61,10.21,143.88,58,1009,78.44,Spirit Airlines
-HOU,LAX,AS,Domestic,269,7.0,8.38,192.42,53,1374,80.3,Alaska Airlines
-IAH,LGA,F9,Domestic,269,8.23,9.78,198.38,55,1416,79.55,Frontier Airlines
-IAH,LGA,AS,Domestic,269,4.74,5.8,197.9,47,1416,82.53,Alaska Airlines
-IAH,ATL,AS,Domestic,268,4.81,5.74,114.38,39,789,85.45,Alaska Airlines
-HOU,ATL,F9,Domestic,268,5.04,6.27,115.18,48,791,82.09,Frontier Airlines
-IAH,LGA,AA,Domestic,267,7.55,8.41,198.93,42,1416,84.27,American Airlines
-HOU,MDW,AA,Domestic,267,5.99,6.71,133.39,46,925,82.77,American Airlines
-IAH,ATL,AA,Domestic,266,7.76,9.12,114.81,47,789,82.33,American Airlines
-HOU,MDW,DL,Domestic,265,4.82,6.14,132.23,40,925,84.91,Delta Air Lines
-HOU,ORL,F9,Domestic,265,8.48,10.08,140.7,65,985,75.47,Frontier Airlines
-HOU,MDW,NK,Domestic,265,7.06,8.22,132.54,51,925,80.75,Spirit Airlines
-HOU,ATL,DL,Domestic,265,5.89,7.63,115.18,49,791,81.51,Delta Air Lines
-HOU,ATL,AA,Domestic,265,5.31,6.09,114.86,51,791,80.75,American Airlines
-IAH,ATL,NK,Domestic,263,7.4,8.87,114.35,64,789,75.67,Spirit Airlines
-HOU,DEN,NK,Domestic,261,8.43,9.8,127.22,61,879,76.63,Spirit Airlines
-HOU,MDW,B6,Domestic,260,8.25,9.61,132.7,52,925,80.0,JetBlue Airways
-IAH,LGA,B6,Domestic,260,9.28,10.51,198.18,56,1416,78.46,JetBlue Airways
-HOU,ORL,DL,Domestic,260,5.18,6.4,140.6,43,985,83.46,Delta Air Lines
-IAH,ATL,UA,Domestic,260,4.89,5.83,114.69,35,789,86.54,United Airlines
-IAH,ATL,F9,Domestic,258,13.56,15.47,114.99,66,789,74.42,Frontier Airlines
-IAH,PHX,B6,Domestic,258,4.55,5.74,143.96,46,1009,82.17,JetBlue Airways
-IAH,PHX,UA,Domestic,258,3.5,4.13,144.65,28,1009,89.15,United Airlines
-HOU,ATL,B6,Domestic,258,5.8,7.14,114.58,43,791,83.33,JetBlue Airways
-IAH,ORD,DL,Domestic,258,5.86,7.06,133.02,43,925,83.33,Delta Air Lines
-HOU,PHX,UA,Domestic,257,4.92,6.1,144.25,38,1009,85.21,United Airlines
-HOU,DEN,F9,Domestic,255,7.28,8.91,126.66,48,879,81.18,Frontier Airlines
-IAH,ATL,B6,Domestic,255,6.03,7.33,115.0,44,789,82.75,JetBlue Airways
-HOU,ORL,NK,Domestic,254,7.85,9.84,140.87,60,985,76.38,Spirit Airlines
-IAH,LAX,DL,Domestic,253,5.98,7.04,193.64,41,1379,83.79,Delta Air Lines
-HOU,DEN,DL,Domestic,252,5.21,6.48,126.23,36,879,85.71,Delta Air Lines
-HOU,MCO,UA,Domestic,250,6.3,7.46,140.46,46,985,81.6,United Airlines
-HOU,PHX,B6,Domestic,249,5.54,6.8,143.62,43,1009,82.73,JetBlue Airways
-IAH,PHX,DL,Domestic,248,4.32,4.88,143.5,28,1009,88.71,Delta Air Lines
-HOU,MDW,AS,Domestic,247,4.43,5.22,132.81,31,925,87.45,Alaska Airlines
-HOU,MCO,AA,Domestic,247,6.45,7.47,140.78,45,985,81.78,American Airlines
-IAH,ORD,AS,Domestic,247,9.98,11.33,133.32,49,925,80.16,Alaska Airlines
-HOU,MCO,WN,Domestic,246,8.47,9.81,140.55,51,985,79.27,Southwest Airlines
-HOU,DEN,AS,Domestic,245,7.55,8.6,126.42,45,879,81.63,Alaska Airlines
-IAH,LAX,WN,Domestic,244,7.84,9.49,193.74,49,1379,79.92,Southwest Airlines
-HOU,PHX,F9,Domestic,244,8.49,9.92,143.84,55,1009,77.46,Frontier Airlines
-HOU,ATL,AS,Domestic,244,4.96,5.7,114.98,37,791,84.84,Alaska Airlines
-HOU,DEN,UA,Domestic,243,7.13,8.29,126.93,44,879,81.89,United Airlines
-HOU,ORL,UA,Domestic,242,6.52,7.26,141.73,38,985,84.3,United Airlines
-IAH,LAX,F9,Domestic,242,6.58,8.35,193.38,48,1379,80.17,Frontier Airlines
-HOU,LAX,UA,Domestic,240,7.26,8.77,193.04,44,1374,81.67,United Airlines
-HOU,PHX,DL,Domestic,240,5.27,6.38,143.73,36,1009,85.0,Delta Air Lines
-IAH,LGA,NK,Domestic,239,8.89,10.72,198.52,60,1416,74.9,Spirit Airlines
-HOU,MCO,DL,Domestic,239,6.08,7.39,140.97,40,985,83.26,Delta Air Lines
-HOU,ATL,NK,Domestic,238,7.34,8.97,114.97,53,791,77.73,Spirit Airlines
-IAH,PHX,AS,Domestic,237,5.38,6.69,143.56,42,1009,82.28,Alaska Airlines
-IAH,LGA,WN,Domestic,236,8.6,9.84,197.96,50,1416,78.81,Southwest Airlines
-IAH,LAX,NK,Domestic,236,8.4,10.18,193.05,60,1379,74.58,Spirit Airlines
-HOU,MCO,B6,Domestic,236,10.56,12.17,140.44,62,985,73.73,JetBlue Airways
-HOU,LAX,DL,Domestic,236,3.34,4.5,192.5,30,1374,87.29,Delta Air Lines
-IAH,LAX,AA,Domestic,231,6.81,8.22,192.98,39,1379,83.12,American Airlines
-HOU,LAX,AA,Domestic,231,8.3,10.05,192.7,47,1374,79.65,American Airlines
-IAH,LAX,AS,Domestic,231,7.67,9.03,193.6,46,1379,80.09,Alaska Airlines
-HOU,ATL,UA,Domestic,230,6.63,7.64,115.44,35,791,84.78,United Airlines
-HOU,LAX,F9,Domestic,224,10.15,11.92,192.41,53,1374,76.34,Frontier Airlines
-HOU,MCO,F9,Domestic,224,6.75,7.97,140.57,44,985,80.36,Frontier Airlines
-HOU,DEN,AA,Domestic,223,5.14,6.35,126.65,35,879,84.3,American Airlines
-HOU,LAX,NK,Domestic,222,9.15,11.04,193.04,55,1374,75.23,Spirit Airlines
-HOU,PHX,AS,Domestic,221,4.11,4.87,143.87,34,1009,84.62,Alaska Airlines
-IAH,DEN,WN,Domestic,219,7.2,8.28,126.9,41,879,81.28,Southwest Airlines
-IAH,LAX,B6,Domestic,216,5.58,6.5,193.01,37,1379,82.87,JetBlue Airways
-IAH,DEN,F9,Domestic,216,6.98,8.76,126.17,47,879,78.24,Frontier Airlines
-IAH,DEN,AS,Domestic,209,5.99,6.92,126.05,27,879,87.08,Alaska Airlines
-HOU,LAX,B6,Domestic,205,6.84,8.13,192.22,37,1374,81.95,JetBlue Airways
-IAH,DEN,DL,Domestic,203,4.02,4.81,126.96,25,879,87.68,Delta Air Lines
-IAH,DEN,B6,Domestic,198,8.68,10.22,126.78,41,879,79.29,JetBlue Airways
-IAH,SFO,AS,Domestic,197,5.98,7.04,227.62,32,1635,83.76,Alaska Airlines
-IAH,DEN,NK,Domestic,197,7.18,8.78,126.87,36,879,81.73,Spirit Airlines
-IAH,SFO,F9,Domestic,194,6.49,8.02,227.48,40,1635,79.38,Frontier Airlines
-IAH,SFO,AA,Domestic,189,7.25,8.26,227.66,37,1635,80.42,American Airlines
-IAH,DEN,AA,Domestic,185,7.11,7.97,126.78,28,879,84.86,American Airlines
-IAH,SFO,B6,Domestic,182,7.92,8.92,227.88,39,1635,78.57,JetBlue Airways
-IAH,SFO,DL,Domestic,181,3.27,4.13,227.29,21,1635,88.4,Delta Air Lines
-IAH,SFO,NK,Domestic,174,7.94,9.72,227.13,39,1635,77.59,Spirit Airlines
-IAH,SFO,WN,Domestic,163,6.72,8.24,227.02,32,1635,80.37,Southwest Airlines
-IAH,SEA,WN,Domestic,147,9.69,11.21,259.44,35,1874,76.19,Southwest Airlines
-IAH,GDL,F9,International,146,8.41,9.65,117.94,35,865,76.03,Frontier Airlines
-IAH,SEA,AS,Domestic,136,10.12,11.51,258.43,29,1874,78.68,Alaska Airlines
-IAH,GDL,NK,International,136,8.18,9.38,118.04,31,865,77.21,Spirit Airlines
-HOU,MEX,F9,International,135,9.1,10.76,101.84,29,741,78.52,Frontier Airlines
-IAH,SEA,DL,Domestic,129,5.58,6.59,259.35,16,1874,87.6,Delta Air Lines
-IAH,SEA,NK,Domestic,128,6.11,7.34,260.56,24,1874,81.25,Spirit Airlines
-IAH,GDL,UA,International,127,4.45,5.72,117.17,24,865,81.1,United Airlines
-IAH,BOG,F9,International,124,7.69,9.66,261.27,28,2006,77.42,Frontier Airlines
-IAH,GDL,DL,International,122,8.84,10.25,116.96,22,865,81.97,Delta Air Lines
-IAH,SEA,AA,Domestic,121,5.33,6.6,259.59,21,1874,82.64,American Airlines
-IAH,GDL,WN,International,120,5.43,6.68,116.82,23,865,80.83,Southwest Airlines
-HOU,MEX,B6,International,119,3.68,4.97,102.22,19,741,84.03,JetBlue Airways
-IAH,GDL,B6,International,119,6.31,8.08,118.38,25,865,78.99,JetBlue Airways
-IAH,BOG,NK,International,119,8.67,9.72,260.71,27,2006,77.31,Spirit Airlines
-IAH,GDL,AS,International,117,4.92,6.01,118.05,21,865,82.05,Alaska Airlines
-HOU,MEX,NK,International,116,10.05,11.3,102.13,28,741,75.86,Spirit Airlines
-IAH,SEA,B6,Domestic,115,7.34,8.9,258.98,27,1874,76.52,JetBlue Airways
-IAH,BOG,WN,International,113,4.84,5.73,259.79,18,2006,84.07,Southwest Airlines
-HOU,MEX,DL,International,111,8.48,9.86,102.01,20,741,81.98,Delta Air Lines
-IAH,SEA,F9,Domestic,111,7.47,8.62,259.07,24,1874,78.38,Frontier Airlines
-IAH,BOG,DL,International,109,3.69,5.08,260.4,17,2006,84.4,Delta Air Lines
-HOU,MEX,AA,International,109,10.97,12.66,102.06,28,741,74.31,American Airlines
-IAH,LHR,WN,International,108,3.59,4.52,612.4,12,4822,88.89,Southwest Airlines
-IAH,LHR,AS,International,104,5.21,6.3,612.9,14,4822,86.54,Alaska Airlines
-IAH,BOG,AA,International,103,5.19,6.14,259.93,16,2006,84.47,American Airlines
-IAH,MEX,AS,International,102,4.29,5.06,102.27,15,737,85.29,Alaska Airlines
-HOU,MEX,AS,International,100,8.71,9.97,102.68,14,741,86.0,Alaska Airlines
-IAH,LHR,B6,International,98,5.21,5.95,611.93,15,4822,84.69,JetBlue Airways
-IAH,BOG,AS,International,97,9.19,10.52,260.33,15,2006,84.54,Alaska Airlines
-IAH,LHR,NK,International,95,7.2,8.17,611.71,20,4822,78.95,Spirit Airlines
-IAH,MEX,WN,International,95,5.77,6.75,102.14,19,737,80.0,Southwest Airlines
-IAH,BOG,B6,International,94,6.03,7.6,259.63,21,2006,77.66,JetBlue Airways
-HOU,MEX,UA,International,94,7.3,8.21,101.73,16,741,82.98,United Airlines
-HOU,CUN,DL,International,92,8.0,9.23,119.0,19,874,79.35,Delta Air Lines
-IAH,LHR,AA,International,91,8.16,9.42,612.59,20,4822,78.02,American Airlines
-IAH,LHR,DL,International,89,4.66,5.71,611.53,11,4822,87.64,Delta Air Lines
-IAH,CDG,NK,International,88,12.3,14.22,676.2,24,5338,72.73,Spirit Airlines
-IAH,GRU,NK,International,87,8.62,10.24,605.22,21,4767,75.86,Spirit Airlines
-IAH,MEX,AA,International,86,6.64,7.31,101.49,14,737,83.72,American Airlines
-IAH,MEX,F9,International,85,6.33,7.61,101.24,13,737,84.71,Frontier Airlines
-IAH,MEX,B6,International,84,9.08,10.64,101.92,19,737,77.38,JetBlue Airways
-IAH,GRU,DL,International,83,6.55,7.52,606.05,13,4767,84.34,Delta Air Lines
-IAH,CDG,AS,International,82,4.21,4.73,676.43,13,5338,84.15,Alaska Airlines
-IAH,GRU,AA,International,80,9.5,11.45,604.9,15,4767,81.25,American Airlines
-IAH,CDG,F9,International,78,9.1,10.78,675.96,23,5338,70.51,Frontier Airlines
-IAH,CDG,WN,International,78,4.12,5.24,676.65,11,5338,85.9,Southwest Airlines
-IAH,MEX,NK,International,76,7.93,9.75,101.93,16,737,78.95,Spirit Airlines
-HOU,CUN,AS,International,76,1.74,2.12,118.88,6,874,92.11,Alaska Airlines
-IAH,CDG,B6,International,75,4.04,5.37,676.17,11,5338,85.33,JetBlue Airways
-IAH,GRU,F9,International,74,4.34,5.5,605.08,10,4767,86.49,Frontier Airlines
-HOU,CUN,F9,International,73,13.74,16.08,119.59,21,874,71.23,Frontier Airlines
-IAH,CDG,AA,International,72,4.15,5.68,677.54,10,5338,86.11,American Airlines
-IAH,LHR,F9,International,72,7.31,8.43,612.28,12,4822,83.33,Frontier Airlines
-HOU,CUN,NK,International,71,8.72,9.58,119.15,15,874,78.87,Spirit Airlines
-IAH,MEX,DL,International,71,8.28,9.86,102.2,15,737,78.87,Delta Air Lines
-HOU,CUN,UA,International,70,4.69,6.27,117.84,13,874,81.43,United Airlines
-IAH,GRU,AS,International,69,5.78,6.68,605.25,8,4767,88.41,Alaska Airlines
-IAH,GRU,B6,International,69,9.74,11.36,606.65,12,4767,82.61,JetBlue Airways
-IAH,CDG,DL,International,69,4.68,5.45,676.16,7,5338,89.86,Delta Air Lines
-IAH,GRU,WN,International,68,8.06,9.79,605.24,14,4767,79.41,Southwest Airlines
-HOU,CUN,AA,International,67,8.15,10.01,118.43,17,874,74.63,American Airlines
-HOU,CUN,B6,International,60,6.97,8.42,118.4,11,874,81.67,JetBlue Airways
+IAH,DFW,AA,Domestic,12545,6.59,7.92,41.4,2386,239,80.98,American Airlines
+HOU,DAL,WN,Domestic,12415,6.84,8.17,41.32,2365,239,80.95,Southwest Airlines
+IAH,ORD,UA,Domestic,7795,5.92,7.04,132.84,1295,925,83.39,United Airlines
+HOU,BWI,WN,Domestic,7650,6.48,7.88,174.14,1468,1235,80.81,Southwest Airlines
+IAH,LAX,UA,Domestic,7426,5.87,7.07,193.44,1218,1379,83.6,United Airlines
+IAH,EWR,UA,Domestic,7347,6.08,7.28,196.29,1242,1400,83.1,United Airlines
+IAH,PHX,AA,Domestic,7217,6.2,7.39,144.0,1283,1009,82.22,American Airlines
+IAH,DEN,UA,Domestic,6913,5.49,6.64,126.69,1147,879,83.41,United Airlines
+HOU,DEN,WN,Domestic,6878,6.9,8.27,126.69,1354,879,80.31,Southwest Airlines
+HOU,MDW,WN,Domestic,6624,6.8,8.2,132.8,1294,925,80.46,Southwest Airlines
+HOU,LAX,WN,Domestic,6363,6.99,8.44,192.66,1282,1374,79.85,Southwest Airlines
+HOU,ATL,WN,Domestic,6299,6.88,8.36,114.9,1277,791,79.73,Southwest Airlines
+IAH,MIA,AA,Domestic,6278,7.05,8.34,137.96,1210,964,80.73,American Airlines
+HOU,MCO,NK,Domestic,6013,7.88,9.46,140.85,1350,985,77.55,Spirit Airlines
+IAH,MCO,AA,Domestic,6006,6.79,8.03,123.18,1138,853,81.05,American Airlines
+IAH,ATL,DL,Domestic,5837,5.72,6.8,114.65,939,789,83.91,Delta Air Lines
+IAH,IAD,UA,Domestic,5783,6.12,7.34,170.42,981,1208,83.04,United Airlines
+HOU,ORL,WN,Domestic,5745,6.4,7.73,140.89,1084,985,81.13,Southwest Airlines
+HOU,PHX,WN,Domestic,5199,7.66,9.19,143.93,1081,1009,79.21,Southwest Airlines
+IAH,LGA,UA,Domestic,5180,5.74,6.9,198.31,822,1416,84.13,United Airlines
+HOU,LAS,WN,Domestic,4923,7.42,8.89,172.39,1016,1222,79.36,Southwest Airlines
+HOU,SFO,WN,Domestic,3554,6.78,8.07,227.49,705,1635,80.16,Southwest Airlines
+IAH,YYZ,AC,International,3017,6.51,7.94,172.14,591,1301,80.41,Air Canada
+HOU,CUN,WN,International,3003,6.82,8.11,118.93,568,874,81.09,Southwest Airlines
+IAH,AUH,EY,International,3002,6.49,7.75,1027.06,555,8141,81.51,Etihad Airways
+HOU,MBJ,WN,International,3000,6.68,8.02,169.81,592,1282,80.27,Southwest Airlines
+HOU,SEA,WN,Domestic,2953,6.55,7.79,259.44,534,1874,81.92,Southwest Airlines
+IAH,ICN,KE,International,2768,6.36,7.61,892.24,495,7062,82.12,Korean Air
+IAH,SEA,UA,Domestic,2757,5.17,6.18,259.15,412,1874,85.06,United Airlines
+IAH,FCO,AZ,International,2746,6.65,7.99,708.06,502,5589,81.72,ITA Airways
+IAH,LIM,LA,International,2744,6.16,7.27,469.38,484,3677,82.36,LATAM Airlines
+IAH,FRA,LH,International,2743,5.92,7.19,659.24,468,5198,82.94,Lufthansa
+IAH,CPH,SK,International,2736,6.82,8.13,668.99,490,5276,82.09,Scandinavian Airlines
+IAH,BOS,UA,Domestic,2732,5.67,6.72,222.23,439,1597,83.93,United Airlines
+IAH,YVR,AC,International,2729,7.08,8.44,237.65,484,1825,82.26,Air Canada
+IAH,BKK,TG,International,2714,7.07,8.37,1169.55,501,9281,81.54,Thai Airways
+IAH,LHR,BA,International,2521,7.29,8.73,612.19,499,4822,80.21,British Airways
+HOU,MEX,WN,International,2505,6.88,8.16,102.08,480,741,80.84,Southwest Airlines
+IAH,ADD,ET,International,2481,7.0,8.39,1150.48,463,9127,81.34,Ethiopian Airlines
+IAH,ZRH,LX,International,2474,5.75,7.13,672.46,437,5304,82.34,Swiss International
+IAH,VIE,OS,International,2467,6.83,8.1,686.05,462,5413,81.27,Austrian Airlines
+IAH,SFO,UA,Domestic,2461,5.96,7.11,227.4,402,1635,83.67,United Airlines
+IAH,GDL,AM,International,2454,6.68,8.01,117.59,435,865,82.27,Aeromexico
+IAH,MEX,AM,International,2450,6.26,7.54,101.56,472,737,80.73,Aeromexico
+HOU,PUJ,WN,International,2447,7.53,8.95,243.96,489,1876,80.02,Southwest Airlines
+IAH,GRU,LA,International,2250,6.67,8.01,605.41,446,4767,80.18,LATAM Airlines
+IAH,BOG,AV,International,2214,6.51,7.87,260.26,411,2006,81.44,Avianca
+IAH,DOH,QR,International,2204,6.74,8.02,1014.52,419,8040,80.99,Qatar Airways
+IAH,SYD,QF,International,2186,6.71,8.09,1083.43,439,8591,79.92,Qantas Airways
+IAH,NRT,NH,International,2184,6.75,8.09,875.03,394,6924,81.96,ANA All Nippon Airways
+IAH,AKL,NZ,International,2172,6.73,8.13,1113.45,419,8831,80.71,Air New Zealand
+IAH,IST,TK,International,1942,6.12,7.32,799.64,330,6322,83.01,Turkish Airlines
+IAH,HND,JL,International,1921,7.22,8.73,875.0,380,6924,80.22,Japan Airlines
+IAH,DXB,EK,International,1919,6.37,7.62,1028.31,361,8150,81.19,Emirates
+IAH,SCL,LA,International,1892,6.42,7.83,630.7,351,4968,81.45,LATAM Airlines
+IAH,PVG,UA,International,1883,4.96,5.96,987.35,278,7823,85.24,United Airlines
+IAH,PTY,CM,International,1664,6.0,7.27,265.36,292,2046,82.45,Copa Airlines
+IAH,KUL,MH,International,1641,6.88,8.02,1243.98,286,9875,82.57,Malaysia Airlines
+IAH,CDG,AF,International,1640,6.64,7.82,676.81,288,5338,82.44,Air France
+IAH,SIN,SQ,International,1606,6.9,8.23,1201.24,305,9534,81.01,Singapore Airlines
+IAH,HKG,CX,International,1394,6.21,7.33,1107.55,255,8784,81.71,Cathay Pacific
+IAH,CAI,MS,International,1373,6.25,7.69,916.46,248,7257,81.94,EgyptAir
+IAH,MAD,IB,International,1346,6.62,8.01,652.5,251,5145,81.35,Iberia
+IAH,AMS,KL,International,819,6.64,7.89,643.73,145,5075,82.3,KLM Royal Dutch
+IAH,DFW,AM,Domestic,136,6.26,7.51,40.53,26,239,80.88,Aeromexico
+IAH,DFW,TG,Domestic,128,7.1,8.52,41.53,23,239,82.03,Thai Airways
+IAH,DFW,AV,Domestic,127,6.03,7.54,41.35,25,239,80.31,Avianca
+IAH,DFW,EY,Domestic,125,7.22,8.71,40.83,26,239,79.2,Etihad Airways
+IAH,DFW,NH,Domestic,124,4.65,6.1,41.55,24,239,80.65,ANA All Nippon Airways
+HOU,DAL,IB,Domestic,123,5.4,7.36,41.56,26,239,78.86,Iberia
+IAH,DFW,KL,Domestic,123,7.98,9.43,41.15,21,239,82.93,KLM Royal Dutch
+IAH,DFW,AZ,Domestic,121,8.69,10.27,40.79,23,239,80.99,ITA Airways
+HOU,DAL,OS,Domestic,120,4.97,6.25,41.2,21,239,82.5,Austrian Airlines
+IAH,DFW,OZ,Domestic,120,6.78,8.29,41.42,23,239,80.83,Asiana Airlines
+IAH,DFW,NK,Domestic,119,7.03,8.54,41.5,24,239,79.83,Spirit Airlines
+IAH,DFW,SQ,Domestic,119,6.47,7.7,40.32,22,239,81.51,Singapore Airlines
+IAH,DFW,CX,Domestic,119,4.4,5.87,41.11,21,239,82.35,Cathay Pacific
+HOU,DAL,AM,Domestic,119,5.34,7.3,41.99,24,239,79.83,Aeromexico
+IAH,DFW,IB,Domestic,119,7.24,8.42,40.57,19,239,84.03,Iberia
+HOU,DAL,LA,Domestic,118,6.97,7.82,41.09,24,239,79.66,LATAM Airlines
+IAH,DFW,AF,Domestic,118,5.33,6.29,41.57,17,239,85.59,Air France
+HOU,DAL,EK,Domestic,118,3.09,4.12,41.01,19,239,83.9,Emirates
+IAH,DFW,OS,Domestic,118,4.08,4.58,41.37,13,239,88.98,Austrian Airlines
+IAH,DFW,TK,Domestic,116,8.87,9.87,40.75,27,239,76.72,Turkish Airlines
+IAH,DFW,CM,Domestic,116,7.34,8.44,42.04,21,239,81.9,Copa Airlines
+IAH,DFW,LA,Domestic,116,8.33,10.11,41.23,23,239,80.17,LATAM Airlines
+HOU,DAL,OZ,Domestic,116,3.08,4.19,42.08,16,239,86.21,Asiana Airlines
+IAH,DFW,DL,Domestic,116,5.95,6.79,42.26,14,239,87.93,Delta Air Lines
+IAH,DFW,QF,Domestic,115,5.25,6.5,41.65,19,239,83.48,Qantas Airways
+IAH,DFW,QR,Domestic,115,9.45,11.19,40.67,29,239,74.78,Qatar Airways
+IAH,DFW,NZ,Domestic,115,6.38,7.56,41.2,20,239,82.61,Air New Zealand
+HOU,DAL,EY,Domestic,115,5.57,6.64,40.77,17,239,85.22,Etihad Airways
+HOU,DAL,QF,Domestic,113,5.14,6.31,41.92,18,239,84.07,Qantas Airways
+HOU,DAL,KE,Domestic,113,5.5,6.97,40.76,19,239,83.19,Korean Air
+HOU,DAL,LX,Domestic,112,9.6,11.12,41.34,23,239,79.46,Swiss International
+HOU,DAL,LH,Domestic,112,7.21,8.86,41.56,28,239,75.0,Lufthansa
+HOU,DAL,TK,Domestic,112,5.79,7.68,41.38,24,239,78.57,Turkish Airlines
+HOU,DAL,NK,Domestic,112,6.54,7.79,41.38,25,239,77.68,Spirit Airlines
+HOU,DAL,AV,Domestic,112,4.73,5.42,42.2,12,239,89.29,Avianca
+IAH,DFW,ET,Domestic,112,10.62,12.27,40.56,26,239,76.79,Ethiopian Airlines
+IAH,DFW,JL,Domestic,111,4.06,5.14,41.22,20,239,81.98,Japan Airlines
+HOU,DAL,QR,Domestic,110,8.32,10.44,40.61,25,239,77.27,Qatar Airways
+IAH,DFW,LH,Domestic,110,5.5,6.4,41.55,19,239,82.73,Lufthansa
+IAH,DFW,AC,Domestic,109,5.37,6.88,40.83,16,239,85.32,Air Canada
+HOU,DAL,SK,Domestic,109,4.77,6.27,41.91,18,239,83.49,Scandinavian Airlines
+IAH,DFW,SK,Domestic,108,8.64,9.5,41.49,18,239,83.33,Scandinavian Airlines
+HOU,DAL,CX,Domestic,107,4.67,5.51,41.11,17,239,84.11,Cathay Pacific
+HOU,DAL,KL,Domestic,107,9.98,11.17,41.85,20,239,81.31,KLM Royal Dutch
+IAH,DFW,KE,Domestic,107,8.5,10.03,41.08,24,239,77.57,Korean Air
+HOU,DAL,UA,Domestic,107,6.01,7.5,41.43,18,239,83.18,United Airlines
+HOU,DAL,B6,Domestic,107,5.29,6.1,40.78,19,239,82.24,JetBlue Airways
+IAH,DFW,UA,Domestic,106,4.42,5.28,41.95,14,239,86.79,United Airlines
+IAH,DFW,LX,Domestic,106,5.2,6.51,41.29,16,239,84.91,Swiss International
+HOU,DAL,MS,Domestic,106,4.53,5.36,41.57,12,239,88.68,EgyptAir
+HOU,DAL,AF,Domestic,105,4.72,6.04,41.56,13,239,87.62,Air France
+HOU,DAL,AC,Domestic,105,5.44,6.42,41.83,14,239,86.67,Air Canada
+HOU,DAL,TG,Domestic,104,10.02,10.97,41.3,16,239,84.62,Thai Airways
+IAH,DFW,BA,Domestic,104,3.17,3.72,40.9,11,239,89.42,British Airways
+HOU,DAL,SQ,Domestic,104,6.41,8.39,41.73,22,239,78.85,Singapore Airlines
+HOU,DAL,ET,Domestic,103,3.79,4.63,41.42,16,239,84.47,Ethiopian Airlines
+IAH,DFW,MH,Domestic,103,7.31,8.87,41.31,18,239,82.52,Malaysia Airlines
+HOU,DAL,MH,Domestic,103,4.95,6.19,41.61,21,239,79.61,Malaysia Airlines
+HOU,DAL,BA,Domestic,102,5.51,6.35,41.19,15,239,85.29,British Airways
+HOU,DAL,NH,Domestic,102,7.86,9.41,40.55,22,239,78.43,ANA All Nippon Airways
+HOU,DAL,F9,Domestic,101,5.02,6.02,41.48,17,239,83.17,Frontier Airlines
+HOU,DAL,CM,Domestic,101,5.54,6.99,41.08,21,239,79.21,Copa Airlines
+HOU,DAL,NZ,Domestic,100,3.82,5.48,41.74,19,239,81.0,Air New Zealand
+IAH,DFW,EK,Domestic,99,5.65,6.36,41.65,12,239,87.88,Emirates
+HOU,DAL,JL,Domestic,98,7.62,8.29,41.95,18,239,81.63,Japan Airlines
+IAH,DFW,WN,Domestic,98,9.54,11.49,41.16,26,239,73.47,Southwest Airlines
+HOU,DAL,AS,Domestic,98,4.66,5.66,41.08,13,239,86.73,Alaska Airlines
+IAH,DFW,MS,Domestic,97,7.13,7.72,41.78,15,239,84.54,EgyptAir
+IAH,DFW,F9,Domestic,97,9.59,11.04,40.49,23,239,76.29,Frontier Airlines
+HOU,DAL,AA,Domestic,92,5.34,6.39,41.43,15,239,83.7,American Airlines
+IAH,DFW,AS,Domestic,92,4.34,5.86,40.47,14,239,84.78,Alaska Airlines
+HOU,BWI,TK,Domestic,91,6.34,7.38,175.23,17,1235,81.32,Turkish Airlines
+HOU,DAL,DL,Domestic,90,6.09,7.4,41.74,12,239,86.67,Delta Air Lines
+IAH,EWR,LX,Domestic,90,7.6,9.18,196.94,17,1400,81.11,Swiss International
+IAH,DFW,B6,Domestic,89,11.07,12.55,40.93,25,239,71.91,JetBlue Airways
+HOU,DAL,AZ,Domestic,89,8.26,9.37,40.79,13,239,85.39,ITA Airways
+IAH,LAX,MS,Domestic,84,5.82,6.67,194.9,20,1379,76.19,EgyptAir
+IAH,EWR,LA,Domestic,83,4.78,5.9,196.16,15,1400,81.93,LATAM Airlines
+IAH,PHX,TG,Domestic,83,4.05,5.43,143.94,12,1009,85.54,Thai Airways
+HOU,BWI,CM,Domestic,81,9.81,11.01,173.68,16,1235,80.25,Copa Airlines
+IAH,EWR,AS,Domestic,81,6.19,7.4,196.35,15,1400,81.48,Alaska Airlines
+IAH,LAX,LA,Domestic,80,8.91,10.55,193.61,20,1379,75.0,LATAM Airlines
+HOU,BWI,UA,Domestic,80,8.32,9.4,174.74,16,1235,80.0,United Airlines
+IAH,ORD,TG,Domestic,80,6.18,7.11,133.56,13,925,83.75,Thai Airways
+IAH,ORD,KE,Domestic,79,4.52,5.29,132.46,13,925,83.54,Korean Air
+IAH,LAX,AZ,Domestic,78,4.09,5.24,193.47,10,1379,87.18,ITA Airways
+IAH,ORD,OS,Domestic,78,4.91,5.86,132.53,15,925,80.77,Austrian Airlines
+IAH,PHX,LX,Domestic,78,8.09,9.81,144.0,14,1009,82.05,Swiss International
+IAH,ORD,AV,Domestic,78,6.0,7.83,133.63,18,925,76.92,Avianca
+HOU,BWI,LH,Domestic,77,6.64,7.23,174.96,17,1235,77.92,Lufthansa
+HOU,BWI,AA,Domestic,77,10.27,11.91,174.9,11,1235,85.71,American Airlines
+HOU,BWI,SK,Domestic,76,6.07,7.21,173.64,14,1235,81.58,Scandinavian Airlines
+IAH,ORD,AC,Domestic,76,8.32,9.22,132.46,20,925,73.68,Air Canada
+IAH,PHX,EK,Domestic,75,12.13,13.01,144.12,15,1009,80.0,Emirates
+HOU,BWI,CX,Domestic,75,5.49,6.63,174.65,13,1235,82.67,Cathay Pacific
+IAH,EWR,AA,Domestic,75,5.63,6.81,195.75,14,1400,81.33,American Airlines
+HOU,DEN,CX,Domestic,75,5.83,7.29,126.25,17,879,77.33,Cathay Pacific
+IAH,EWR,ET,Domestic,75,6.17,7.35,196.55,13,1400,82.67,Ethiopian Airlines
+IAH,LAX,TG,Domestic,75,3.77,5.13,193.77,11,1379,85.33,Thai Airways
+IAH,EWR,SK,Domestic,75,11.01,13.13,196.43,21,1400,72.0,Scandinavian Airlines
+IAH,EWR,SQ,Domestic,75,4.03,5.17,195.2,13,1400,82.67,Singapore Airlines
+HOU,DEN,SQ,Domestic,75,6.23,7.91,126.87,15,879,80.0,Singapore Airlines
+HOU,BWI,NZ,Domestic,74,8.35,9.92,173.23,12,1235,83.78,Air New Zealand
+IAH,ORD,B6,Domestic,74,7.96,9.43,133.03,16,925,78.38,JetBlue Airways
+HOU,MDW,QF,Domestic,74,5.86,7.61,132.11,14,925,81.08,Qantas Airways
+IAH,LAX,KL,Domestic,74,4.8,5.77,193.28,14,1379,81.08,KLM Royal Dutch
+IAH,ORD,ET,Domestic,74,3.95,4.89,132.62,9,925,87.84,Ethiopian Airlines
+HOU,BWI,F9,Domestic,73,8.4,10.07,174.25,15,1235,79.45,Frontier Airlines
+IAH,LAX,CM,Domestic,73,4.36,5.14,193.67,9,1379,87.67,Copa Airlines
+HOU,BWI,EK,Domestic,73,4.53,6.38,173.4,14,1235,80.82,Emirates
+IAH,EWR,AV,Domestic,73,9.51,10.62,195.89,15,1400,79.45,Avianca
+IAH,MIA,AM,Domestic,73,5.41,6.97,137.68,13,964,82.19,Aeromexico
+HOU,BWI,LA,Domestic,73,3.4,4.18,173.85,9,1235,87.67,LATAM Airlines
+IAH,DEN,NK,Domestic,73,5.52,6.93,127.18,14,879,80.82,Spirit Airlines
+HOU,BWI,NH,Domestic,72,6.65,7.25,174.0,15,1235,79.17,ANA All Nippon Airways
+IAH,LAX,ET,Domestic,72,4.93,6.35,192.99,12,1379,83.33,Ethiopian Airlines
+IAH,EWR,EK,Domestic,72,2.9,4.42,196.15,10,1400,86.11,Emirates
+HOU,BWI,KL,Domestic,72,6.18,7.47,174.43,14,1235,80.56,KLM Royal Dutch
+HOU,MDW,NH,Domestic,72,6.83,8.56,132.54,14,925,80.56,ANA All Nippon Airways
+IAH,LAX,WN,Domestic,72,2.81,3.78,192.88,6,1379,91.67,Southwest Airlines
+IAH,LAX,AF,Domestic,71,3.96,5.0,192.66,11,1379,84.51,Air France
+HOU,BWI,QR,Domestic,71,8.46,10.23,174.61,12,1235,83.1,Qatar Airways
+IAH,PHX,MS,Domestic,71,3.92,4.32,145.48,8,1009,88.73,EgyptAir
+IAH,PHX,WN,Domestic,71,2.25,3.06,143.62,7,1009,90.14,Southwest Airlines
+IAH,PHX,AS,Domestic,71,9.65,12.69,143.65,20,1009,71.83,Alaska Airlines
+IAH,LAX,OZ,Domestic,71,3.63,5.08,194.24,14,1379,80.28,Asiana Airlines
+IAH,MIA,IB,Domestic,70,7.1,8.93,137.9,11,964,84.29,Iberia
+IAH,EWR,KL,Domestic,70,7.91,9.66,195.49,17,1400,75.71,KLM Royal Dutch
+IAH,ORD,LX,Domestic,70,9.76,10.99,133.06,11,925,84.29,Swiss International
+IAH,EWR,EY,Domestic,70,9.01,10.21,195.91,12,1400,82.86,Etihad Airways
+IAH,LAX,NK,Domestic,70,11.06,12.86,193.71,18,1379,74.29,Spirit Airlines
+HOU,DEN,OS,Domestic,70,5.5,7.23,126.43,15,879,78.57,Austrian Airlines
+IAH,ORD,MS,Domestic,70,2.94,3.89,132.44,8,925,88.57,EgyptAir
+IAH,ORD,OZ,Domestic,70,5.46,6.96,132.57,13,925,81.43,Asiana Airlines
+HOU,DEN,QR,Domestic,70,7.6,9.3,127.33,15,879,78.57,Qatar Airways
+IAH,MCO,QF,Domestic,69,3.65,5.16,122.64,12,853,82.61,Qantas Airways
+HOU,DEN,NH,Domestic,69,8.72,10.55,126.88,17,879,75.36,ANA All Nippon Airways
+IAH,EWR,OS,Domestic,69,3.33,4.29,197.54,12,1400,82.61,Austrian Airlines
+IAH,IAD,AS,Domestic,69,9.3,11.55,171.13,18,1208,73.91,Alaska Airlines
+IAH,EWR,AZ,Domestic,69,7.67,9.12,195.68,14,1400,79.71,ITA Airways
+IAH,LAX,QF,Domestic,69,4.88,6.91,193.16,13,1379,81.16,Qantas Airways
+HOU,BWI,JL,Domestic,69,5.2,6.57,174.16,10,1235,85.51,Japan Airlines
+IAH,ORD,KL,Domestic,69,9.28,10.32,133.55,14,925,79.71,KLM Royal Dutch
+IAH,EWR,JL,Domestic,68,5.1,6.62,196.15,12,1400,82.35,Japan Airlines
+HOU,BWI,AS,Domestic,68,7.41,9.97,174.22,16,1235,76.47,Alaska Airlines
+IAH,ORD,EY,Domestic,68,6.9,8.44,133.56,14,925,79.41,Etihad Airways
+IAH,LAX,NH,Domestic,68,6.03,7.79,193.5,16,1379,76.47,ANA All Nippon Airways
+IAH,LAX,EK,Domestic,68,6.68,7.72,193.24,13,1379,80.88,Emirates
+IAH,DEN,OS,Domestic,68,9.26,11.0,126.99,14,879,79.41,Austrian Airlines
+IAH,MIA,EK,Domestic,68,8.94,9.96,137.4,15,964,77.94,Emirates
+HOU,DEN,MH,Domestic,68,2.29,2.87,127.0,8,879,88.24,Malaysia Airlines
+HOU,DEN,TG,Domestic,68,8.57,10.53,126.21,16,879,76.47,Thai Airways
+HOU,BWI,KE,Domestic,68,3.28,4.87,174.79,12,1235,82.35,Korean Air
+IAH,PHX,NK,Domestic,68,5.96,8.29,144.5,17,1009,75.0,Spirit Airlines
+HOU,BWI,EY,Domestic,68,6.85,7.69,174.85,16,1235,76.47,Etihad Airways
+HOU,BWI,LX,Domestic,68,12.43,13.91,172.81,19,1235,72.06,Swiss International
+IAH,EWR,OZ,Domestic,67,5.69,7.25,196.24,11,1400,83.58,Asiana Airlines
+IAH,LAX,SQ,Domestic,67,5.94,7.51,193.06,16,1379,76.12,Singapore Airlines
+IAH,EWR,TK,Domestic,67,8.45,10.3,196.24,17,1400,74.63,Turkish Airlines
+IAH,MCO,EK,Domestic,67,5.33,6.27,122.22,14,853,79.1,Emirates
+IAH,LAX,LX,Domestic,67,6.97,7.52,193.45,10,1379,85.07,Swiss International
+IAH,LAX,AM,Domestic,67,8.87,9.94,194.24,12,1379,82.09,Aeromexico
+IAH,EWR,QF,Domestic,67,6.69,8.49,197.12,15,1400,77.61,Qantas Airways
+HOU,DEN,AV,Domestic,67,6.03,7.33,125.61,12,879,82.09,Avianca
+HOU,MDW,OZ,Domestic,67,5.61,7.61,133.0,14,925,79.1,Asiana Airlines
+IAH,ORD,MH,Domestic,67,3.75,4.75,132.85,7,925,89.55,Malaysia Airlines
+HOU,BWI,B6,Domestic,67,14.54,16.4,173.84,20,1235,70.15,JetBlue Airways
+HOU,LAX,LX,Domestic,67,4.1,5.48,192.45,9,1374,86.57,Swiss International
+IAH,ORD,CX,Domestic,67,3.06,4.4,133.06,6,925,91.04,Cathay Pacific
+IAH,ORD,BA,Domestic,67,7.1,8.52,132.55,15,925,77.61,British Airways
+HOU,DEN,ET,Domestic,66,4.38,5.26,126.8,9,879,86.36,Ethiopian Airlines
+IAH,DEN,KE,Domestic,66,4.05,5.41,126.33,9,879,86.36,Korean Air
+IAH,ORD,AA,Domestic,66,9.2,11.79,133.45,19,925,71.21,American Airlines
+HOU,DEN,AS,Domestic,66,6.3,7.82,125.55,11,879,83.33,Alaska Airlines
+IAH,EWR,NZ,Domestic,66,7.86,9.68,196.2,17,1400,74.24,Air New Zealand
+HOU,ORL,AF,Domestic,66,3.94,5.74,140.52,12,985,81.82,Air France
+IAH,PHX,JL,Domestic,66,3.7,4.58,143.12,10,1009,84.85,Japan Airlines
+IAH,LAX,NZ,Domestic,66,1.61,2.3,193.62,5,1379,92.42,Air New Zealand
+HOU,LAX,TK,Domestic,66,4.8,5.7,191.95,9,1374,86.36,Turkish Airlines
+HOU,MCO,KL,Domestic,66,3.7,4.85,141.12,9,985,86.36,KLM Royal Dutch
+HOU,MDW,AM,Domestic,66,6.64,7.88,132.2,11,925,83.33,Aeromexico
+IAH,PHX,CX,Domestic,66,7.45,9.53,143.47,13,1009,80.3,Cathay Pacific
+HOU,BWI,NK,Domestic,66,7.47,9.03,174.47,18,1235,72.73,Spirit Airlines
+HOU,MCO,AM,Domestic,66,4.67,5.74,141.8,11,985,83.33,Aeromexico
+IAH,MCO,AV,Domestic,66,8.42,10.12,122.92,15,853,77.27,Avianca
+IAH,DEN,BA,Domestic,65,7.94,9.6,127.32,13,879,80.0,British Airways
+HOU,BWI,TG,Domestic,65,8.05,9.94,173.29,15,1235,76.92,Thai Airways
+HOU,BWI,MH,Domestic,65,10.25,11.69,174.09,10,1235,84.62,Malaysia Airlines
+HOU,MDW,AV,Domestic,65,6.68,8.55,132.58,15,925,76.92,Avianca
+IAH,DEN,AM,Domestic,65,6.57,8.08,126.65,11,879,83.08,Aeromexico
+HOU,MDW,QR,Domestic,65,6.14,7.22,132.31,13,925,80.0,Qatar Airways
+HOU,DEN,AZ,Domestic,65,5.92,7.32,126.55,10,879,84.62,ITA Airways
+IAH,ORD,QR,Domestic,65,2.82,4.11,131.63,10,925,84.62,Qatar Airways
+IAH,EWR,QR,Domestic,65,6.78,7.83,195.74,15,1400,76.92,Qatar Airways
+IAH,ORD,EK,Domestic,65,5.38,6.2,133.69,11,925,83.08,Emirates
+IAH,PHX,F9,Domestic,65,10.85,12.66,144.42,17,1009,73.85,Frontier Airlines
+HOU,LAX,QF,Domestic,65,5.25,7.05,192.86,12,1374,81.54,Qantas Airways
+HOU,ATL,LA,Domestic,65,3.26,4.37,115.45,10,791,84.62,LATAM Airlines
+IAH,MIA,LH,Domestic,65,6.02,7.2,138.0,9,964,86.15,Lufthansa
+HOU,ATL,CM,Domestic,65,4.68,6.0,115.85,12,791,81.54,Copa Airlines
+HOU,BWI,DL,Domestic,65,3.22,3.48,172.95,7,1235,89.23,Delta Air Lines
+IAH,MIA,SK,Domestic,65,10.34,13.26,137.06,19,964,70.77,Scandinavian Airlines
+HOU,BWI,AZ,Domestic,65,4.85,5.57,173.62,10,1235,84.62,ITA Airways
+IAH,EWR,KE,Domestic,65,7.8,9.43,196.62,16,1400,75.38,Korean Air
+IAH,MIA,CX,Domestic,65,7.37,9.14,137.95,16,964,75.38,Cathay Pacific
+IAH,EWR,CM,Domestic,64,8.97,11.31,196.22,14,1400,78.12,Copa Airlines
+IAH,EWR,AF,Domestic,64,8.5,10.7,196.42,14,1400,78.12,Air France
+HOU,MCO,TG,Domestic,64,9.48,11.34,140.95,13,985,79.69,Thai Airways
+HOU,LAX,EK,Domestic,64,5.44,7.23,192.52,13,1374,79.69,Emirates
+IAH,EWR,DL,Domestic,64,3.05,3.73,195.23,9,1400,85.94,Delta Air Lines
+IAH,ORD,CM,Domestic,64,6.53,8.2,133.31,14,925,78.12,Copa Airlines
+IAH,MIA,QF,Domestic,64,8.16,8.7,138.8,10,964,84.38,Qantas Airways
+IAH,PHX,AC,Domestic,64,7.67,8.5,143.38,10,1009,84.38,Air Canada
+IAH,EWR,MS,Domestic,64,7.2,8.67,196.17,12,1400,81.25,EgyptAir
+HOU,BWI,OS,Domestic,64,6.77,7.72,173.64,13,1235,79.69,Austrian Airlines
+HOU,ATL,TK,Domestic,64,7.66,8.58,115.7,11,791,82.81,Turkish Airlines
+HOU,BWI,MS,Domestic,64,8.34,9.38,174.72,8,1235,87.5,EgyptAir
+HOU,BWI,SQ,Domestic,64,8.42,9.81,174.69,16,1235,75.0,Singapore Airlines
+IAH,ORD,AZ,Domestic,64,6.73,8.12,132.91,15,925,76.56,ITA Airways
+IAH,ORD,SK,Domestic,64,6.73,7.73,132.61,10,925,84.38,Scandinavian Airlines
+IAH,MCO,B6,Domestic,64,10.25,11.08,122.84,15,853,76.56,JetBlue Airways
+IAH,ORD,AF,Domestic,64,6.28,7.2,132.39,8,925,87.5,Air France
+HOU,MCO,F9,Domestic,64,9.17,10.97,141.19,17,985,73.44,Frontier Airlines
+IAH,ORD,SQ,Domestic,64,8.86,10.36,132.98,14,925,78.12,Singapore Airlines
+IAH,LGA,AZ,Domestic,64,9.34,10.56,198.11,13,1416,79.69,ITA Airways
+IAH,MIA,JL,Domestic,63,6.6,7.86,138.02,12,964,80.95,Japan Airlines
+HOU,MDW,AF,Domestic,63,4.08,5.24,132.59,10,925,84.13,Air France
+HOU,BWI,AC,Domestic,63,6.22,7.52,174.46,13,1235,79.37,Air Canada
+HOU,ATL,NH,Domestic,63,9.27,10.71,114.13,13,791,79.37,ANA All Nippon Airways
+IAH,EWR,CX,Domestic,63,2.4,3.17,196.73,6,1400,90.48,Cathay Pacific
+IAH,PHX,MH,Domestic,63,4.87,5.9,143.33,10,1009,84.13,Malaysia Airlines
+IAH,PHX,KE,Domestic,63,7.38,9.25,144.73,12,1009,80.95,Korean Air
+IAH,ORD,LA,Domestic,63,8.76,11.05,133.4,17,925,73.02,LATAM Airlines
+IAH,ORD,LH,Domestic,63,4.02,4.73,131.67,11,925,82.54,Lufthansa
+HOU,LAX,AC,Domestic,63,8.78,10.06,191.79,10,1374,84.13,Air Canada
+HOU,LAX,IB,Domestic,63,7.68,7.97,192.65,13,1374,79.37,Iberia
+HOU,BWI,AV,Domestic,63,3.65,4.75,174.27,8,1235,87.3,Avianca
+HOU,MDW,LX,Domestic,63,6.79,7.87,133.17,13,925,79.37,Swiss International
+HOU,ORL,AC,Domestic,63,2.46,3.16,140.63,9,985,85.71,Air Canada
+HOU,DEN,EK,Domestic,63,10.27,11.6,127.32,13,879,79.37,Emirates
+IAH,MIA,UA,Domestic,63,4.37,4.83,137.57,8,964,87.3,United Airlines
+IAH,MCO,WN,Domestic,63,6.73,7.4,122.63,11,853,82.54,Southwest Airlines
+IAH,MCO,SK,Domestic,63,4.94,6.35,124.49,10,853,84.13,Scandinavian Airlines
+IAH,LAX,LH,Domestic,63,4.35,4.9,194.57,8,1379,87.3,Lufthansa
+IAH,DEN,EK,Domestic,63,9.71,11.1,126.7,12,879,80.95,Emirates
+HOU,ATL,BA,Domestic,63,9.6,11.05,115.89,9,791,85.71,British Airways
+IAH,DEN,EY,Domestic,62,11.1,12.47,127.29,12,879,80.65,Etihad Airways
+IAH,DEN,AF,Domestic,62,10.1,12.24,126.21,15,879,75.81,Air France
+IAH,LAX,AV,Domestic,62,6.11,7.56,192.79,13,1379,79.03,Avianca
+IAH,IAD,ET,Domestic,62,7.13,8.71,171.4,17,1208,72.58,Ethiopian Airlines
+IAH,LAX,DL,Domestic,62,5.24,5.79,193.02,9,1379,85.48,Delta Air Lines
+HOU,DEN,AC,Domestic,62,4.15,6.42,126.63,13,879,79.03,Air Canada
+HOU,ATL,AC,Domestic,62,13.44,15.15,115.4,14,791,77.42,Air Canada
+HOU,ATL,NK,Domestic,62,13.73,14.56,114.74,15,791,75.81,Spirit Airlines
+HOU,ATL,LX,Domestic,62,10.31,12.65,115.52,16,791,74.19,Swiss International
+IAH,DEN,NH,Domestic,62,5.95,7.16,125.73,12,879,80.65,ANA All Nippon Airways
+IAH,PHX,LA,Domestic,62,6.03,7.35,145.06,13,1009,79.03,LATAM Airlines
+IAH,PHX,LH,Domestic,62,10.44,11.1,144.39,15,1009,75.81,Lufthansa
+IAH,LAX,SK,Domestic,62,4.29,5.08,194.0,7,1379,88.71,Scandinavian Airlines
+IAH,EWR,IB,Domestic,62,9.27,10.71,196.27,18,1400,70.97,Iberia
+HOU,DEN,EY,Domestic,62,6.03,7.11,126.89,11,879,82.26,Etihad Airways
+HOU,LAX,NH,Domestic,62,8.18,9.71,192.5,13,1374,79.03,ANA All Nippon Airways
+HOU,MDW,KL,Domestic,62,10.97,13.05,132.87,15,925,75.81,KLM Royal Dutch
+IAH,LAX,IB,Domestic,62,9.32,12.48,192.65,19,1379,69.35,Iberia
+IAH,DEN,OZ,Domestic,62,3.29,4.42,126.27,8,879,87.1,Asiana Airlines
+HOU,ORL,ET,Domestic,62,9.92,11.79,140.84,13,985,79.03,Ethiopian Airlines
+HOU,DEN,UA,Domestic,61,4.2,4.77,126.7,7,879,88.52,United Airlines
+HOU,ATL,QF,Domestic,61,1.25,1.93,114.93,4,791,93.44,Qantas Airways
+HOU,ATL,EK,Domestic,61,5.67,6.57,115.26,5,791,91.8,Emirates
+HOU,MCO,NZ,Domestic,61,7.02,8.08,141.02,11,985,81.97,Air New Zealand
+IAH,PHX,IB,Domestic,61,1.07,1.8,144.3,4,1009,93.44,Iberia
+HOU,MDW,KE,Domestic,61,7.8,10.16,133.21,14,925,77.05,Korean Air
+IAH,MIA,AC,Domestic,61,4.79,6.13,138.23,13,964,78.69,Air Canada
+HOU,BWI,IB,Domestic,61,7.21,8.2,173.51,13,1235,78.69,Iberia
+HOU,BWI,AF,Domestic,61,9.23,10.46,174.26,16,1235,73.77,Air France
+IAH,MIA,KL,Domestic,61,7.56,9.02,138.11,14,964,77.05,KLM Royal Dutch
+IAH,MCO,BA,Domestic,61,5.77,7.1,123.0,11,853,81.97,British Airways
+IAH,DEN,SK,Domestic,61,5.28,6.77,127.36,13,879,78.69,Scandinavian Airlines
+HOU,ORL,AZ,Domestic,61,4.93,6.64,140.03,14,985,77.05,ITA Airways
+IAH,MIA,NZ,Domestic,61,2.85,4.11,137.87,8,964,86.89,Air New Zealand
+HOU,DEN,LH,Domestic,61,7.3,9.48,125.97,13,879,78.69,Lufthansa
+IAH,EWR,NK,Domestic,61,10.13,11.84,195.38,16,1400,73.77,Spirit Airlines
+HOU,MCO,AS,Domestic,61,6.23,7.44,140.61,11,985,81.97,Alaska Airlines
+HOU,MCO,AF,Domestic,61,8.26,9.8,140.51,12,985,80.33,Air France
+IAH,EWR,BA,Domestic,61,11.21,13.41,194.93,16,1400,73.77,British Airways
+IAH,PHX,AZ,Domestic,60,6.67,8.68,145.18,11,1009,81.67,ITA Airways
+HOU,DEN,B6,Domestic,60,8.6,9.75,127.15,12,879,80.0,JetBlue Airways
+IAH,PHX,ET,Domestic,60,10.23,12.58,144.83,14,1009,76.67,Ethiopian Airlines
+HOU,BWI,QF,Domestic,60,8.52,10.0,173.68,9,1235,85.0,Qantas Airways
+IAH,DEN,KL,Domestic,60,12.88,14.15,126.42,12,879,80.0,KLM Royal Dutch
+IAH,LAX,QR,Domestic,60,12.08,13.35,193.57,11,1379,81.67,Qatar Airways
+IAH,LAX,OS,Domestic,60,6.93,8.18,192.82,14,1379,76.67,Austrian Airlines
+IAH,ORD,DL,Domestic,60,4.7,5.62,131.72,10,925,83.33,Delta Air Lines
+IAH,ORD,JL,Domestic,60,12.3,14.15,132.83,16,925,73.33,Japan Airlines
+IAH,ORD,NZ,Domestic,60,6.03,7.22,132.68,10,925,83.33,Air New Zealand
+IAH,ORD,NH,Domestic,60,14.8,15.73,132.67,13,925,78.33,ANA All Nippon Airways
+IAH,IAD,OZ,Domestic,60,6.32,7.52,170.48,12,1208,80.0,Asiana Airlines
+HOU,ATL,AZ,Domestic,60,10.3,12.75,115.4,13,791,78.33,ITA Airways
+IAH,ORD,AM,Domestic,60,4.55,5.6,132.8,11,925,81.67,Aeromexico
+HOU,ORL,TK,Domestic,60,5.57,7.25,141.27,12,985,80.0,Turkish Airlines
+IAH,DEN,QF,Domestic,60,10.87,12.85,127.52,14,879,76.67,Qantas Airways
+IAH,LAX,BA,Domestic,59,7.54,8.93,193.9,13,1379,77.97,British Airways
+IAH,DEN,AZ,Domestic,59,4.15,5.12,127.47,10,879,83.05,ITA Airways
+HOU,PHX,TG,Domestic,59,5.27,6.14,144.22,11,1009,81.36,Thai Airways
+IAH,LGA,AF,Domestic,59,6.64,8.53,197.83,12,1416,79.66,Air France
+HOU,LAX,AS,Domestic,59,4.34,4.78,192.51,11,1374,81.36,Alaska Airlines
+IAH,DEN,SQ,Domestic,59,1.68,1.88,126.39,3,879,94.92,Singapore Airlines
+IAH,PHX,TK,Domestic,59,1.97,2.05,143.88,5,1009,91.53,Turkish Airlines
+IAH,MCO,AF,Domestic,59,11.53,13.32,123.51,15,853,74.58,Air France
+HOU,BWI,AM,Domestic,59,12.03,13.56,174.61,17,1235,71.19,Aeromexico
+IAH,MCO,CX,Domestic,59,10.02,12.66,123.69,14,853,76.27,Cathay Pacific
+HOU,ATL,AM,Domestic,59,9.07,9.73,116.24,9,791,84.75,Aeromexico
+HOU,MDW,ET,Domestic,59,4.22,5.36,131.39,7,925,88.14,Ethiopian Airlines
+IAH,EWR,B6,Domestic,59,6.66,7.69,196.86,13,1400,77.97,JetBlue Airways
+HOU,MDW,OS,Domestic,59,10.46,12.27,133.29,18,925,69.49,Austrian Airlines
+IAH,ORD,NK,Domestic,59,8.46,9.81,132.78,13,925,77.97,Spirit Airlines
+IAH,DEN,MS,Domestic,59,5.85,6.88,127.24,12,879,79.66,EgyptAir
+IAH,DEN,TK,Domestic,59,7.56,8.97,126.76,13,879,77.97,Turkish Airlines
+IAH,PHX,OS,Domestic,59,6.68,7.85,143.93,17,1009,71.19,Austrian Airlines
+HOU,PHX,ET,Domestic,58,7.12,8.91,144.84,13,1009,77.59,Ethiopian Airlines
+HOU,ATL,JL,Domestic,58,10.0,11.16,115.79,10,791,82.76,Japan Airlines
+HOU,PHX,F9,Domestic,58,11.03,13.03,144.81,17,1009,70.69,Frontier Airlines
+IAH,MIA,KE,Domestic,58,5.76,7.33,138.14,10,964,82.76,Korean Air
+HOU,BWI,OZ,Domestic,58,4.33,4.81,175.09,8,1235,86.21,Asiana Airlines
+HOU,DEN,CM,Domestic,58,2.57,3.48,127.72,8,879,86.21,Copa Airlines
+HOU,LAX,OZ,Domestic,58,6.78,8.21,192.98,11,1374,81.03,Asiana Airlines
+IAH,MCO,AM,Domestic,58,6.53,7.88,123.9,12,853,79.31,Aeromexico
+IAH,MCO,AC,Domestic,58,6.48,7.43,123.72,11,853,81.03,Air Canada
+IAH,ORD,QF,Domestic,58,4.4,5.33,132.81,10,925,82.76,Qantas Airways
+HOU,MDW,LH,Domestic,58,11.16,14.0,134.28,16,925,72.41,Lufthansa
+IAH,LAX,F9,Domestic,58,8.5,9.88,193.64,13,1379,77.59,Frontier Airlines
+HOU,MCO,TK,Domestic,58,6.55,8.05,140.97,12,985,79.31,Turkish Airlines
+IAH,LAX,AA,Domestic,58,9.21,10.67,193.28,17,1379,70.69,American Airlines
+HOU,ATL,TG,Domestic,58,7.95,9.91,114.98,12,791,79.31,Thai Airways
+HOU,MCO,EY,Domestic,58,14.55,16.48,140.67,14,985,75.86,Etihad Airways
+IAH,EWR,NH,Domestic,58,6.59,8.26,195.05,13,1400,77.59,ANA All Nippon Airways
+IAH,PHX,CM,Domestic,58,17.41,20.16,144.28,17,1009,70.69,Copa Airlines
+HOU,DEN,IB,Domestic,58,7.74,9.33,126.78,10,879,82.76,Iberia
+IAH,PHX,AM,Domestic,58,7.43,8.78,144.07,8,1009,86.21,Aeromexico
+HOU,LAX,AM,Domestic,58,7.88,9.26,192.86,11,1374,81.03,Aeromexico
+IAH,LAX,KE,Domestic,58,6.93,7.41,193.47,9,1379,84.48,Korean Air
+IAH,IAD,AM,Domestic,58,7.83,9.48,170.62,14,1208,75.86,Aeromexico
+HOU,MDW,EK,Domestic,58,5.09,5.78,133.14,5,925,91.38,Emirates
+IAH,DEN,CX,Domestic,57,3.46,4.11,126.6,8,879,85.96,Cathay Pacific
+HOU,ATL,SK,Domestic,57,4.75,5.19,115.46,7,791,87.72,Scandinavian Airlines
+IAH,MIA,B6,Domestic,57,9.21,11.7,137.72,16,964,71.93,JetBlue Airways
+IAH,MIA,NH,Domestic,57,7.23,8.47,138.18,13,964,77.19,ANA All Nippon Airways
+IAH,MCO,KL,Domestic,57,9.86,11.95,124.32,15,853,73.68,KLM Royal Dutch
+IAH,DEN,LH,Domestic,57,5.35,5.95,127.09,9,879,84.21,Lufthansa
+IAH,MCO,NH,Domestic,57,2.56,3.33,123.89,8,853,85.96,ANA All Nippon Airways
+HOU,ORL,UA,Domestic,57,10.07,12.44,140.0,17,985,70.18,United Airlines
+IAH,DEN,LX,Domestic,57,11.49,13.35,126.28,13,879,77.19,Swiss International
+HOU,ATL,MH,Domestic,57,10.25,12.02,115.42,11,791,80.7,Malaysia Airlines
+IAH,DEN,IB,Domestic,57,5.3,6.11,126.4,9,879,84.21,Iberia
+HOU,PHX,OZ,Domestic,57,6.81,7.77,143.16,10,1009,82.46,Asiana Airlines
+HOU,ATL,CX,Domestic,57,5.18,5.77,116.07,8,791,85.96,Cathay Pacific
+HOU,MCO,LX,Domestic,57,5.74,6.61,140.04,10,985,82.46,Swiss International
+IAH,LAX,EY,Domestic,57,2.82,4.02,192.51,6,1379,89.47,Etihad Airways
+IAH,LAX,AC,Domestic,57,3.84,4.35,193.19,7,1379,87.72,Air Canada
+IAH,DEN,AS,Domestic,57,2.46,3.3,125.88,6,879,89.47,Alaska Airlines
+IAH,DEN,DL,Domestic,57,6.19,8.05,127.86,13,879,77.19,Delta Air Lines
+HOU,MCO,DL,Domestic,57,6.79,8.35,141.65,13,985,77.19,Delta Air Lines
+HOU,MDW,TG,Domestic,57,4.53,6.54,131.91,11,925,80.7,Thai Airways
+IAH,LAX,JL,Domestic,57,2.91,3.54,194.39,6,1379,89.47,Japan Airlines
+IAH,LAX,MH,Domestic,57,6.86,8.68,193.16,10,1379,82.46,Malaysia Airlines
+IAH,EWR,F9,Domestic,57,7.33,8.93,195.02,12,1400,78.95,Frontier Airlines
+HOU,ORL,OS,Domestic,57,7.7,9.49,140.98,11,985,80.7,Austrian Airlines
+IAH,PHX,UA,Domestic,57,9.77,11.14,143.51,17,1009,70.18,United Airlines
+HOU,DEN,AM,Domestic,57,9.11,10.37,127.84,9,879,84.21,Aeromexico
+HOU,DEN,AA,Domestic,57,6.14,7.86,125.12,14,879,75.44,American Airlines
+IAH,MIA,NK,Domestic,57,2.91,3.84,138.54,6,964,89.47,Spirit Airlines
+HOU,ORL,AS,Domestic,57,12.58,13.98,140.61,19,985,66.67,Alaska Airlines
+HOU,LAX,AA,Domestic,57,5.14,5.81,193.0,6,1374,89.47,American Airlines
+HOU,LAS,AV,Domestic,57,5.19,5.98,171.88,10,1222,82.46,Avianca
+IAH,ORD,IB,Domestic,57,8.58,9.86,131.81,14,925,75.44,Iberia
+HOU,DEN,MS,Domestic,57,5.39,5.95,126.18,8,879,85.96,EgyptAir
+HOU,DEN,LX,Domestic,57,5.98,6.04,126.79,5,879,91.23,Swiss International
+HOU,PHX,JL,Domestic,57,3.74,5.65,142.23,11,1009,80.7,Japan Airlines
+IAH,LGA,JL,Domestic,57,4.3,4.68,197.88,8,1416,85.96,Japan Airlines
+IAH,DEN,NZ,Domestic,57,9.04,10.3,126.23,14,879,75.44,Air New Zealand
+IAH,PHX,NH,Domestic,57,2.02,2.35,143.95,6,1009,89.47,ANA All Nippon Airways
+HOU,MDW,BA,Domestic,56,5.21,6.45,132.62,11,925,80.36,British Airways
+HOU,BWI,BA,Domestic,56,4.21,5.02,174.64,10,1235,82.14,British Airways
+HOU,MCO,NH,Domestic,56,3.95,5.25,140.48,10,985,82.14,ANA All Nippon Airways
+IAH,DEN,F9,Domestic,56,9.61,10.7,127.29,15,879,73.21,Frontier Airlines
+HOU,MCO,SK,Domestic,56,8.95,11.07,141.29,11,985,80.36,Scandinavian Airlines
+IAH,LAX,CX,Domestic,56,8.38,9.98,193.55,12,1379,78.57,Cathay Pacific
+IAH,IAD,NH,Domestic,56,14.05,15.55,171.95,16,1208,71.43,ANA All Nippon Airways
+HOU,MCO,SQ,Domestic,56,5.38,6.91,141.14,12,985,78.57,Singapore Airlines
+HOU,ATL,F9,Domestic,56,5.36,6.25,114.54,10,791,82.14,Frontier Airlines
+IAH,ATL,CX,Domestic,56,9.96,11.77,115.04,15,789,73.21,Cathay Pacific
+IAH,IAD,AZ,Domestic,56,6.0,7.12,170.34,12,1208,78.57,ITA Airways
+HOU,DEN,SK,Domestic,56,8.39,10.29,125.84,15,879,73.21,Scandinavian Airlines
+HOU,DEN,NK,Domestic,56,5.89,7.91,126.38,10,879,82.14,Spirit Airlines
+IAH,ORD,F9,Domestic,56,10.3,12.39,133.2,11,925,80.36,Frontier Airlines
+IAH,EWR,AM,Domestic,56,7.77,9.36,196.89,10,1400,82.14,Aeromexico
+HOU,LAX,EY,Domestic,56,7.0,7.8,192.82,6,1374,89.29,Etihad Airways
+IAH,PHX,AF,Domestic,56,3.64,4.52,143.62,7,1009,87.5,Air France
+IAH,PHX,B6,Domestic,56,11.89,14.34,143.27,16,1009,71.43,JetBlue Airways
+IAH,ATL,TK,Domestic,56,5.32,6.55,115.66,9,789,83.93,Turkish Airlines
+HOU,MDW,JL,Domestic,56,10.71,11.8,131.91,12,925,78.57,Japan Airlines
+IAH,ATL,AC,Domestic,56,5.77,7.09,114.88,11,789,80.36,Air Canada
+IAH,DEN,TG,Domestic,56,9.59,11.29,125.84,14,879,75.0,Thai Airways
+HOU,DEN,TK,Domestic,56,9.38,10.93,127.02,15,879,73.21,Turkish Airlines
+IAH,MIA,WN,Domestic,56,6.89,8.66,137.7,11,964,80.36,Southwest Airlines
+HOU,PHX,LA,Domestic,56,13.27,15.16,143.84,17,1009,69.64,LATAM Airlines
+IAH,MIA,AV,Domestic,56,4.7,5.46,137.34,6,964,89.29,Avianca
+IAH,MIA,AS,Domestic,56,3.7,4.2,138.3,7,964,87.5,Alaska Airlines
+IAH,DEN,JL,Domestic,55,6.22,7.6,127.44,9,879,83.64,Japan Airlines
+IAH,PHX,NZ,Domestic,55,5.95,8.36,144.15,16,1009,70.91,Air New Zealand
+HOU,LAS,SK,Domestic,55,6.22,7.51,172.45,12,1222,78.18,Scandinavian Airlines
+IAH,PHX,QF,Domestic,55,8.51,10.07,145.04,10,1009,81.82,Qantas Airways
+HOU,DEN,KE,Domestic,55,9.11,10.73,127.67,8,879,85.45,Korean Air
+HOU,MDW,F9,Domestic,55,9.22,11.38,133.93,15,925,72.73,Frontier Airlines
+HOU,MDW,B6,Domestic,55,8.27,10.36,132.95,14,925,74.55,JetBlue Airways
+HOU,ORL,EK,Domestic,55,6.11,8.38,141.35,13,985,76.36,Emirates
+HOU,DEN,KL,Domestic,55,5.36,6.76,126.51,10,879,81.82,KLM Royal Dutch
+IAH,MIA,DL,Domestic,55,7.69,8.62,138.45,10,964,81.82,Delta Air Lines
+HOU,LAX,MS,Domestic,55,3.2,3.98,192.62,7,1374,87.27,EgyptAir
+HOU,LAX,F9,Domestic,55,7.73,9.22,192.73,11,1374,80.0,Frontier Airlines
+IAH,MCO,TK,Domestic,55,4.07,5.29,123.31,9,853,83.64,Turkish Airlines
+HOU,LAX,QR,Domestic,55,7.58,9.0,192.73,11,1374,80.0,Qatar Airways
+IAH,MCO,LA,Domestic,55,3.73,4.95,123.31,9,853,83.64,LATAM Airlines
+HOU,MDW,MH,Domestic,55,7.25,8.55,133.49,12,925,78.18,Malaysia Airlines
+HOU,MCO,MS,Domestic,55,3.51,4.93,140.6,8,985,85.45,EgyptAir
+HOU,MCO,UA,Domestic,55,7.13,9.02,140.91,10,985,81.82,United Airlines
+HOU,MDW,CM,Domestic,55,4.67,5.58,133.07,10,925,81.82,Copa Airlines
+IAH,MCO,EY,Domestic,55,6.24,7.25,124.36,13,853,76.36,Etihad Airways
+IAH,IAD,CM,Domestic,55,5.22,6.55,170.47,7,1208,87.27,Copa Airlines
+IAH,DEN,CM,Domestic,55,2.8,3.67,126.13,9,879,83.64,Copa Airlines
+IAH,DEN,ET,Domestic,55,7.13,8.58,126.76,13,879,76.36,Ethiopian Airlines
+HOU,ATL,B6,Domestic,55,4.38,5.25,114.84,8,791,85.45,JetBlue Airways
+HOU,MDW,NK,Domestic,55,4.65,6.05,132.47,12,925,78.18,Spirit Airlines
+IAH,LGA,AA,Domestic,55,3.22,4.0,198.84,5,1416,90.91,American Airlines
+IAH,MCO,IB,Domestic,54,2.09,2.41,123.0,5,853,90.74,Iberia
+IAH,DEN,LA,Domestic,54,2.11,3.31,127.74,7,879,87.04,LATAM Airlines
+IAH,LAX,B6,Domestic,54,4.15,5.07,193.7,8,1379,85.19,JetBlue Airways
+IAH,PHX,AV,Domestic,54,7.3,8.33,144.24,7,1009,87.04,Avianca
+IAH,ATL,LX,Domestic,54,6.56,7.93,113.98,11,789,79.63,Swiss International
+HOU,LAS,LH,Domestic,54,4.52,4.83,173.0,9,1222,83.33,Lufthansa
+HOU,LAX,CX,Domestic,54,4.09,5.94,192.02,8,1374,85.19,Cathay Pacific
+IAH,ATL,TG,Domestic,54,11.96,13.2,114.91,17,789,68.52,Thai Airways
+HOU,LAX,KL,Domestic,54,7.69,9.19,193.07,14,1374,74.07,KLM Royal Dutch
+IAH,MIA,LA,Domestic,54,11.26,13.61,138.7,18,964,66.67,LATAM Airlines
+HOU,DEN,OZ,Domestic,54,9.37,10.94,127.11,14,879,74.07,Asiana Airlines
+HOU,ATL,LH,Domestic,54,6.07,7.24,115.07,8,791,85.19,Lufthansa
+HOU,BWI,ET,Domestic,54,4.17,5.0,174.15,8,1235,85.19,Ethiopian Airlines
+IAH,ATL,OS,Domestic,54,5.59,5.91,114.56,8,789,85.19,Austrian Airlines
+IAH,ATL,NZ,Domestic,54,7.63,8.46,115.39,11,789,79.63,Air New Zealand
+HOU,MCO,AZ,Domestic,54,13.09,14.72,140.39,12,985,77.78,ITA Airways
+HOU,MCO,B6,Domestic,54,9.22,9.83,140.5,10,985,81.48,JetBlue Airways
+HOU,MDW,AA,Domestic,54,5.76,6.63,132.02,8,925,85.19,American Airlines
+HOU,MDW,AZ,Domestic,54,7.76,10.24,133.13,12,925,77.78,ITA Airways
+HOU,ORL,NZ,Domestic,54,12.17,14.3,140.24,13,985,75.93,Air New Zealand
+HOU,MDW,MS,Domestic,54,8.17,9.06,132.89,10,925,81.48,EgyptAir
+HOU,ATL,ET,Domestic,54,5.48,5.76,114.63,8,791,85.19,Ethiopian Airlines
+HOU,ORL,OZ,Domestic,54,4.2,5.11,141.19,8,985,85.19,Asiana Airlines
+HOU,MCO,KE,Domestic,54,6.76,9.33,140.63,14,985,74.07,Korean Air
+IAH,DEN,AC,Domestic,54,6.15,7.7,126.44,12,879,77.78,Air Canada
+HOU,MDW,SK,Domestic,53,4.62,6.08,134.3,9,925,83.02,Scandinavian Airlines
+HOU,ORL,BA,Domestic,53,5.75,7.75,140.77,14,985,73.58,British Airways
+IAH,IAD,AC,Domestic,53,11.43,14.09,171.06,15,1208,71.7,Air Canada
+HOU,MCO,QF,Domestic,53,7.64,9.09,141.47,14,985,73.58,Qantas Airways
+IAH,ATL,KE,Domestic,53,5.0,6.15,114.68,5,789,90.57,Korean Air
+IAH,EWR,MH,Domestic,53,5.7,7.79,197.13,13,1400,75.47,Malaysia Airlines
+IAH,ATL,EK,Domestic,53,5.81,7.0,114.81,10,789,81.13,Emirates
+IAH,PHX,DL,Domestic,53,8.11,9.51,144.85,10,1009,81.13,Delta Air Lines
+HOU,LAX,AZ,Domestic,53,2.72,3.74,193.36,7,1374,86.79,ITA Airways
+IAH,MCO,TG,Domestic,53,3.58,5.09,124.89,9,853,83.02,Thai Airways
+HOU,LAX,BA,Domestic,53,2.23,3.19,191.81,5,1374,90.57,British Airways
+HOU,LAX,NK,Domestic,53,9.4,10.3,191.43,14,1374,73.58,Spirit Airlines
+HOU,LAS,LA,Domestic,53,7.79,8.85,171.47,6,1222,88.68,LATAM Airlines
+HOU,LAX,DL,Domestic,53,6.53,7.72,193.26,10,1374,81.13,Delta Air Lines
+IAH,MIA,ET,Domestic,53,4.17,5.92,138.89,12,964,77.36,Ethiopian Airlines
+HOU,DEN,NZ,Domestic,53,7.25,8.66,126.4,9,879,83.02,Air New Zealand
+HOU,ORL,QF,Domestic,53,1.96,2.68,140.62,6,985,88.68,Qantas Airways
+HOU,LAS,CM,Domestic,53,7.72,10.43,172.85,13,1222,75.47,Copa Airlines
+HOU,ORL,NK,Domestic,53,2.7,4.08,140.89,8,985,84.91,Spirit Airlines
+HOU,MCO,OZ,Domestic,53,3.81,4.36,140.17,7,985,86.79,Asiana Airlines
+HOU,ATL,KL,Domestic,53,4.43,5.19,114.21,7,791,86.79,KLM Royal Dutch
+IAH,IAD,TG,Domestic,53,3.28,4.74,171.04,7,1208,86.79,Thai Airways
+HOU,ATL,KE,Domestic,53,7.74,8.75,113.7,9,791,83.02,Korean Air
+IAH,IAD,MS,Domestic,53,9.91,12.23,171.09,14,1208,73.58,EgyptAir
+HOU,MDW,AC,Domestic,53,15.98,18.34,133.28,24,925,54.72,Air Canada
+IAH,IAD,MH,Domestic,53,1.74,2.08,171.11,4,1208,92.45,Malaysia Airlines
+IAH,PHX,OZ,Domestic,52,3.63,4.4,144.02,6,1009,88.46,Asiana Airlines
+IAH,DEN,MH,Domestic,52,3.69,5.54,127.02,10,879,80.77,Malaysia Airlines
+IAH,IAD,CX,Domestic,52,9.96,11.83,169.46,14,1208,73.08,Cathay Pacific
+HOU,ORL,AA,Domestic,52,7.33,9.21,140.77,14,985,73.08,American Airlines
+IAH,LGA,QF,Domestic,52,2.83,4.13,198.4,9,1416,82.69,Qantas Airways
+IAH,DEN,AA,Domestic,52,7.69,9.63,126.92,11,879,78.85,American Airlines
+HOU,MDW,AS,Domestic,52,5.35,7.54,133.19,11,925,78.85,Alaska Airlines
+HOU,MCO,LH,Domestic,52,3.37,4.62,141.1,7,985,86.54,Lufthansa
+HOU,LAX,MH,Domestic,52,6.69,8.56,192.12,12,1374,76.92,Malaysia Airlines
+IAH,EWR,TG,Domestic,52,7.15,8.62,196.21,10,1400,80.77,Thai Airways
+IAH,EWR,WN,Domestic,52,5.85,6.85,195.83,14,1400,73.08,Southwest Airlines
+IAH,ATL,LH,Domestic,52,6.96,8.13,114.63,12,789,76.92,Lufthansa
+HOU,ORL,SK,Domestic,52,9.02,11.12,139.06,14,985,73.08,Scandinavian Airlines
+IAH,EWR,AC,Domestic,52,6.48,7.42,195.46,10,1400,80.77,Air Canada
+HOU,PHX,QR,Domestic,52,5.65,6.31,143.96,7,1009,86.54,Qatar Airways
+IAH,MIA,MH,Domestic,52,3.54,5.04,138.44,10,964,80.77,Malaysia Airlines
+IAH,IAD,BA,Domestic,52,3.58,4.75,170.94,6,1208,88.46,British Airways
+IAH,IAD,NZ,Domestic,52,5.73,6.65,171.37,11,1208,78.85,Air New Zealand
+IAH,MCO,AS,Domestic,52,3.12,3.06,124.44,6,853,88.46,Alaska Airlines
+IAH,MCO,AZ,Domestic,52,6.69,8.31,123.44,12,853,76.92,ITA Airways
+IAH,IAD,QF,Domestic,52,5.88,7.1,171.17,8,1208,84.62,Qantas Airways
+HOU,ORL,KL,Domestic,52,5.98,7.19,140.54,9,985,82.69,KLM Royal Dutch
+HOU,MCO,LA,Domestic,52,6.52,7.94,141.12,11,985,78.85,LATAM Airlines
+IAH,MCO,LH,Domestic,52,5.77,6.83,122.15,12,853,76.92,Lufthansa
+HOU,ATL,IB,Domestic,52,6.6,7.17,115.87,8,791,84.62,Iberia
+IAH,MIA,TG,Domestic,52,7.35,9.83,138.21,13,964,75.0,Thai Airways
+HOU,ATL,SQ,Domestic,52,5.25,6.29,114.5,7,791,86.54,Singapore Airlines
+IAH,DEN,B6,Domestic,52,9.65,10.21,126.02,12,879,76.92,JetBlue Airways
+IAH,LGA,TG,Domestic,52,11.88,13.1,198.06,7,1416,86.54,Thai Airways
+HOU,ORL,F9,Domestic,51,7.2,9.59,141.14,12,985,76.47,Frontier Airlines
+IAH,PHX,KL,Domestic,51,4.92,5.71,143.82,11,1009,78.43,KLM Royal Dutch
+IAH,ATL,MH,Domestic,51,9.08,9.69,114.53,11,789,78.43,Malaysia Airlines
+HOU,LAX,B6,Domestic,51,7.06,8.76,193.45,10,1374,80.39,JetBlue Airways
+IAH,DEN,WN,Domestic,51,8.49,10.57,126.16,11,879,78.43,Southwest Airlines
+IAH,MIA,F9,Domestic,51,8.1,9.04,138.45,12,964,76.47,Frontier Airlines
+HOU,LAS,TK,Domestic,51,9.67,10.31,172.45,5,1222,90.2,Turkish Airlines
+IAH,EWR,LH,Domestic,51,8.63,9.2,195.04,9,1400,82.35,Lufthansa
+HOU,LAX,LA,Domestic,51,1.86,2.12,192.39,3,1374,94.12,LATAM Airlines
+IAH,MCO,MH,Domestic,51,7.86,9.88,123.08,14,853,72.55,Malaysia Airlines
+HOU,PHX,AZ,Domestic,51,2.61,3.02,143.65,4,1009,92.16,ITA Airways
+IAH,IAD,B6,Domestic,51,10.27,11.73,171.31,15,1208,70.59,JetBlue Airways
+HOU,MCO,EK,Domestic,51,2.8,3.67,140.71,7,985,86.27,Emirates
+HOU,MCO,CX,Domestic,51,4.63,5.98,140.59,6,985,88.24,Cathay Pacific
+IAH,IAD,AA,Domestic,51,5.47,8.12,170.84,9,1208,82.35,American Airlines
+IAH,IAD,KE,Domestic,51,5.35,6.06,171.02,6,1208,88.24,Korean Air
+IAH,MCO,DL,Domestic,51,5.69,8.59,122.29,11,853,78.43,Delta Air Lines
+IAH,LAX,TK,Domestic,51,6.29,7.18,192.06,8,1379,84.31,Turkish Airlines
+HOU,MDW,TK,Domestic,51,8.37,9.69,132.55,11,925,78.43,Turkish Airlines
+IAH,LGA,KE,Domestic,51,5.73,6.86,197.45,9,1416,82.35,Korean Air
+IAH,MIA,OZ,Domestic,51,2.12,2.75,137.63,6,964,88.24,Asiana Airlines
+IAH,MIA,OS,Domestic,51,5.78,7.76,138.61,14,964,72.55,Austrian Airlines
+IAH,MIA,TK,Domestic,51,6.53,7.51,137.14,5,964,90.2,Turkish Airlines
+HOU,MDW,NZ,Domestic,51,2.53,3.61,133.57,5,925,90.2,Air New Zealand
+IAH,LGA,LA,Domestic,51,5.59,6.49,198.24,7,1416,86.27,LATAM Airlines
+IAH,LGA,OS,Domestic,51,7.9,10.02,198.02,11,1416,78.43,Austrian Airlines
+HOU,ATL,MS,Domestic,51,3.31,4.14,115.45,7,791,86.27,EgyptAir
+IAH,MIA,EY,Domestic,50,6.4,8.06,137.68,9,964,82.0,Etihad Airways
+IAH,MIA,MS,Domestic,50,9.64,11.36,138.28,16,964,68.0,EgyptAir
+HOU,DEN,DL,Domestic,50,3.24,3.8,126.44,4,879,92.0,Delta Air Lines
+HOU,DEN,LA,Domestic,50,4.94,5.64,126.54,8,879,84.0,LATAM Airlines
+HOU,LAS,B6,Domestic,50,2.58,3.52,172.54,7,1222,86.0,JetBlue Airways
+IAH,MCO,QR,Domestic,50,3.54,4.44,124.0,6,853,88.0,Qatar Airways
+HOU,LAX,TG,Domestic,50,5.96,8.06,193.86,12,1374,76.0,Thai Airways
+HOU,LAX,KE,Domestic,50,12.92,14.54,192.06,18,1374,64.0,Korean Air
+HOU,ORL,CX,Domestic,50,6.06,7.72,141.08,8,985,84.0,Cathay Pacific
+HOU,LAX,ET,Domestic,50,7.82,9.02,192.9,10,1374,80.0,Ethiopian Airlines
+IAH,MCO,LX,Domestic,50,7.78,9.28,122.6,10,853,80.0,Swiss International
+HOU,ATL,NZ,Domestic,50,10.92,12.48,115.14,13,791,74.0,Air New Zealand
+HOU,MDW,DL,Domestic,50,2.74,3.94,132.68,6,925,88.0,Delta Air Lines
+HOU,LAX,SK,Domestic,50,2.68,4.68,192.46,8,1374,84.0,Scandinavian Airlines
+HOU,PHX,AV,Domestic,50,5.3,6.18,143.64,11,1009,78.0,Avianca
+HOU,ORL,EY,Domestic,50,10.34,11.96,142.46,14,985,72.0,Etihad Airways
+IAH,ATL,AA,Domestic,50,7.72,9.12,114.64,9,789,82.0,American Airlines
+IAH,ATL,KL,Domestic,50,5.58,6.82,115.88,7,789,86.0,KLM Royal Dutch
+IAH,ATL,LA,Domestic,50,4.26,5.64,114.76,8,789,84.0,LATAM Airlines
+IAH,ATL,UA,Domestic,50,6.84,9.34,115.82,16,789,68.0,United Airlines
+IAH,ATL,SQ,Domestic,50,4.36,6.7,114.42,10,789,80.0,Singapore Airlines
+IAH,IAD,LH,Domestic,50,5.0,5.84,170.64,6,1208,88.0,Lufthansa
+HOU,MCO,AV,Domestic,50,4.86,5.8,140.04,11,985,78.0,Avianca
+HOU,ATL,DL,Domestic,50,5.16,6.04,115.14,7,791,86.0,Delta Air Lines
+IAH,DEN,AV,Domestic,50,9.98,11.06,125.56,10,879,80.0,Avianca
+IAH,ATL,QF,Domestic,49,5.63,6.9,114.33,10,789,79.59,Qantas Airways
+IAH,MCO,MS,Domestic,49,11.1,13.63,123.2,13,853,73.47,EgyptAir
+HOU,LAS,DL,Domestic,49,3.92,4.82,172.92,8,1222,83.67,Delta Air Lines
+HOU,LAX,AV,Domestic,49,2.9,4.51,192.31,6,1374,87.76,Avianca
+IAH,MIA,AZ,Domestic,49,6.47,7.69,138.43,11,964,77.55,ITA Airways
+HOU,ATL,OZ,Domestic,49,8.0,10.57,114.98,15,791,69.39,Asiana Airlines
+HOU,LAX,LH,Domestic,49,5.33,6.18,192.41,7,1374,85.71,Lufthansa
+HOU,LAS,BA,Domestic,49,6.57,7.16,172.82,6,1222,87.76,British Airways
+HOU,PHX,KL,Domestic,49,3.98,4.51,144.29,7,1009,85.71,KLM Royal Dutch
+HOU,PHX,LX,Domestic,49,4.69,5.94,142.2,7,1009,85.71,Swiss International
+HOU,LAX,OS,Domestic,49,8.67,9.63,192.37,13,1374,73.47,Austrian Airlines
+IAH,ATL,IB,Domestic,49,5.86,6.41,113.06,6,789,87.76,Iberia
+IAH,ORD,TK,Domestic,49,9.27,10.41,132.59,11,925,77.55,Turkish Airlines
+HOU,MDW,SQ,Domestic,49,3.27,3.9,132.84,7,925,85.71,Singapore Airlines
+HOU,MDW,LA,Domestic,49,2.84,4.0,131.67,6,925,87.76,LATAM Airlines
+HOU,ORL,TG,Domestic,49,6.29,8.61,140.24,10,985,79.59,Thai Airways
+IAH,ATL,WN,Domestic,49,9.71,10.9,114.88,12,789,75.51,Southwest Airlines
+IAH,LGA,AM,Domestic,49,8.06,10.45,198.08,11,1416,77.55,Aeromexico
+IAH,IAD,F9,Domestic,49,6.04,8.37,170.14,12,1208,75.51,Frontier Airlines
+IAH,MCO,ET,Domestic,49,4.8,5.65,121.22,8,853,83.67,Ethiopian Airlines
+HOU,MDW,UA,Domestic,49,3.88,4.37,131.78,6,925,87.76,United Airlines
+HOU,MCO,OS,Domestic,49,5.24,5.37,140.88,10,985,79.59,Austrian Airlines
+IAH,IAD,KL,Domestic,49,12.51,14.61,170.37,15,1208,69.39,KLM Royal Dutch
+IAH,IAD,JL,Domestic,49,5.02,6.04,170.73,9,1208,81.63,Japan Airlines
+HOU,ATL,AV,Domestic,49,1.69,2.43,114.86,5,791,89.8,Avianca
+HOU,ATL,AF,Domestic,49,7.65,8.22,114.43,10,791,79.59,Air France
+HOU,MDW,IB,Domestic,49,3.76,5.27,132.84,8,925,83.67,Iberia
+HOU,ATL,EY,Domestic,49,7.78,9.39,114.35,10,791,79.59,Etihad Airways
+HOU,MCO,JL,Domestic,48,5.9,8.02,141.56,11,985,77.08,Japan Airlines
+IAH,IAD,AF,Domestic,48,2.25,3.17,170.27,5,1208,89.58,Air France
+IAH,MCO,JL,Domestic,48,5.42,5.73,123.04,7,853,85.42,Japan Airlines
+IAH,IAD,EY,Domestic,48,4.42,4.94,170.0,4,1208,91.67,Etihad Airways
+HOU,MCO,AC,Domestic,48,4.15,5.02,140.35,9,985,81.25,Air Canada
+IAH,ATL,AS,Domestic,48,5.06,6.67,114.48,9,789,81.25,Alaska Airlines
+IAH,LGA,QR,Domestic,48,2.4,4.08,199.56,6,1416,87.5,Qatar Airways
+IAH,ATL,CM,Domestic,48,6.9,8.19,113.98,9,789,81.25,Copa Airlines
+IAH,ATL,JL,Domestic,48,12.44,15.12,115.25,11,789,77.08,Japan Airlines
+IAH,LGA,DL,Domestic,48,3.75,4.81,198.02,6,1416,87.5,Delta Air Lines
+IAH,ATL,NH,Domestic,48,8.15,10.46,114.83,12,789,75.0,ANA All Nippon Airways
+HOU,PHX,AF,Domestic,48,9.85,12.08,145.1,15,1009,68.75,Air France
+HOU,LAX,CM,Domestic,48,5.42,7.96,192.23,12,1374,75.0,Copa Airlines
+HOU,PHX,EK,Domestic,48,7.46,8.65,143.79,8,1009,83.33,Emirates
+HOU,PHX,CM,Domestic,48,7.56,8.06,145.31,9,1009,81.25,Copa Airlines
+HOU,PHX,CX,Domestic,48,7.62,9.27,143.65,10,1009,79.17,Cathay Pacific
+IAH,PHX,SQ,Domestic,48,5.92,6.92,144.62,7,1009,85.42,Singapore Airlines
+HOU,DEN,AF,Domestic,48,5.62,6.92,126.35,8,879,83.33,Air France
+IAH,LGA,NZ,Domestic,48,7.17,8.65,199.02,9,1416,81.25,Air New Zealand
+HOU,LAX,JL,Domestic,48,4.35,5.77,192.73,6,1374,87.5,Japan Airlines
+IAH,ORD,AS,Domestic,48,4.77,5.75,133.96,10,925,79.17,Alaska Airlines
+IAH,MIA,AF,Domestic,48,6.1,8.4,138.96,12,964,75.0,Air France
+HOU,ORL,DL,Domestic,48,3.81,5.02,139.75,6,985,87.5,Delta Air Lines
+HOU,ORL,CM,Domestic,48,6.08,8.31,140.48,10,985,79.17,Copa Airlines
+IAH,PHX,SK,Domestic,48,8.08,9.92,144.75,10,1009,79.17,Scandinavian Airlines
+HOU,PHX,NH,Domestic,48,5.85,7.9,143.85,11,1009,77.08,ANA All Nippon Airways
+HOU,DEN,BA,Domestic,48,6.17,7.02,126.67,14,879,70.83,British Airways
+IAH,MIA,LX,Domestic,47,9.06,10.57,137.7,11,964,76.6,Swiss International
+IAH,IAD,IB,Domestic,47,6.89,9.26,170.81,11,1208,76.6,Iberia
+HOU,ORL,KE,Domestic,47,5.28,6.3,140.23,6,985,87.23,Korean Air
+IAH,MCO,CM,Domestic,47,3.55,4.0,123.13,5,853,89.36,Copa Airlines
+HOU,ORL,B6,Domestic,47,7.57,8.7,141.68,11,985,76.6,JetBlue Airways
+HOU,LAS,NZ,Domestic,47,9.81,11.83,172.36,13,1222,72.34,Air New Zealand
+HOU,ORL,SQ,Domestic,47,14.21,15.98,141.55,8,985,82.98,Singapore Airlines
+IAH,LGA,BA,Domestic,47,3.87,4.57,198.17,6,1416,87.23,British Airways
+HOU,LAS,NK,Domestic,47,8.83,11.34,172.72,11,1222,76.6,Spirit Airlines
+HOU,DEN,QF,Domestic,47,7.81,9.36,127.21,11,879,76.6,Qantas Airways
+HOU,LAS,AM,Domestic,47,10.34,13.06,172.64,14,1222,70.21,Aeromexico
+HOU,PHX,MS,Domestic,47,9.68,12.21,143.81,11,1009,76.6,EgyptAir
+IAH,LGA,KL,Domestic,47,16.85,18.51,197.38,13,1416,72.34,KLM Royal Dutch
+IAH,MCO,F9,Domestic,47,6.53,7.98,124.04,11,853,76.6,Frontier Airlines
+HOU,ATL,QR,Domestic,47,9.06,11.57,116.51,11,791,76.6,Qatar Airways
+HOU,MCO,WN,Domestic,47,17.02,19.85,141.62,15,985,68.09,Southwest Airlines
+IAH,ATL,AV,Domestic,47,9.55,10.98,115.32,14,789,70.21,Avianca
+IAH,LGA,CX,Domestic,46,4.2,5.57,198.63,9,1416,80.43,Cathay Pacific
+IAH,LGA,CM,Domestic,46,6.22,6.87,198.67,8,1416,82.61,Copa Airlines
+IAH,MCO,OS,Domestic,46,12.76,15.37,123.07,12,853,73.91,Austrian Airlines
+HOU,MCO,AA,Domestic,46,8.2,9.74,141.07,9,985,80.43,American Airlines
+IAH,PHX,BA,Domestic,46,7.98,9.24,142.74,9,1009,80.43,British Airways
+IAH,IAD,LX,Domestic,46,4.11,5.37,170.7,7,1208,84.78,Swiss International
+HOU,ORL,IB,Domestic,46,6.74,8.02,140.09,9,985,80.43,Iberia
+HOU,PHX,BA,Domestic,46,5.2,6.2,144.39,6,1009,86.96,British Airways
+HOU,ATL,AS,Domestic,46,5.5,6.57,114.37,8,791,82.61,Alaska Airlines
+HOU,ORL,MS,Domestic,46,7.7,9.15,140.83,11,985,76.09,EgyptAir
+HOU,ORL,MH,Domestic,46,6.65,7.61,141.11,7,985,84.78,Malaysia Airlines
+IAH,ATL,ET,Domestic,46,6.72,7.48,114.09,8,789,82.61,Ethiopian Airlines
+IAH,ATL,AF,Domestic,46,11.02,12.57,113.96,10,789,78.26,Air France
+IAH,LGA,AC,Domestic,46,5.7,7.02,197.65,8,1416,82.61,Air Canada
+IAH,MCO,UA,Domestic,46,3.35,4.52,122.89,8,853,82.61,United Airlines
+IAH,MIA,CM,Domestic,46,2.5,2.74,138.11,6,964,86.96,Copa Airlines
+HOU,PHX,EY,Domestic,46,5.43,6.41,143.54,9,1009,80.43,Etihad Airways
+HOU,DEN,F9,Domestic,46,9.3,12.59,127.7,16,879,65.22,Frontier Airlines
+IAH,LGA,AV,Domestic,46,2.93,3.5,198.35,6,1416,86.96,Avianca
+HOU,LAS,AF,Domestic,46,2.02,2.59,172.7,4,1222,91.3,Air France
+IAH,LGA,NK,Domestic,46,4.83,6.37,198.54,9,1416,80.43,Spirit Airlines
+IAH,LGA,MS,Domestic,46,8.09,8.85,200.54,9,1416,80.43,EgyptAir
+HOU,ATL,OS,Domestic,46,2.76,3.43,114.7,6,791,86.96,Austrian Airlines
+HOU,PHX,IB,Domestic,46,7.67,8.76,142.89,10,1009,78.26,Iberia
+HOU,PHX,AS,Domestic,46,4.15,5.15,144.11,10,1009,78.26,Alaska Airlines
+HOU,LAS,TG,Domestic,46,7.74,9.26,171.85,10,1222,78.26,Thai Airways
+IAH,ATL,OZ,Domestic,46,8.5,9.91,114.41,12,789,73.91,Asiana Airlines
+IAH,LGA,OZ,Domestic,45,3.6,4.69,197.29,6,1416,86.67,Asiana Airlines
+HOU,LAS,AS,Domestic,45,13.82,15.84,172.51,13,1222,71.11,Alaska Airlines
+HOU,LAX,NZ,Domestic,45,2.16,3.09,192.18,3,1374,93.33,Air New Zealand
+HOU,ORL,AV,Domestic,45,10.09,11.78,140.96,9,985,80.0,Avianca
+HOU,LAX,SQ,Domestic,45,6.87,8.8,193.16,8,1374,82.22,Singapore Airlines
+HOU,MCO,ET,Domestic,45,10.84,11.38,141.07,5,985,88.89,Ethiopian Airlines
+IAH,ORD,WN,Domestic,45,3.2,3.93,132.38,5,925,88.89,Southwest Airlines
+IAH,LGA,WN,Domestic,45,1.82,2.91,197.44,5,1416,88.89,Southwest Airlines
+IAH,IAD,SK,Domestic,45,5.78,7.8,172.27,8,1208,82.22,Scandinavian Airlines
+HOU,ORL,NH,Domestic,45,4.58,6.0,141.22,7,985,84.44,ANA All Nippon Airways
+HOU,MDW,CX,Domestic,45,6.8,8.73,132.11,12,925,73.33,Cathay Pacific
+IAH,IAD,WN,Domestic,45,7.56,8.64,170.96,8,1208,82.22,Southwest Airlines
+HOU,ORL,LX,Domestic,45,10.09,11.31,141.56,8,985,82.22,Swiss International
+IAH,MCO,NZ,Domestic,45,4.62,5.16,122.64,8,853,82.22,Air New Zealand
+IAH,ATL,NK,Domestic,45,4.51,5.42,115.16,7,789,84.44,Spirit Airlines
+HOU,LAS,MS,Domestic,45,7.67,8.87,173.2,11,1222,75.56,EgyptAir
+IAH,ATL,MS,Domestic,45,5.62,5.8,113.96,7,789,84.44,EgyptAir
+IAH,PHX,EY,Domestic,45,8.51,10.71,144.18,12,1009,73.33,Etihad Airways
+IAH,ATL,EY,Domestic,45,7.76,9.58,114.96,11,789,75.56,Etihad Airways
+IAH,IAD,OS,Domestic,45,5.96,8.84,171.6,10,1208,77.78,Austrian Airlines
+IAH,MCO,OZ,Domestic,44,10.3,11.61,122.57,12,853,72.73,Asiana Airlines
+HOU,MDW,EY,Domestic,44,8.59,10.05,133.52,10,925,77.27,Etihad Airways
+IAH,ATL,F9,Domestic,44,6.16,7.45,114.02,9,789,79.55,Frontier Airlines
+IAH,LGA,F9,Domestic,44,7.39,9.45,198.34,9,1416,79.55,Frontier Airlines
+IAH,LGA,ET,Domestic,44,5.2,6.36,198.77,7,1416,84.09,Ethiopian Airlines
+HOU,PHX,KE,Domestic,44,8.66,9.32,143.52,11,1009,75.0,Korean Air
+IAH,LGA,NH,Domestic,44,14.39,15.64,199.86,9,1416,79.55,ANA All Nippon Airways
+HOU,LAS,NH,Domestic,44,3.73,5.07,171.32,8,1222,81.82,ANA All Nippon Airways
+HOU,MCO,CM,Domestic,44,10.32,13.3,139.59,12,985,72.73,Copa Airlines
+IAH,ATL,AZ,Domestic,44,5.32,6.16,114.07,10,789,77.27,ITA Airways
+HOU,ORL,LH,Domestic,44,8.07,8.98,139.73,6,985,86.36,Lufthansa
+IAH,IAD,DL,Domestic,44,3.98,4.3,169.93,8,1208,81.82,Delta Air Lines
+IAH,LGA,SQ,Domestic,44,7.02,7.93,197.93,6,1416,86.36,Singapore Airlines
+IAH,IAD,LA,Domestic,44,8.2,9.02,170.16,6,1208,86.36,LATAM Airlines
+HOU,MCO,IB,Domestic,44,9.66,11.05,140.77,11,985,75.0,Iberia
+IAH,ATL,AM,Domestic,43,8.58,11.0,114.63,13,789,69.77,Aeromexico
+HOU,MCO,MH,Domestic,43,4.98,6.09,140.14,8,985,81.4,Malaysia Airlines
+IAH,MCO,SQ,Domestic,43,11.7,13.12,123.91,7,853,83.72,Singapore Airlines
+HOU,ORL,AM,Domestic,43,5.58,6.98,141.3,10,985,76.74,Aeromexico
+HOU,LAS,OZ,Domestic,43,3.44,4.56,172.37,5,1222,88.37,Asiana Airlines
+HOU,ORL,QR,Domestic,43,2.67,3.21,140.33,4,985,90.7,Qatar Airways
+HOU,PHX,B6,Domestic,43,15.28,16.44,144.84,11,1009,74.42,JetBlue Airways
+HOU,PHX,DL,Domestic,43,7.05,8.51,143.98,9,1009,79.07,Delta Air Lines
+IAH,LGA,MH,Domestic,43,8.67,8.67,199.58,8,1416,81.4,Malaysia Airlines
+HOU,PHX,SK,Domestic,43,5.3,6.53,144.28,8,1009,81.4,Scandinavian Airlines
+HOU,MCO,QR,Domestic,43,7.42,9.21,140.67,10,985,76.74,Qatar Airways
+IAH,MIA,QR,Domestic,43,3.93,4.81,139.16,8,964,81.4,Qatar Airways
+HOU,PHX,TK,Domestic,43,9.3,10.93,143.58,9,1009,79.07,Turkish Airlines
+IAH,LGA,B6,Domestic,43,8.74,10.53,197.35,9,1416,79.07,JetBlue Airways
+IAH,LGA,EY,Domestic,42,8.81,9.43,199.64,8,1416,80.95,Etihad Airways
+IAH,MIA,BA,Domestic,42,4.48,4.52,137.05,4,964,90.48,British Airways
+HOU,ATL,AA,Domestic,42,3.33,3.86,113.88,6,791,85.71,American Airlines
+IAH,PHX,QR,Domestic,42,13.76,15.6,143.1,14,1009,66.67,Qatar Airways
+IAH,DEN,QR,Domestic,42,7.4,8.07,127.21,6,879,85.71,Qatar Airways
+HOU,SFO,AZ,Domestic,42,3.76,4.64,227.62,5,1635,88.1,ITA Airways
+IAH,IAD,QR,Domestic,42,6.05,7.48,171.21,10,1208,76.19,Qatar Airways
+HOU,ATL,UA,Domestic,42,8.29,9.69,115.45,8,791,80.95,United Airlines
+HOU,LAS,LX,Domestic,42,8.1,9.0,173.29,6,1222,85.71,Swiss International
+IAH,LAX,AS,Domestic,42,8.52,10.45,194.64,6,1379,85.71,Alaska Airlines
+IAH,IAD,TK,Domestic,42,5.43,6.19,171.19,7,1208,83.33,Turkish Airlines
+IAH,SEA,BA,Domestic,41,2.29,2.85,259.61,6,1874,85.37,British Airways
+HOU,LAX,UA,Domestic,41,4.2,5.29,194.17,6,1374,85.37,United Airlines
+HOU,LAS,QF,Domestic,41,10.66,12.83,170.98,10,1222,75.61,Qantas Airways
+HOU,LAS,ET,Domestic,41,2.76,2.93,172.78,6,1222,85.37,Ethiopian Airlines
+HOU,PHX,NK,Domestic,41,7.29,10.61,143.51,11,1009,73.17,Spirit Airlines
+IAH,IAD,NK,Domestic,41,16.56,18.44,170.32,13,1208,68.29,Spirit Airlines
+HOU,LAS,KE,Domestic,41,5.51,7.61,170.98,10,1222,75.61,Korean Air
+HOU,LAS,QR,Domestic,40,3.7,4.22,172.02,5,1222,87.5,Qatar Airways
+IAH,LGA,EK,Domestic,40,2.4,3.48,197.25,3,1416,92.5,Emirates
+IAH,ATL,B6,Domestic,40,7.2,9.2,115.75,9,789,77.5,JetBlue Airways
+IAH,YVR,NZ,International,40,17.73,19.05,237.35,11,1825,72.5,Air New Zealand
+IAH,LGA,SK,Domestic,40,5.68,6.3,199.1,7,1416,82.5,Scandinavian Airlines
+HOU,SFO,AA,Domestic,39,8.62,10.97,227.49,10,1635,74.36,American Airlines
+HOU,LAX,AF,Domestic,39,9.36,11.08,191.74,8,1374,79.49,Air France
+IAH,ATL,QR,Domestic,39,8.08,9.62,115.0,11,789,71.79,Qatar Airways
+IAH,MIA,SQ,Domestic,39,3.26,5.15,137.95,7,964,82.05,Singapore Airlines
+HOU,LAS,OS,Domestic,39,7.44,10.67,174.15,12,1222,69.23,Austrian Airlines
+HOU,PHX,LH,Domestic,39,3.08,4.72,143.41,6,1009,84.62,Lufthansa
+HOU,DEN,JL,Domestic,39,8.54,9.77,126.97,9,879,76.92,Japan Airlines
+HOU,LAS,JL,Domestic,39,11.08,12.87,172.59,6,1222,84.62,Japan Airlines
+HOU,LAS,KL,Domestic,39,6.9,8.23,173.13,9,1222,76.92,KLM Royal Dutch
+HOU,SFO,ET,Domestic,39,6.82,8.08,228.36,7,1635,82.05,Ethiopian Airlines
+IAH,BOS,LH,Domestic,39,4.54,6.67,222.51,7,1597,82.05,Lufthansa
+IAH,LIM,SK,International,38,2.66,3.32,470.0,4,3677,89.47,Scandinavian Airlines
+IAH,MCO,KE,Domestic,38,17.89,19.37,123.34,9,853,76.32,Korean Air
+HOU,PHX,NZ,Domestic,38,7.42,9.03,144.95,10,1009,73.68,Air New Zealand
+HOU,PHX,OS,Domestic,38,5.89,7.08,143.58,8,1009,78.95,Austrian Airlines
+HOU,LAS,AC,Domestic,38,4.97,6.58,172.97,7,1222,81.58,Air Canada
+HOU,LAS,SQ,Domestic,38,9.97,11.08,172.97,10,1222,73.68,Singapore Airlines
+HOU,LAS,AZ,Domestic,38,7.08,8.16,169.92,6,1222,84.21,ITA Airways
+HOU,LAS,EK,Domestic,38,7.66,8.71,172.39,7,1222,81.58,Emirates
+IAH,ATL,SK,Domestic,38,5.76,8.82,115.16,11,789,71.05,Scandinavian Airlines
+HOU,SFO,DL,Domestic,38,2.13,2.63,228.82,5,1635,86.84,Delta Air Lines
+HOU,CUN,TG,International,38,3.03,3.84,117.16,3,874,92.11,Thai Airways
+IAH,LGA,TK,Domestic,38,8.87,10.5,197.68,7,1416,81.58,Turkish Airlines
+IAH,SFO,CX,Domestic,38,6.84,8.45,228.87,7,1635,81.58,Cathay Pacific
+HOU,CUN,TK,International,38,7.16,9.03,118.5,10,874,73.68,Turkish Airlines
+HOU,PHX,AM,Domestic,38,14.58,17.66,143.74,12,1009,68.42,Aeromexico
+IAH,AUH,CX,International,38,11.08,12.0,1026.71,8,8141,78.95,Cathay Pacific
+HOU,LAS,MH,Domestic,38,3.16,4.18,171.82,6,1222,84.21,Malaysia Airlines
+HOU,SFO,AM,Domestic,37,2.03,2.86,225.62,5,1635,86.49,Aeromexico
+IAH,AUH,MH,International,37,5.68,5.89,1026.78,5,8141,86.49,Malaysia Airlines
+HOU,PHX,MH,Domestic,37,4.24,4.97,145.16,5,1009,86.49,Malaysia Airlines
+IAH,AUH,LH,International,37,10.81,13.08,1027.32,9,8141,75.68,Lufthansa
+HOU,LAS,AA,Domestic,37,2.03,2.59,171.54,3,1222,91.89,American Airlines
+HOU,PHX,UA,Domestic,37,5.78,7.19,144.32,5,1009,86.49,United Airlines
+IAH,YVR,AF,International,37,1.73,2.59,236.89,4,1825,89.19,Air France
+HOU,LAS,IB,Domestic,37,1.22,1.57,172.81,3,1222,91.89,Iberia
+HOU,CUN,AC,International,36,3.81,3.92,119.08,4,874,88.89,Air Canada
+HOU,SFO,NZ,Domestic,36,16.28,17.75,227.89,8,1635,77.78,Air New Zealand
+IAH,IAD,SQ,Domestic,36,12.53,15.39,171.56,13,1208,63.89,Singapore Airlines
+HOU,MBJ,NK,International,36,8.06,9.5,169.39,8,1282,77.78,Spirit Airlines
+HOU,MBJ,DL,International,36,5.61,6.64,170.42,6,1282,83.33,Delta Air Lines
+IAH,AUH,IB,International,36,7.75,8.33,1026.22,8,8141,77.78,Iberia
+HOU,SEA,KL,Domestic,36,5.47,6.53,258.31,7,1874,80.56,KLM Royal Dutch
+HOU,MCO,BA,Domestic,36,9.56,10.58,141.42,6,985,83.33,British Airways
+IAH,ATL,BA,Domestic,36,7.31,9.17,115.22,8,789,77.78,British Airways
+HOU,ORL,JL,Domestic,36,0.89,1.14,140.5,2,985,94.44,Japan Airlines
+HOU,PHX,SQ,Domestic,35,2.89,3.63,144.03,4,1009,88.57,Singapore Airlines
+IAH,BOS,SQ,Domestic,35,2.29,3.8,222.23,5,1597,85.71,Singapore Airlines
+HOU,SFO,OZ,Domestic,35,11.71,12.17,229.31,8,1635,77.14,Asiana Airlines
+HOU,SFO,KL,Domestic,35,5.49,7.86,227.97,9,1635,74.29,KLM Royal Dutch
+IAH,LGA,LX,Domestic,35,10.0,11.37,197.54,9,1416,74.29,Swiss International
+HOU,LAS,CX,Domestic,35,5.91,7.34,171.06,8,1222,77.14,Cathay Pacific
+HOU,SFO,F9,Domestic,35,19.94,21.89,227.03,9,1635,74.29,Frontier Airlines
+IAH,IAD,EK,Domestic,35,7.63,8.43,170.2,5,1208,85.71,Emirates
+HOU,MBJ,OS,International,35,6.83,7.46,169.89,4,1282,88.57,Austrian Airlines
+HOU,SEA,AC,Domestic,35,3.03,4.0,260.91,5,1874,85.71,Air Canada
+IAH,IAD,AV,Domestic,34,5.21,7.15,171.56,7,1208,79.41,Avianca
+IAH,YYZ,MH,International,34,6.18,7.35,171.32,6,1301,82.35,Malaysia Airlines
+IAH,YYZ,OZ,International,34,3.88,4.44,172.38,4,1301,88.24,Asiana Airlines
+HOU,CUN,B6,International,34,9.47,11.44,119.26,8,874,76.47,JetBlue Airways
+IAH,BOS,DL,Domestic,34,3.15,4.03,222.12,3,1597,91.18,Delta Air Lines
+HOU,SFO,IB,Domestic,34,15.21,17.29,226.65,7,1635,79.41,Iberia
+HOU,SFO,AC,Domestic,34,11.5,13.79,227.32,8,1635,76.47,Air Canada
+IAH,BKK,QR,International,34,5.68,7.56,1169.82,6,9281,82.35,Qatar Airways
+IAH,BKK,NH,International,34,6.65,8.59,1170.76,8,9281,76.47,ANA All Nippon Airways
+IAH,BKK,MH,International,34,4.62,5.74,1170.06,3,9281,91.18,Malaysia Airlines
+HOU,MBJ,LA,International,34,8.32,10.74,170.32,9,1282,73.53,LATAM Airlines
+HOU,SEA,AV,Domestic,34,3.24,4.32,259.59,6,1874,82.35,Avianca
+HOU,LAS,EY,Domestic,34,2.15,2.91,171.71,3,1222,91.18,Etihad Airways
+IAH,LGA,LH,Domestic,34,4.74,5.88,198.76,5,1416,85.29,Lufthansa
+HOU,MBJ,NH,International,34,6.68,8.15,169.03,7,1282,79.41,ANA All Nippon Airways
+HOU,MBJ,QR,International,34,6.24,8.5,170.26,8,1282,76.47,Qatar Airways
+HOU,SFO,AF,Domestic,34,8.62,10.56,227.76,9,1635,73.53,Air France
+IAH,FRA,WN,International,34,7.12,8.18,659.06,8,5198,76.47,Southwest Airlines
+HOU,SFO,SQ,Domestic,34,16.5,19.15,229.0,10,1635,70.59,Singapore Airlines
+HOU,SFO,MS,Domestic,33,10.82,12.52,227.12,11,1635,66.67,EgyptAir
+HOU,CUN,CM,International,33,9.73,10.79,118.24,4,874,87.88,Copa Airlines
+HOU,SFO,SK,Domestic,33,0.91,1.3,225.91,2,1635,93.94,Scandinavian Airlines
+HOU,SFO,TG,Domestic,33,5.79,7.48,227.48,5,1635,84.85,Thai Airways
+IAH,LIM,AA,International,33,4.82,5.85,470.58,6,3677,81.82,American Airlines
+IAH,FRA,TG,International,33,6.76,8.09,660.09,6,5198,81.82,Thai Airways
+IAH,SEA,OS,Domestic,33,1.85,3.09,259.21,4,1874,87.88,Austrian Airlines
+IAH,YYZ,JL,International,33,9.24,11.27,171.91,9,1301,72.73,Japan Airlines
+HOU,CUN,SK,International,33,12.12,13.33,117.55,7,874,78.79,Scandinavian Airlines
+IAH,SEA,JL,Domestic,33,12.52,14.97,259.18,9,1874,72.73,Japan Airlines
+HOU,CUN,AF,International,33,3.3,3.18,120.03,5,874,84.85,Air France
+IAH,AUH,EK,International,33,8.91,11.18,1028.3,7,8141,78.79,Emirates
+HOU,SEA,JL,Domestic,33,4.88,6.36,260.09,5,1874,84.85,Japan Airlines
+IAH,LGA,AS,Domestic,33,8.45,9.15,199.39,8,1416,75.76,Alaska Airlines
+HOU,PHX,AA,Domestic,33,3.91,4.55,143.42,3,1009,90.91,American Airlines
+IAH,MCO,NK,Domestic,33,5.91,5.73,123.18,4,853,87.88,Spirit Airlines
+IAH,ADD,AF,International,33,4.3,5.18,1150.97,5,9127,84.85,Air France
+HOU,PHX,QF,Domestic,33,5.94,7.52,142.97,5,1009,84.85,Qantas Airways
+HOU,CUN,JL,International,32,5.0,6.81,118.31,7,874,78.12,Japan Airlines
+IAH,YYZ,LX,International,32,1.88,3.31,173.66,4,1301,87.5,Swiss International
+HOU,SEA,MH,Domestic,32,1.41,2.59,259.44,3,1874,90.62,Malaysia Airlines
+HOU,SEA,LX,Domestic,32,6.91,7.91,259.88,4,1874,87.5,Swiss International
+HOU,SEA,DL,Domestic,32,6.69,8.28,260.38,8,1874,75.0,Delta Air Lines
+HOU,SFO,EK,Domestic,32,15.12,16.34,228.25,10,1635,68.75,Emirates
+HOU,SFO,TK,Domestic,32,4.97,6.03,227.0,5,1635,84.38,Turkish Airlines
+IAH,YVR,NK,International,32,4.53,6.75,237.72,7,1825,78.12,Spirit Airlines
+HOU,SFO,KE,Domestic,32,2.97,3.12,230.38,2,1635,93.75,Korean Air
+HOU,SEA,LH,Domestic,32,18.38,20.5,258.44,10,1874,68.75,Lufthansa
+IAH,SEA,AV,Domestic,32,13.28,14.56,259.38,6,1874,81.25,Avianca
+HOU,PHX,AC,Domestic,32,6.53,7.09,143.03,3,1009,90.62,Air Canada
+IAH,DOH,CM,International,32,5.62,6.66,1014.28,5,8040,84.38,Copa Airlines
+HOU,CUN,MS,International,32,13.62,16.19,120.16,12,874,62.5,EgyptAir
+HOU,LAS,UA,Domestic,32,8.94,9.94,172.16,6,1222,81.25,United Airlines
+IAH,NRT,UA,International,32,9.03,10.84,874.47,7,6924,78.12,United Airlines
+IAH,AUH,OS,International,32,3.53,3.97,1025.94,5,8141,84.38,Austrian Airlines
+IAH,AUH,UA,International,32,3.66,4.81,1026.25,6,8141,81.25,United Airlines
+IAH,MEX,OZ,International,32,3.53,4.5,101.34,4,737,87.5,Asiana Airlines
+IAH,SFO,SK,Domestic,32,1.41,2.06,227.69,3,1635,90.62,Scandinavian Airlines
+IAH,FCO,KE,International,32,6.75,8.12,707.91,6,5589,81.25,Korean Air
+IAH,FCO,NK,International,32,22.62,23.84,708.38,8,5589,75.0,Spirit Airlines
+IAH,LHR,CX,International,31,6.65,7.61,612.58,6,4822,80.65,Cathay Pacific
+IAH,YYZ,AA,International,31,17.58,19.71,171.1,8,1301,74.19,American Airlines
+IAH,BOS,F9,Domestic,31,17.94,20.23,223.13,9,1597,70.97,Frontier Airlines
+IAH,GDL,LX,International,31,7.35,7.97,117.77,5,865,83.87,Swiss International
+IAH,FRA,CX,International,31,4.58,6.23,660.0,6,5198,80.65,Cathay Pacific
+IAH,AUH,LA,International,31,4.35,5.23,1026.81,6,8141,80.65,LATAM Airlines
+IAH,FCO,CX,International,31,6.87,7.9,707.81,7,5589,77.42,Cathay Pacific
+HOU,ORL,LA,Domestic,31,3.1,4.03,140.68,4,985,87.1,LATAM Airlines
+IAH,AUH,LX,International,31,5.45,6.61,1028.68,5,8141,83.87,Swiss International
+IAH,FCO,JL,International,31,5.26,6.03,707.16,6,5589,80.65,Japan Airlines
+HOU,MEX,B6,International,31,8.94,9.9,102.48,7,741,77.42,JetBlue Airways
+HOU,MBJ,TG,International,31,6.81,7.74,170.39,4,1282,87.1,Thai Airways
+IAH,BKK,MS,International,31,6.03,6.1,1170.19,3,9281,90.32,EgyptAir
+IAH,ZRH,WN,International,31,19.77,21.9,672.35,8,5304,74.19,Southwest Airlines
+HOU,MBJ,CX,International,31,3.45,4.16,169.55,5,1282,83.87,Cathay Pacific
+IAH,AUH,QF,International,31,5.84,5.81,1028.94,2,8141,93.55,Qantas Airways
+IAH,SFO,LH,Domestic,31,9.19,10.52,228.26,8,1635,74.19,Lufthansa
+IAH,BKK,NK,International,31,6.97,9.48,1169.35,7,9281,77.42,Spirit Airlines
+HOU,SFO,LX,Domestic,31,11.71,13.52,227.84,9,1635,70.97,Swiss International
+HOU,SFO,MH,Domestic,31,3.81,4.42,225.84,5,1635,83.87,Malaysia Airlines
+IAH,YYZ,AV,International,31,15.77,19.29,172.0,9,1301,70.97,Avianca
+IAH,FCO,MH,International,31,6.71,7.74,708.45,6,5589,80.65,Malaysia Airlines
+IAH,LGA,IB,Domestic,31,12.1,12.35,197.52,7,1416,77.42,Iberia
+IAH,VIE,KL,International,31,6.87,8.61,687.13,5,5413,83.87,KLM Royal Dutch
+HOU,SEA,NK,Domestic,31,11.84,13.9,259.48,7,1874,77.42,Spirit Airlines
+HOU,SFO,CX,Domestic,31,1.77,2.13,228.16,3,1635,90.32,Cathay Pacific
+HOU,SFO,LH,Domestic,30,2.0,3.4,225.73,4,1635,86.67,Lufthansa
+IAH,YVR,SQ,International,30,5.1,5.87,239.3,7,1825,76.67,Singapore Airlines
+HOU,SFO,B6,Domestic,30,4.3,6.93,229.33,8,1635,73.33,JetBlue Airways
+IAH,BOS,AA,Domestic,30,2.9,4.4,222.17,5,1597,83.33,American Airlines
+IAH,CPH,WN,International,30,3.33,4.1,670.3,2,5276,93.33,Southwest Airlines
+IAH,FRA,NK,International,30,4.97,5.87,658.07,7,5198,76.67,Spirit Airlines
+IAH,AUH,CM,International,30,3.27,3.4,1027.6,3,8141,90.0,Copa Airlines
+IAH,BKK,B6,International,30,7.73,8.77,1169.2,5,9281,83.33,JetBlue Airways
+IAH,CPH,LA,International,30,3.53,3.73,668.33,2,5276,93.33,LATAM Airlines
+IAH,BOS,KL,Domestic,30,12.0,13.7,221.33,8,1597,73.33,KLM Royal Dutch
+IAH,SFO,KL,Domestic,30,5.97,7.27,228.2,5,1635,83.33,KLM Royal Dutch
+IAH,LIM,AF,International,30,3.57,5.17,470.57,4,3677,86.67,Air France
+HOU,CUN,CX,International,30,4.3,5.57,119.17,4,874,86.67,Cathay Pacific
+IAH,VIE,MS,International,30,6.13,8.6,685.6,8,5413,73.33,EgyptAir
+IAH,CPH,CM,International,30,7.0,8.4,669.6,6,5276,80.0,Copa Airlines
+IAH,LIM,QF,International,30,8.27,10.2,468.0,8,3677,73.33,Qantas Airways
+HOU,CUN,EY,International,30,6.17,7.43,118.03,7,874,76.67,Etihad Airways
+HOU,SFO,QR,Domestic,30,6.73,7.43,227.93,5,1635,83.33,Qatar Airways
+HOU,SFO,JL,Domestic,30,1.4,2.07,226.83,2,1635,93.33,Japan Airlines
+IAH,ADD,OZ,International,30,4.37,5.87,1149.6,5,9127,83.33,Asiana Airlines
+IAH,YYZ,LH,International,30,6.03,8.07,172.87,6,1301,80.0,Lufthansa
+IAH,YYZ,NZ,International,30,11.77,12.83,173.97,6,1301,80.0,Air New Zealand
+IAH,YYZ,AZ,International,30,1.37,2.6,172.83,2,1301,93.33,ITA Airways
+IAH,ADD,AA,International,30,1.6,1.43,1149.4,2,9127,93.33,American Airlines
+HOU,MBJ,AS,International,30,7.17,9.0,170.8,5,1282,83.33,Alaska Airlines
+HOU,MBJ,JL,International,30,4.9,5.5,168.23,4,1282,86.67,Japan Airlines
+HOU,MBJ,AM,International,30,4.43,4.37,169.2,4,1282,86.67,Aeromexico
+IAH,AUH,BA,International,30,3.27,4.97,1025.3,4,8141,86.67,British Airways
+HOU,MBJ,KE,International,30,5.23,5.43,171.0,7,1282,76.67,Korean Air
+HOU,LAS,F9,Domestic,30,12.9,13.67,171.63,7,1222,76.67,Frontier Airlines
+HOU,SEA,MS,Domestic,29,2.59,3.28,258.69,2,1874,93.1,EgyptAir
+IAH,YVR,AM,International,29,10.03,12.28,238.93,10,1825,65.52,Aeromexico
+HOU,SEA,AM,Domestic,29,5.83,7.93,260.28,6,1874,79.31,Aeromexico
+HOU,SEA,TK,Domestic,29,3.1,3.86,258.0,4,1874,86.21,Turkish Airlines
+HOU,SFO,LA,Domestic,29,4.59,5.76,227.28,6,1635,79.31,LATAM Airlines
+IAH,ICN,NH,International,29,2.72,4.0,893.79,4,7062,86.21,ANA All Nippon Airways
+IAH,YYZ,NK,International,29,6.24,7.28,171.86,6,1301,79.31,Spirit Airlines
+IAH,ICN,AZ,International,29,8.24,10.21,892.55,8,7062,72.41,ITA Airways
+IAH,ICN,OZ,International,29,1.03,1.45,893.41,2,7062,93.1,Asiana Airlines
+IAH,YYZ,AM,International,29,7.9,8.93,171.55,5,1301,82.76,Aeromexico
+IAH,FRA,CM,International,29,7.41,9.0,658.79,7,5198,75.86,Copa Airlines
+HOU,MEX,MS,International,29,10.66,12.21,102.62,5,741,82.76,EgyptAir
+IAH,BKK,AV,International,29,15.0,15.66,1169.24,9,9281,68.97,Avianca
+HOU,MBJ,LX,International,29,0.52,0.55,170.52,1,1282,96.55,Swiss International
+IAH,ZRH,MH,International,29,2.55,2.69,673.76,3,5304,89.66,Malaysia Airlines
+IAH,FCO,UA,International,29,0.52,1.14,707.79,1,5589,96.55,United Airlines
+HOU,PUJ,B6,International,29,1.69,2.72,243.55,2,1876,93.1,JetBlue Airways
+HOU,SFO,NH,Domestic,29,9.55,10.24,228.24,5,1635,82.76,ANA All Nippon Airways
+HOU,SEA,SK,Domestic,29,11.28,13.28,258.31,8,1874,72.41,Scandinavian Airlines
+HOU,SEA,LA,Domestic,29,7.55,8.14,259.38,5,1874,82.76,LATAM Airlines
+IAH,YVR,MS,International,29,1.97,2.45,237.38,2,1825,93.1,EgyptAir
+IAH,DOH,NH,International,29,0.52,0.69,1013.55,1,8040,96.55,ANA All Nippon Airways
+HOU,MBJ,BA,International,29,8.31,9.62,168.07,4,1282,86.21,British Airways
+IAH,ICN,AV,International,29,7.1,7.59,892.9,3,7062,89.66,Avianca
+IAH,ZRH,EY,International,29,2.07,2.9,671.76,4,5304,86.21,Etihad Airways
+IAH,NRT,KL,International,29,10.07,13.17,875.59,8,6924,72.41,KLM Royal Dutch
+IAH,MEX,IB,International,29,5.62,6.07,100.72,3,737,89.66,Iberia
+IAH,MEX,QR,International,29,4.52,5.38,102.07,3,737,89.66,Qatar Airways
+IAH,CPH,MH,International,29,6.03,7.21,670.14,4,5276,86.21,Malaysia Airlines
+IAH,CPH,LX,International,29,13.17,15.34,668.28,5,5276,82.76,Swiss International
+IAH,GDL,AF,International,29,8.03,9.79,117.17,5,865,82.76,Air France
+IAH,GDL,JL,International,29,1.03,1.1,117.14,2,865,93.1,Japan Airlines
+IAH,FCO,NZ,International,29,11.1,13.59,707.97,6,5589,79.31,Air New Zealand
+IAH,YYZ,OS,International,28,1.07,1.46,171.61,2,1301,92.86,Austrian Airlines
+IAH,YYZ,TK,International,28,5.71,7.29,174.14,8,1301,71.43,Turkish Airlines
+IAH,ZRH,LH,International,28,5.29,5.89,673.54,5,5304,82.14,Lufthansa
+IAH,DOH,MH,International,28,6.96,7.5,1016.36,4,8040,85.71,Malaysia Airlines
+HOU,MBJ,LH,International,28,2.5,2.43,168.71,4,1282,85.71,Lufthansa
+IAH,AKL,SQ,International,28,4.39,5.5,1112.68,4,8831,85.71,Singapore Airlines
+IAH,YYZ,SQ,International,28,7.25,9.5,170.86,6,1301,78.57,Singapore Airlines
+HOU,SFO,OS,Domestic,28,1.93,1.93,226.5,2,1635,92.86,Austrian Airlines
+IAH,LIM,AV,International,28,7.14,10.79,470.18,8,3677,71.43,Avianca
+IAH,YYZ,BA,International,28,1.07,1.86,171.82,2,1301,92.86,British Airways
+IAH,YYZ,EK,International,28,4.0,4.0,172.32,3,1301,89.29,Emirates
+HOU,CUN,AA,International,28,5.54,6.93,118.96,4,874,85.71,American Airlines
+IAH,ICN,SQ,International,28,4.68,5.32,891.5,4,7062,85.71,Singapore Airlines
+IAH,ICN,NZ,International,28,2.64,3.46,893.82,4,7062,85.71,Air New Zealand
+IAH,ICN,CM,International,28,9.21,10.21,893.46,9,7062,67.86,Copa Airlines
+IAH,ICN,MH,International,28,3.18,4.79,893.0,4,7062,85.71,Malaysia Airlines
+IAH,AKL,SK,International,28,1.75,2.68,1113.68,2,8831,92.86,Scandinavian Airlines
+IAH,BOS,TK,Domestic,28,0.54,0.46,222.04,1,1597,96.43,Turkish Airlines
+IAH,BKK,SQ,International,28,4.86,6.61,1169.57,6,9281,78.57,Singapore Airlines
+IAH,BKK,AF,International,28,12.68,14.07,1170.0,6,9281,78.57,Air France
+IAH,DXB,MH,International,28,6.21,8.07,1029.04,6,8150,78.57,Malaysia Airlines
+IAH,AUH,NH,International,28,7.46,9.86,1025.75,8,8141,71.43,ANA All Nippon Airways
+IAH,FRA,AC,International,28,14.82,17.32,659.46,9,5198,67.86,Air Canada
+HOU,PUJ,AS,International,28,13.89,15.89,243.79,8,1876,71.43,Alaska Airlines
+HOU,MEX,CX,International,28,2.07,2.79,101.39,2,741,92.86,Cathay Pacific
+IAH,MEX,QF,International,28,8.25,10.5,102.18,7,737,75.0,Qantas Airways
+HOU,PUJ,LH,International,28,6.46,7.14,244.57,5,1876,82.14,Lufthansa
+IAH,BOS,KE,Domestic,28,6.43,7.61,222.07,4,1597,85.71,Korean Air
+IAH,FRA,MH,International,28,18.07,20.18,658.07,5,5198,82.14,Malaysia Airlines
+HOU,SFO,BA,Domestic,28,7.25,8.14,226.93,4,1635,85.71,British Airways
+HOU,SEA,NZ,Domestic,28,2.54,3.14,258.96,4,1874,85.71,Air New Zealand
+HOU,SFO,UA,Domestic,28,8.82,10.68,227.0,5,1635,82.14,United Airlines
+IAH,LIM,AZ,International,28,3.57,3.43,468.96,4,3677,85.71,ITA Airways
+HOU,SEA,ET,Domestic,28,6.39,8.79,257.75,7,1874,75.0,Ethiopian Airlines
+HOU,SEA,AS,Domestic,28,15.11,17.04,259.0,9,1874,67.86,Alaska Airlines
+HOU,SEA,QF,Domestic,28,6.11,7.93,258.57,5,1874,82.14,Qantas Airways
+IAH,CPH,BA,International,28,11.71,12.71,668.18,8,5276,71.43,British Airways
+HOU,CUN,EK,International,28,4.86,6.21,119.82,5,874,82.14,Emirates
+IAH,ADD,AS,International,28,19.71,21.32,1149.46,9,9127,67.86,Alaska Airlines
+IAH,AUH,AM,International,28,3.93,5.0,1027.0,3,8141,89.29,Aeromexico
+IAH,MEX,CM,International,28,6.18,7.96,100.0,6,737,78.57,Copa Airlines
+IAH,BOS,JL,Domestic,28,2.64,2.5,223.61,1,1597,96.43,Japan Airlines
+IAH,FCO,LA,International,28,1.54,1.75,707.93,2,5589,92.86,LATAM Airlines
+IAH,FRA,AF,International,28,3.21,4.07,659.54,4,5198,85.71,Air France
+IAH,FRA,AV,International,28,2.79,3.71,659.96,3,5198,89.29,Avianca
+IAH,FRA,SK,International,28,3.5,3.64,659.11,3,5198,89.29,Scandinavian Airlines
+IAH,SYD,F9,International,28,8.68,9.46,1084.21,5,8591,82.14,Frontier Airlines
+IAH,CPH,EK,International,28,2.93,4.64,670.11,5,5276,82.14,Emirates
+IAH,CPH,F9,International,28,2.93,4.0,670.18,5,5276,82.14,Frontier Airlines
+IAH,BOG,WN,International,28,12.54,16.96,257.61,11,2006,60.71,Southwest Airlines
+IAH,CPH,KE,International,27,2.67,3.93,670.26,3,5276,88.89,Korean Air
+HOU,SEA,CM,Domestic,27,8.85,9.74,259.44,3,1874,88.89,Copa Airlines
+HOU,SEA,KE,Domestic,27,2.52,3.3,258.89,3,1874,88.89,Korean Air
+IAH,CPH,KL,International,27,7.63,9.15,668.59,7,5276,74.07,KLM Royal Dutch
+IAH,YVR,OS,International,27,8.74,10.26,239.56,5,1825,81.48,Austrian Airlines
+IAH,LIM,ET,International,27,1.67,2.81,470.04,3,3677,88.89,Ethiopian Airlines
+IAH,LIM,EK,International,27,1.52,1.26,468.89,2,3677,92.59,Emirates
+IAH,YYZ,IB,International,27,6.67,9.85,172.85,7,1301,74.07,Iberia
+IAH,YYZ,LA,International,27,9.78,13.37,172.52,9,1301,66.67,LATAM Airlines
+IAH,ADD,TG,International,27,5.85,6.44,1150.67,5,9127,81.48,Thai Airways
+IAH,YYZ,CM,International,27,2.89,3.67,171.7,4,1301,85.19,Copa Airlines
+IAH,LIM,NH,International,27,6.85,8.33,470.63,6,3677,77.78,ANA All Nippon Airways
+IAH,YVR,DL,International,27,7.41,8.33,238.33,6,1825,77.78,Delta Air Lines
+IAH,CPH,AZ,International,27,4.22,5.19,668.89,5,5276,81.48,ITA Airways
+IAH,LIM,TG,International,27,4.48,6.37,468.59,4,3677,85.19,Thai Airways
+IAH,VIE,UA,International,27,3.22,3.22,687.15,2,5413,92.59,United Airlines
+IAH,YVR,KL,International,27,4.48,4.67,236.41,3,1825,88.89,KLM Royal Dutch
+IAH,YYZ,CX,International,27,12.67,13.19,172.0,5,1301,81.48,Cathay Pacific
+HOU,CUN,AS,International,27,1.7,2.19,118.07,3,874,88.89,Alaska Airlines
+IAH,YVR,KE,International,27,4.19,4.81,236.96,4,1825,85.19,Korean Air
+IAH,FRA,NH,International,27,10.85,14.37,659.26,10,5198,62.96,ANA All Nippon Airways
+IAH,MEX,NZ,International,27,3.52,4.44,101.74,4,737,85.19,Air New Zealand
+IAH,FRA,LA,International,27,5.11,7.3,658.78,7,5198,74.07,LATAM Airlines
+IAH,AUH,F9,International,27,7.89,9.56,1027.93,5,8141,81.48,Frontier Airlines
+IAH,NRT,AZ,International,27,6.81,7.63,874.48,3,6924,88.89,ITA Airways
+IAH,SFO,ET,Domestic,27,5.81,7.63,227.22,6,1635,77.78,Ethiopian Airlines
+HOU,PUJ,AA,International,27,6.63,8.85,247.22,5,1876,81.48,American Airlines
+HOU,PUJ,F9,International,27,11.22,14.11,245.63,6,1876,77.78,Frontier Airlines
+IAH,FCO,OZ,International,27,2.15,3.93,708.85,3,5589,88.89,Asiana Airlines
+IAH,SFO,EY,Domestic,27,3.74,4.19,228.19,3,1635,88.89,Etihad Airways
+IAH,FCO,MS,International,27,0.56,0.7,708.85,1,5589,96.3,EgyptAir
+IAH,FCO,IB,International,27,8.41,10.96,709.3,5,5589,81.48,Iberia
+IAH,BOS,CM,Domestic,27,2.22,3.85,222.63,4,1597,85.19,Copa Airlines
+IAH,CPH,MS,International,27,13.7,17.19,669.41,11,5276,59.26,EgyptAir
+IAH,CPH,NH,International,27,9.11,12.04,668.44,9,5276,66.67,ANA All Nippon Airways
+IAH,BOS,EK,Domestic,27,2.33,2.81,221.41,3,1597,88.89,Emirates
+IAH,BKK,AC,International,27,3.67,5.74,1170.11,5,9281,81.48,Air Canada
+IAH,AUH,OZ,International,27,2.59,3.33,1027.96,3,8141,88.89,Asiana Airlines
+IAH,AUH,SQ,International,27,22.85,23.59,1027.52,7,8141,74.07,Singapore Airlines
+HOU,MBJ,SQ,International,27,13.19,16.56,168.78,7,1282,74.07,Singapore Airlines
+HOU,MBJ,SK,International,27,1.11,1.0,169.19,2,1282,92.59,Scandinavian Airlines
+IAH,BKK,LX,International,27,1.74,1.67,1168.85,2,9281,92.59,Swiss International
+IAH,BOG,DL,International,27,2.33,2.59,260.3,3,2006,88.89,Delta Air Lines
+HOU,MEX,EK,International,27,7.15,8.37,103.26,7,741,74.07,Emirates
+IAH,SEA,DL,Domestic,27,0.63,1.3,257.3,1,1874,96.3,Delta Air Lines
+IAH,SEA,ET,Domestic,27,6.96,7.48,260.74,6,1874,77.78,Ethiopian Airlines
+IAH,AUH,MS,International,27,4.37,5.04,1026.96,4,8141,85.19,EgyptAir
+IAH,SEA,B6,Domestic,27,5.3,6.93,261.0,6,1874,77.78,JetBlue Airways
+HOU,MBJ,IB,International,27,2.33,4.07,168.7,4,1282,85.19,Iberia
+HOU,MBJ,AZ,International,27,8.78,10.56,169.04,4,1282,85.19,ITA Airways
+IAH,BOS,LX,Domestic,27,8.3,9.7,222.52,7,1597,74.07,Swiss International
+IAH,SCL,CX,International,27,3.52,4.37,627.22,4,4968,85.19,Cathay Pacific
+HOU,CUN,QR,International,27,5.11,6.15,118.93,6,874,77.78,Qatar Airways
+IAH,BOS,OZ,Domestic,27,5.56,7.96,223.07,4,1597,85.19,Asiana Airlines
+IAH,BOS,QF,Domestic,27,13.78,16.48,222.7,7,1597,74.07,Qantas Airways
+HOU,CUN,SQ,International,26,0.58,0.46,118.88,1,874,96.15,Singapore Airlines
+IAH,ZRH,BA,International,26,12.54,13.12,675.0,5,5304,80.77,British Airways
+IAH,AUH,NZ,International,26,12.04,14.46,1028.08,6,8141,76.92,Air New Zealand
+IAH,BKK,AA,International,26,6.04,7.62,1169.15,5,9281,80.77,American Airlines
+HOU,MEX,AS,International,26,9.96,12.85,101.62,7,741,73.08,Alaska Airlines
+IAH,DOH,OZ,International,26,10.19,10.96,1014.42,5,8040,80.77,Asiana Airlines
+IAH,SCL,TG,International,26,9.65,10.54,631.35,7,4968,73.08,Thai Airways
+IAH,LIM,KE,International,26,11.04,12.19,469.08,3,3677,88.46,Korean Air
+IAH,LIM,MS,International,26,0.69,1.27,469.23,1,3677,96.15,EgyptAir
+IAH,CPH,CX,International,26,9.0,11.62,668.08,5,5276,80.77,Cathay Pacific
+IAH,BKK,ET,International,26,4.08,4.42,1171.23,5,9281,80.77,Ethiopian Airlines
+IAH,BKK,DL,International,26,2.69,2.35,1170.88,3,9281,88.46,Delta Air Lines
+IAH,YVR,ET,International,26,7.58,8.96,236.35,6,1825,76.92,Ethiopian Airlines
+IAH,YVR,BA,International,26,8.58,10.38,235.58,6,1825,76.92,British Airways
+IAH,YVR,B6,International,26,9.88,11.35,237.85,6,1825,76.92,JetBlue Airways
+IAH,LIM,WN,International,26,9.73,11.58,469.35,4,3677,84.62,Southwest Airlines
+IAH,DOH,B6,International,26,3.77,4.73,1014.62,5,8040,80.77,JetBlue Airways
+IAH,SEA,KL,Domestic,26,11.5,13.85,258.88,10,1874,61.54,KLM Royal Dutch
+IAH,LIM,AM,International,26,3.54,3.85,469.0,5,3677,80.77,Aeromexico
+IAH,AUH,DL,International,26,1.81,2.92,1027.23,3,8141,88.46,Delta Air Lines
+HOU,CUN,AM,International,26,8.73,11.19,118.38,6,874,76.92,Aeromexico
+IAH,BOS,EY,Domestic,26,8.38,10.19,222.5,5,1597,80.77,Etihad Airways
+IAH,SYD,EK,International,26,8.08,9.04,1082.19,9,8591,65.38,Emirates
+IAH,CPH,QR,International,26,13.42,14.27,669.88,5,5276,80.77,Qatar Airways
+IAH,GDL,B6,International,26,9.96,10.54,118.81,4,865,84.62,JetBlue Airways
+IAH,FCO,WN,International,26,24.85,26.58,707.96,10,5589,61.54,Southwest Airlines
+HOU,MBJ,AA,International,26,8.12,9.15,168.19,8,1282,69.23,American Airlines
+IAH,SFO,EK,Domestic,26,11.65,12.04,227.23,5,1635,80.77,Emirates
+IAH,GDL,EY,International,26,1.73,2.62,116.69,3,865,88.46,Etihad Airways
+IAH,GRU,CX,International,26,2.12,2.81,606.15,3,4767,88.46,Cathay Pacific
+IAH,SYD,AA,International,26,2.88,4.0,1083.31,5,8591,80.77,American Airlines
+HOU,CUN,AV,International,26,2.08,2.0,119.35,3,874,88.46,Avianca
+IAH,FCO,QR,International,26,3.81,5.38,707.85,5,5589,80.77,Qatar Airways
+IAH,FRA,NZ,International,26,7.12,9.46,658.35,6,5198,76.92,Air New Zealand
+IAH,MEX,SQ,International,26,2.19,2.88,100.58,2,737,92.31,Singapore Airlines
+IAH,SFO,B6,Domestic,26,5.58,6.81,227.23,3,1635,88.46,JetBlue Airways
+IAH,ADD,BA,International,26,8.46,9.0,1151.42,5,9127,80.77,British Airways
+IAH,AKL,NH,International,26,16.23,16.35,1114.73,4,8831,84.62,ANA All Nippon Airways
+HOU,SEA,TG,Domestic,26,1.19,1.65,260.31,1,1874,96.15,Thai Airways
+HOU,CUN,OS,International,26,4.62,5.38,119.92,3,874,88.46,Austrian Airlines
+IAH,YYZ,TG,International,26,6.81,7.62,172.96,4,1301,84.62,Thai Airways
+IAH,ICN,MS,International,26,8.27,8.23,892.65,2,7062,92.31,EgyptAir
+IAH,SFO,MS,Domestic,26,1.62,2.15,225.77,2,1635,92.31,EgyptAir
+HOU,SEA,AA,Domestic,26,3.96,5.15,259.58,2,1874,92.31,American Airlines
+HOU,SEA,AZ,Domestic,26,11.65,14.19,259.35,9,1874,65.38,ITA Airways
+IAH,SYD,B6,International,26,20.04,21.96,1082.23,8,8591,69.23,JetBlue Airways
+IAH,FCO,SQ,International,26,6.62,8.65,708.96,5,5589,80.77,Singapore Airlines
+IAH,YVR,LA,International,26,1.46,1.46,237.92,1,1825,96.15,LATAM Airlines
+IAH,CPH,DL,International,26,8.54,10.12,668.46,4,5276,84.62,Delta Air Lines
+IAH,LHR,EK,International,26,12.65,13.73,612.31,8,4822,69.23,Emirates
+IAH,YVR,LX,International,26,5.08,7.19,237.08,6,1825,76.92,Swiss International
+IAH,GDL,AS,International,26,0.58,0.54,117.5,1,865,96.15,Alaska Airlines
+IAH,BKK,JL,International,26,4.31,6.42,1170.04,7,9281,73.08,Japan Airlines
+IAH,AUH,KE,International,26,7.5,9.19,1027.65,6,8141,76.92,Korean Air
+IAH,FCO,AS,International,26,7.08,9.92,708.19,7,5589,73.08,Alaska Airlines
+IAH,YYZ,MS,International,25,5.12,6.44,171.28,3,1301,88.0,EgyptAir
+IAH,NRT,F9,International,25,4.8,6.84,873.84,8,6924,68.0,Frontier Airlines
+IAH,AUH,QR,International,25,1.8,3.04,1030.4,3,8141,88.0,Qatar Airways
+HOU,MEX,LH,International,25,9.2,10.28,102.36,4,741,84.0,Lufthansa
+HOU,SEA,OZ,Domestic,25,3.16,3.64,259.08,5,1874,80.0,Asiana Airlines
+IAH,LHR,TK,International,25,3.8,5.8,613.44,4,4822,84.0,Turkish Airlines
+IAH,YVR,EY,International,25,18.16,18.72,238.04,6,1825,76.0,Etihad Airways
+IAH,PVG,IB,International,25,0.96,1.32,987.84,1,7823,96.0,Iberia
+IAH,BOG,CX,International,25,5.56,8.04,259.24,6,2006,76.0,Cathay Pacific
+IAH,SCL,LH,International,25,2.12,3.44,631.92,3,4968,88.0,Lufthansa
+IAH,CPH,AS,International,25,6.44,6.64,670.48,5,5276,80.0,Alaska Airlines
+IAH,DOH,AF,International,25,0.6,0.48,1014.92,1,8040,96.0,Air France
+IAH,LIM,LX,International,25,3.28,4.56,467.16,4,3677,84.0,Swiss International
+IAH,BKK,AZ,International,25,7.44,9.36,1168.68,7,9281,72.0,ITA Airways
+HOU,MBJ,AF,International,25,1.0,1.08,167.6,1,1282,96.0,Air France
+HOU,MEX,QF,International,25,2.4,3.64,102.76,4,741,84.0,Qantas Airways
+IAH,BOS,NK,Domestic,25,3.88,6.68,222.8,5,1597,80.0,Spirit Airlines
+IAH,ZRH,JL,International,25,3.96,6.04,672.52,6,5304,76.0,Japan Airlines
+IAH,AKL,OS,International,25,12.0,12.2,1113.08,7,8831,72.0,Austrian Airlines
+IAH,BOS,WN,Domestic,25,5.04,8.4,223.16,7,1597,72.0,Southwest Airlines
+IAH,ICN,AF,International,25,2.16,2.8,893.76,3,7062,88.0,Air France
+IAH,ICN,KL,International,25,4.56,5.4,891.96,6,7062,76.0,KLM Royal Dutch
+HOU,CUN,LX,International,25,1.92,3.16,120.4,3,874,88.0,Swiss International
+HOU,CUN,NZ,International,25,9.92,9.72,117.08,9,874,64.0,Air New Zealand
+IAH,MEX,EY,International,25,8.72,10.28,102.8,8,737,68.0,Etihad Airways
+IAH,LHR,MS,International,25,6.8,6.68,612.44,5,4822,80.0,EgyptAir
+HOU,PUJ,NZ,International,25,8.84,12.12,244.24,7,1876,72.0,Air New Zealand
+HOU,MBJ,KL,International,25,1.4,1.64,168.16,2,1282,92.0,KLM Royal Dutch
+IAH,HND,UA,International,25,4.24,5.36,874.84,4,6924,84.0,United Airlines
+HOU,CUN,OZ,International,25,4.72,5.08,119.92,2,874,92.0,Asiana Airlines
+HOU,SEA,AF,Domestic,25,5.76,6.36,259.64,4,1874,84.0,Air France
+IAH,FRA,ET,International,25,8.12,8.88,660.72,5,5198,80.0,Ethiopian Airlines
+IAH,YVR,WN,International,25,5.8,6.4,237.4,5,1825,80.0,Southwest Airlines
+HOU,PUJ,OZ,International,25,13.16,15.48,243.64,6,1876,76.0,Asiana Airlines
+IAH,SEA,MS,Domestic,25,5.0,5.92,262.16,3,1874,88.0,EgyptAir
+IAH,HND,IB,International,25,2.48,4.16,873.64,4,6924,84.0,Iberia
+IAH,SFO,SQ,Domestic,25,7.52,11.44,227.0,9,1635,64.0,Singapore Airlines
+HOU,PUJ,OS,International,25,6.24,6.88,243.48,7,1876,72.0,Austrian Airlines
+IAH,GRU,IB,International,25,6.76,8.32,605.2,4,4767,84.0,Iberia
+IAH,GDL,IB,International,25,9.36,11.08,117.28,6,865,76.0,Iberia
+IAH,GDL,NH,International,25,15.12,18.36,118.4,8,865,68.0,ANA All Nippon Airways
+IAH,GDL,F9,International,25,6.16,8.52,119.4,6,865,76.0,Frontier Airlines
+IAH,AUH,AF,International,25,2.76,3.04,1027.0,2,8141,92.0,Air France
+HOU,SEA,QR,Domestic,25,5.88,6.68,258.8,3,1874,88.0,Qatar Airways
+HOU,PUJ,CM,International,25,4.44,5.52,242.96,5,1876,80.0,Copa Airlines
+IAH,ADD,LH,International,25,9.64,10.08,1148.8,4,9127,84.0,Lufthansa
+IAH,FCO,DL,International,25,1.36,1.84,709.6,2,5589,92.0,Delta Air Lines
+IAH,VIE,SQ,International,25,0.0,0.0,687.96,0,5413,100.0,Singapore Airlines
+IAH,VIE,NK,International,25,7.6,8.8,685.28,3,5413,88.0,Spirit Airlines
+IAH,DOH,AS,International,25,4.12,5.88,1015.08,5,8040,80.0,Alaska Airlines
+IAH,YVR,AV,International,25,6.12,9.04,237.16,6,1825,76.0,Avianca
+IAH,VIE,MH,International,25,12.2,14.68,685.88,6,5413,76.0,Malaysia Airlines
+IAH,VIE,JL,International,25,3.68,3.88,685.4,3,5413,88.0,Japan Airlines
+IAH,BKK,CM,International,25,9.88,12.8,1170.2,8,9281,68.0,Copa Airlines
+IAH,BOS,AS,Domestic,25,1.4,2.44,221.8,2,1597,92.0,Alaska Airlines
+IAH,FRA,LX,International,25,11.2,12.92,659.72,3,5198,88.0,Swiss International
+HOU,PUJ,KL,International,25,7.2,8.28,244.04,4,1876,84.0,KLM Royal Dutch
+IAH,GDL,TK,International,25,5.68,7.68,116.8,6,865,76.0,Turkish Airlines
+IAH,LHR,AM,International,25,15.08,16.04,614.0,4,4822,84.0,Aeromexico
+IAH,LHR,LA,International,25,4.0,5.96,611.88,4,4822,84.0,LATAM Airlines
+IAH,FRA,TK,International,25,8.24,10.68,659.2,6,5198,76.0,Turkish Airlines
+IAH,SFO,NK,Domestic,25,7.16,8.28,228.68,5,1635,80.0,Spirit Airlines
+HOU,CUN,AZ,International,25,3.12,4.28,117.72,3,874,88.0,ITA Airways
+IAH,ADD,CM,International,25,4.48,6.2,1149.0,7,9127,72.0,Copa Airlines
+IAH,SEA,AS,Domestic,24,9.38,10.04,259.25,6,1874,75.0,Alaska Airlines
+IAH,SEA,AA,Domestic,24,10.04,10.58,260.12,3,1874,87.5,American Airlines
+IAH,PVG,DL,International,24,5.83,7.88,987.21,4,7823,83.33,Delta Air Lines
+HOU,MEX,EY,International,24,3.88,4.5,101.92,3,741,87.5,Etihad Airways
+IAH,LIM,LH,International,24,2.92,3.17,467.04,2,3677,91.67,Lufthansa
+IAH,LIM,MH,International,24,4.17,5.29,469.25,4,3677,83.33,Malaysia Airlines
+HOU,MBJ,NZ,International,24,10.08,11.88,170.33,8,1282,66.67,Air New Zealand
+IAH,VIE,IB,International,24,7.54,7.75,686.79,2,5413,91.67,Iberia
+IAH,VIE,LH,International,24,9.75,11.12,687.25,5,5413,79.17,Lufthansa
+IAH,SCL,AF,International,24,5.58,6.04,629.62,3,4968,87.5,Air France
+HOU,MEX,SK,International,24,11.17,13.54,103.83,6,741,75.0,Scandinavian Airlines
+HOU,MBJ,AV,International,24,5.21,5.42,168.62,4,1282,83.33,Avianca
+HOU,MEX,TG,International,24,7.54,9.92,99.29,5,741,79.17,Thai Airways
+IAH,ZRH,F9,International,24,4.58,6.62,672.54,5,5304,79.17,Frontier Airlines
+IAH,ZRH,CX,International,24,0.62,1.38,672.38,1,5304,95.83,Cathay Pacific
+IAH,ZRH,LA,International,24,3.67,4.75,671.62,5,5304,79.17,LATAM Airlines
+IAH,YYZ,EY,International,24,9.62,11.0,173.33,6,1301,75.0,Etihad Airways
+IAH,SEA,CM,Domestic,24,4.88,5.92,257.92,3,1874,87.5,Copa Airlines
+IAH,SEA,F9,Domestic,24,12.92,14.12,257.75,5,1874,79.17,Frontier Airlines
+IAH,BKK,NZ,International,24,4.08,4.96,1170.38,3,9281,87.5,Air New Zealand
+HOU,MEX,MH,International,24,2.12,2.83,102.21,1,741,95.83,Malaysia Airlines
+IAH,NRT,TG,International,24,1.38,1.96,875.04,2,6924,91.67,Thai Airways
+IAH,AKL,LH,International,24,8.92,9.62,1111.38,3,8831,87.5,Lufthansa
+IAH,NRT,SQ,International,24,8.46,9.5,876.62,4,6924,83.33,Singapore Airlines
+IAH,LIM,B6,International,24,23.04,25.08,468.08,5,3677,79.17,JetBlue Airways
+IAH,NRT,EK,International,24,4.25,4.12,874.5,2,6924,91.67,Emirates
+IAH,LHR,WN,International,24,13.46,14.58,611.96,5,4822,79.17,Southwest Airlines
+IAH,SEA,KE,Domestic,24,2.62,3.92,258.0,4,1874,83.33,Korean Air
+IAH,BKK,F9,International,24,4.33,5.17,1170.92,3,9281,87.5,Frontier Airlines
+IAH,LHR,QF,International,24,6.21,8.25,610.75,8,4822,66.67,Qantas Airways
+HOU,SEA,F9,Domestic,24,9.67,12.92,261.04,9,1874,62.5,Frontier Airlines
+IAH,GRU,EK,International,24,7.04,8.67,606.88,5,4767,79.17,Emirates
+HOU,SEA,NH,Domestic,24,7.33,7.83,260.42,6,1874,75.0,ANA All Nippon Airways
+IAH,GDL,CM,International,24,4.46,5.67,117.5,5,865,79.17,Copa Airlines
+IAH,SEA,NK,Domestic,24,19.83,20.38,257.46,6,1874,75.0,Spirit Airlines
+IAH,VIE,B6,International,24,6.12,8.17,688.17,4,5413,83.33,JetBlue Airways
+IAH,VIE,AC,International,24,6.75,7.83,685.25,4,5413,83.33,Air Canada
+IAH,LIM,TK,International,24,5.71,6.5,469.38,4,3677,83.33,Turkish Airlines
+IAH,VIE,SK,International,24,8.29,12.29,687.67,7,5413,70.83,Scandinavian Airlines
+IAH,NRT,CX,International,24,3.08,3.62,876.29,1,6924,95.83,Cathay Pacific
+IAH,VIE,OZ,International,24,0.62,1.42,685.08,1,5413,95.83,Asiana Airlines
+IAH,ADD,NK,International,24,4.58,6.25,1149.33,5,9127,79.17,Spirit Airlines
+IAH,AUH,AC,International,24,13.88,15.21,1024.08,10,8141,58.33,Air Canada
+IAH,SEA,LH,Domestic,24,7.12,8.29,258.38,3,1874,87.5,Lufthansa
+HOU,SEA,EK,Domestic,24,2.83,3.12,261.08,3,1874,87.5,Emirates
+HOU,SEA,SQ,Domestic,24,12.58,14.0,258.5,6,1874,75.0,Singapore Airlines
+HOU,SFO,AS,Domestic,24,5.5,7.42,226.62,4,1635,83.33,Alaska Airlines
+IAH,FCO,CM,International,24,11.33,13.96,707.21,7,5589,70.83,Copa Airlines
+HOU,PUJ,EY,International,24,6.17,6.67,242.75,5,1876,79.17,Etihad Airways
+HOU,PUJ,IB,International,24,4.25,6.96,243.92,5,1876,79.17,Iberia
+IAH,ADD,UA,International,24,3.54,4.04,1150.67,3,9127,87.5,United Airlines
+HOU,CUN,ET,International,24,3.96,6.04,119.5,5,874,79.17,Ethiopian Airlines
+IAH,HND,BA,International,24,2.33,3.54,874.79,2,6924,91.67,British Airways
+IAH,BOS,LA,Domestic,24,5.33,8.21,223.67,6,1597,75.0,LATAM Airlines
+IAH,SIN,F9,International,24,6.75,8.79,1202.54,4,9534,83.33,Frontier Airlines
+IAH,GRU,AS,International,24,13.46,14.46,605.0,4,4767,83.33,Alaska Airlines
+IAH,BOG,LA,International,24,5.46,7.88,260.33,5,2006,79.17,LATAM Airlines
+IAH,ADD,EK,International,24,11.17,13.5,1151.46,6,9127,75.0,Emirates
+IAH,YVR,IB,International,24,7.5,10.46,237.92,7,1825,70.83,Iberia
+HOU,PUJ,SK,International,24,7.25,8.67,244.08,5,1876,79.17,Scandinavian Airlines
+IAH,BKK,WN,International,24,8.42,10.83,1170.12,6,9281,75.0,Southwest Airlines
+IAH,BOS,AC,Domestic,24,16.96,20.46,221.58,8,1597,66.67,Air Canada
+IAH,FRA,KE,International,24,7.79,9.29,657.21,5,5198,79.17,Korean Air
+IAH,SFO,NH,Domestic,24,0.67,0.88,228.54,1,1635,95.83,ANA All Nippon Airways
+HOU,PUJ,LX,International,24,0.0,0.0,244.08,0,1876,100.0,Swiss International
+IAH,FCO,NH,International,24,3.04,4.75,706.79,4,5589,83.33,ANA All Nippon Airways
+IAH,MEX,AF,International,24,5.5,8.62,102.71,6,737,75.0,Air France
+IAH,SYD,AF,International,24,10.38,11.79,1082.04,5,8591,79.17,Air France
+IAH,YVR,OZ,International,24,1.71,1.88,238.04,2,1825,91.67,Asiana Airlines
+IAH,LHR,F9,International,24,5.38,7.04,612.29,6,4822,75.0,Frontier Airlines
+IAH,FRA,UA,International,24,7.5,9.58,659.08,6,5198,75.0,United Airlines
+IAH,YYZ,AF,International,24,1.75,2.5,172.12,1,1301,95.83,Air France
+IAH,LHR,LX,International,24,20.21,21.29,612.67,4,4822,83.33,Swiss International
+IAH,MEX,AZ,International,24,10.83,11.92,101.12,4,737,83.33,ITA Airways
+IAH,SYD,NK,International,24,8.17,10.29,1083.83,7,8591,70.83,Spirit Airlines
+IAH,AKL,JL,International,24,2.67,3.88,1113.75,3,8831,87.5,Japan Airlines
+IAH,ICN,SK,International,24,7.71,9.5,890.08,5,7062,79.17,Scandinavian Airlines
+IAH,BOS,CX,Domestic,24,5.67,6.62,220.38,4,1597,83.33,Cathay Pacific
+HOU,CUN,LA,International,24,4.25,4.42,119.12,5,874,79.17,LATAM Airlines
+IAH,ICN,BA,International,24,5.0,6.83,893.88,3,7062,87.5,British Airways
+HOU,CUN,LH,International,24,7.96,8.5,118.17,5,874,79.17,Lufthansa
+IAH,YYZ,QF,International,24,3.92,4.04,173.71,4,1301,83.33,Qantas Airways
+IAH,YYZ,SK,International,24,3.46,4.08,172.12,2,1301,91.67,Scandinavian Airlines
+IAH,BOS,SK,Domestic,23,9.43,11.78,223.43,6,1597,73.91,Scandinavian Airlines
+IAH,AKL,TG,International,23,8.43,11.91,1113.48,7,8831,69.57,Thai Airways
+IAH,YYZ,ET,International,23,8.74,12.39,172.74,6,1301,73.91,Ethiopian Airlines
+HOU,CUN,KL,International,23,12.13,15.74,118.3,7,874,69.57,KLM Royal Dutch
+IAH,ICN,NK,International,23,15.78,18.96,893.65,8,7062,65.22,Spirit Airlines
+IAH,ICN,LA,International,23,3.74,3.57,892.48,2,7062,91.3,LATAM Airlines
+IAH,ICN,JL,International,23,1.3,2.04,891.13,2,7062,91.3,Japan Airlines
+HOU,CUN,MH,International,23,9.0,11.09,117.83,7,874,69.57,Malaysia Airlines
+HOU,MBJ,F9,International,23,9.7,10.91,169.26,7,1282,69.57,Frontier Airlines
+IAH,DXB,KL,International,23,10.61,12.09,1029.09,5,8150,78.26,KLM Royal Dutch
+IAH,AKL,ET,International,23,9.83,12.22,1112.57,6,8831,73.91,Ethiopian Airlines
+IAH,ICN,UA,International,23,3.35,4.26,892.22,3,7062,86.96,United Airlines
+IAH,CPH,OZ,International,23,2.87,4.39,667.7,4,5276,82.61,Asiana Airlines
+IAH,CPH,NZ,International,23,8.04,8.52,670.0,3,5276,86.96,Air New Zealand
+IAH,MEX,CX,International,23,7.13,7.91,102.13,4,737,82.61,Cathay Pacific
+IAH,SYD,UA,International,23,2.35,2.57,1082.0,2,8591,91.3,United Airlines
+IAH,SYD,SK,International,23,7.22,8.87,1083.43,5,8591,78.26,Scandinavian Airlines
+IAH,SYD,QR,International,23,9.13,10.48,1084.26,6,8591,73.91,Qatar Airways
+IAH,MEX,MH,International,23,4.87,5.83,100.74,6,737,73.91,Malaysia Airlines
+IAH,CPH,EY,International,23,8.13,10.0,667.87,6,5276,73.91,Etihad Airways
+IAH,CPH,ET,International,23,5.83,7.52,668.48,4,5276,82.61,Ethiopian Airlines
+IAH,YVR,QR,International,23,1.91,2.26,237.65,2,1825,91.3,Qatar Airways
+IAH,MEX,AV,International,23,15.22,19.26,101.17,8,737,65.22,Avianca
+HOU,SEA,B6,Domestic,23,13.7,16.39,259.13,7,1874,69.57,JetBlue Airways
+IAH,GDL,SQ,International,23,7.0,8.83,116.52,7,865,69.57,Singapore Airlines
+IAH,GDL,SK,International,23,3.65,4.13,117.7,4,865,82.61,Scandinavian Airlines
+IAH,BOG,KE,International,23,10.78,13.26,260.7,6,2006,73.91,Korean Air
+IAH,BOG,EK,International,23,3.35,3.3,258.78,1,2006,95.65,Emirates
+HOU,PUJ,LA,International,23,3.13,4.87,244.57,3,1876,86.96,LATAM Airlines
+IAH,MEX,TK,International,23,2.78,2.17,101.65,4,737,82.61,Turkish Airlines
+IAH,FRA,DL,International,23,6.35,7.96,658.74,5,5198,78.26,Delta Air Lines
+HOU,CUN,IB,International,23,5.0,6.04,119.13,5,874,78.26,Iberia
+HOU,CUN,DL,International,23,6.43,8.35,119.65,6,874,73.91,Delta Air Lines
+IAH,CPH,UA,International,23,3.96,4.39,670.65,5,5276,78.26,United Airlines
+IAH,SFO,TG,Domestic,23,4.96,6.87,229.17,4,1635,82.61,Thai Airways
+HOU,PUJ,QR,International,23,6.61,8.74,244.43,4,1876,82.61,Qatar Airways
+IAH,MEX,F9,International,23,9.96,10.96,101.48,3,737,86.96,Frontier Airlines
+IAH,GRU,F9,International,23,6.17,7.74,606.65,5,4767,78.26,Frontier Airlines
+HOU,SEA,IB,Domestic,23,4.96,5.91,258.74,3,1874,86.96,Iberia
+HOU,SEA,EY,Domestic,23,5.35,6.43,259.3,5,1874,78.26,Etihad Airways
+IAH,SFO,AS,Domestic,23,11.7,11.74,228.17,2,1635,91.3,Alaska Airlines
+IAH,SEA,SQ,Domestic,23,3.17,3.65,258.39,4,1874,82.61,Singapore Airlines
+IAH,BOS,AF,Domestic,23,3.74,4.74,222.61,5,1597,78.26,Air France
+IAH,FRA,AS,International,23,6.35,6.3,659.52,1,5198,95.65,Alaska Airlines
+IAH,HND,LX,International,23,10.91,13.04,874.96,5,6924,78.26,Swiss International
+IAH,HND,LA,International,23,16.83,19.04,873.83,6,6924,73.91,LATAM Airlines
+IAH,ADD,KE,International,23,5.61,6.13,1151.13,4,9127,82.61,Korean Air
+IAH,ADD,TK,International,23,3.91,5.04,1149.78,3,9127,86.96,Turkish Airlines
+IAH,ADD,SK,International,23,5.57,5.57,1149.65,4,9127,82.61,Scandinavian Airlines
+IAH,AKL,LX,International,23,4.57,5.65,1114.96,4,8831,82.61,Swiss International
+IAH,FCO,EY,International,23,3.52,4.87,710.09,3,5589,86.96,Etihad Airways
+IAH,FCO,B6,International,23,7.26,8.78,709.96,5,5589,78.26,JetBlue Airways
+HOU,PUJ,SQ,International,23,8.43,10.17,246.43,7,1876,69.57,Singapore Airlines
+IAH,CPH,JL,International,23,3.43,4.57,667.78,3,5276,86.96,Japan Airlines
+IAH,CPH,IB,International,23,7.74,8.26,669.78,3,5276,86.96,Iberia
+IAH,VIE,AF,International,23,5.09,6.96,683.91,4,5413,82.61,Air France
+IAH,VIE,TK,International,23,3.78,4.57,685.09,4,5413,82.61,Turkish Airlines
+IAH,AUH,AA,International,23,10.87,13.43,1028.78,6,8141,73.91,American Airlines
+IAH,DXB,UA,International,23,15.96,17.17,1029.17,6,8150,73.91,United Airlines
+IAH,SEA,OZ,Domestic,23,14.78,16.43,260.7,5,1874,78.26,Asiana Airlines
+IAH,SEA,NZ,Domestic,23,3.17,3.96,258.52,4,1874,82.61,Air New Zealand
+IAH,NRT,AC,International,23,2.7,4.96,874.96,3,6924,86.96,Air Canada
+IAH,ADD,MS,International,23,9.22,11.83,1150.87,9,9127,60.87,EgyptAir
+IAH,HND,OS,International,23,3.78,4.87,874.83,3,6924,86.96,Austrian Airlines
+IAH,BKK,OZ,International,23,8.35,11.43,1169.57,5,9281,78.26,Asiana Airlines
+HOU,MBJ,MH,International,23,1.43,2.52,169.43,2,1282,91.3,Malaysia Airlines
+HOU,SFO,CM,Domestic,23,1.74,2.57,226.35,1,1635,95.65,Copa Airlines
+IAH,LIM,EY,International,23,8.7,11.17,469.04,6,3677,73.91,Etihad Airways
+IAH,YVR,F9,International,23,24.13,25.91,236.52,9,1825,60.87,Frontier Airlines
+HOU,SEA,OS,Domestic,23,0.65,1.09,260.09,1,1874,95.65,Austrian Airlines
+HOU,MEX,NZ,International,23,3.57,3.74,103.17,2,741,91.3,Air New Zealand
+IAH,AUH,NK,International,23,9.04,10.87,1026.57,7,8141,69.57,Spirit Airlines
+HOU,MBJ,QF,International,23,5.48,6.17,169.65,6,1282,73.91,Qantas Airways
+IAH,BKK,LA,International,23,5.43,5.43,1171.0,3,9281,86.96,LATAM Airlines
+IAH,SEA,EK,Domestic,23,3.13,3.91,259.48,2,1874,91.3,Emirates
+IAH,SEA,AC,Domestic,23,1.48,2.13,260.04,2,1874,91.3,Air Canada
+IAH,PVG,CM,International,23,8.74,9.39,987.26,4,7823,82.61,Copa Airlines
+IAH,DXB,B6,International,23,15.35,20.04,1029.83,12,8150,47.83,JetBlue Airways
+IAH,BKK,BA,International,23,21.74,24.13,1168.78,6,9281,73.91,British Airways
+HOU,MEX,AZ,International,23,4.48,6.17,101.39,3,741,86.96,ITA Airways
+IAH,LIM,OS,International,23,3.74,4.78,466.91,3,3677,86.96,Austrian Airlines
+IAH,LIM,NK,International,23,10.74,12.65,470.52,4,3677,82.61,Spirit Airlines
+IAH,BKK,SK,International,23,1.74,2.83,1170.48,2,9281,91.3,Scandinavian Airlines
+IAH,SCL,TK,International,23,1.7,3.09,629.48,2,4968,91.3,Turkish Airlines
+IAH,SCL,NH,International,23,8.57,11.0,631.83,6,4968,73.91,ANA All Nippon Airways
+IAH,DOH,LA,International,23,4.61,5.35,1016.26,2,8040,91.3,LATAM Airlines
+IAH,CPH,B6,International,23,11.26,13.09,668.7,5,5276,78.26,JetBlue Airways
+IAH,ZRH,KE,International,23,11.87,12.91,672.39,5,5304,78.26,Korean Air
+IAH,ZRH,EK,International,23,3.35,3.78,673.09,2,5304,91.3,Emirates
+HOU,CUN,QF,International,23,4.43,5.35,118.52,4,874,82.61,Qantas Airways
+IAH,ICN,QR,International,23,1.22,1.83,893.13,1,7062,95.65,Qatar Airways
+IAH,ICN,QF,International,23,6.83,7.26,892.22,7,7062,69.57,Qantas Airways
+IAH,ZRH,AA,International,23,5.7,8.17,673.48,6,5304,73.91,American Airlines
+IAH,ZRH,TG,International,23,3.43,4.48,671.65,4,5304,82.61,Thai Airways
+IAH,YYZ,KL,International,23,6.0,6.0,172.52,4,1301,82.61,KLM Royal Dutch
+IAH,YYZ,F9,International,23,9.57,11.04,171.22,6,1301,73.91,Frontier Airlines
+IAH,ZRH,SQ,International,23,7.91,10.26,672.87,6,5304,73.91,Singapore Airlines
+IAH,ICN,OS,International,22,13.55,14.68,892.23,6,7062,72.73,Austrian Airlines
+IAH,ICN,LX,International,22,2.14,2.23,894.05,3,7062,86.36,Swiss International
+IAH,ICN,IB,International,22,3.91,4.18,891.68,4,7062,81.82,Iberia
+IAH,ICN,F9,International,22,3.18,4.73,891.27,3,7062,86.36,Frontier Airlines
+IAH,ZRH,UA,International,22,2.05,3.77,670.82,3,5304,86.36,United Airlines
+IAH,ZRH,TK,International,22,3.18,3.05,672.91,2,5304,90.91,Turkish Airlines
+IAH,ZRH,MS,International,22,17.86,19.23,673.09,6,5304,72.73,EgyptAir
+IAH,LIM,SQ,International,22,3.41,4.95,469.41,3,3677,86.36,Singapore Airlines
+IAH,LIM,KL,International,22,5.27,7.59,467.23,6,3677,72.73,KLM Royal Dutch
+IAH,VIE,WN,International,22,4.82,6.82,682.82,4,5413,81.82,Southwest Airlines
+IAH,VIE,KE,International,22,5.55,6.41,685.64,4,5413,81.82,Korean Air
+IAH,VIE,CX,International,22,0.68,0.86,686.64,1,5413,95.45,Cathay Pacific
+HOU,SFO,EY,Domestic,22,5.77,8.18,227.64,5,1635,77.27,Etihad Airways
+IAH,LIM,CM,International,22,4.18,5.73,469.32,3,3677,86.36,Copa Airlines
+IAH,LHR,OZ,International,22,5.5,6.82,610.91,5,4822,77.27,Asiana Airlines
+IAH,LHR,NZ,International,22,10.18,12.41,611.36,6,4822,72.73,Air New Zealand
+IAH,GRU,JL,International,22,12.95,14.18,604.27,5,4767,77.27,Japan Airlines
+HOU,SEA,UA,Domestic,22,2.05,2.68,259.05,3,1874,86.36,United Airlines
+IAH,CPH,NK,International,22,12.18,14.18,668.41,8,5276,63.64,Spirit Airlines
+HOU,SEA,CX,Domestic,22,2.45,4.68,259.64,3,1874,86.36,Cathay Pacific
+IAH,GDL,QF,International,22,4.05,4.91,117.73,2,865,90.91,Qantas Airways
+IAH,GDL,MS,International,22,4.32,4.41,116.5,3,865,86.36,EgyptAir
+IAH,MEX,BA,International,22,4.41,4.77,100.27,4,737,81.82,British Airways
+IAH,SYD,MS,International,22,2.0,2.82,1082.91,2,8591,90.91,EgyptAir
+IAH,SYD,LH,International,22,0.68,1.23,1083.14,1,8591,95.45,Lufthansa
+IAH,LHR,DL,International,22,2.95,3.95,613.36,3,4822,86.36,Delta Air Lines
+IAH,LHR,CM,International,22,14.23,16.86,613.27,7,4822,68.18,Copa Airlines
+IAH,YVR,TK,International,22,8.14,10.14,238.14,6,1825,72.73,Turkish Airlines
+IAH,YVR,LH,International,22,5.41,6.18,236.5,3,1825,86.36,Lufthansa
+IAH,GDL,AC,International,22,3.59,5.55,118.77,4,865,81.82,Air Canada
+IAH,BOS,B6,Domestic,22,9.32,11.05,221.59,7,1597,68.18,JetBlue Airways
+IAH,CPH,SQ,International,22,1.5,2.23,668.91,2,5276,90.91,Singapore Airlines
+IAH,FRA,SQ,International,22,16.41,18.68,657.14,8,5198,63.64,Singapore Airlines
+IAH,MEX,TG,International,22,16.09,18.41,104.05,5,737,77.27,Thai Airways
+IAH,MEX,OS,International,22,3.59,4.09,101.32,3,737,86.36,Austrian Airlines
+IAH,MEX,NH,International,22,2.91,3.91,101.95,2,737,90.91,ANA All Nippon Airways
+IAH,MEX,LX,International,22,4.59,6.86,102.59,5,737,77.27,Swiss International
+IAH,FRA,AA,International,22,3.27,3.27,659.09,3,5198,86.36,American Airlines
+IAH,FCO,TK,International,22,9.95,10.91,709.05,4,5589,81.82,Turkish Airlines
+IAH,BOG,TG,International,22,12.59,14.32,260.23,8,2006,63.64,Thai Airways
+IAH,SFO,WN,Domestic,22,7.77,9.18,227.59,5,1635,77.27,Southwest Airlines
+IAH,SFO,F9,Domestic,22,7.27,9.73,227.64,6,1635,72.73,Frontier Airlines
+IAH,BOG,IB,International,22,1.59,2.59,259.73,2,2006,90.91,Iberia
+IAH,BOS,AV,Domestic,22,9.82,11.55,222.95,5,1597,77.27,Avianca
+IAH,FRA,BA,International,22,4.86,6.18,656.91,4,5198,81.82,British Airways
+HOU,SFO,NK,Domestic,22,14.5,17.73,226.64,7,1635,68.18,Spirit Airlines
+IAH,HND,LH,International,22,4.45,5.91,874.05,4,6924,81.82,Lufthansa
+IAH,YYZ,AS,International,22,9.86,10.86,172.36,6,1301,72.73,Alaska Airlines
+IAH,NRT,AA,International,22,5.64,6.18,873.95,3,6924,86.36,American Airlines
+HOU,PUJ,AC,International,22,3.86,4.68,245.05,3,1876,86.36,Air Canada
+HOU,PUJ,JL,International,22,1.36,2.0,245.05,1,1876,95.45,Japan Airlines
+IAH,FCO,ET,International,22,3.36,4.0,708.73,2,5589,90.91,Ethiopian Airlines
+HOU,PUJ,EK,International,22,3.59,5.05,243.23,2,1876,90.91,Emirates
+HOU,PUJ,DL,International,22,0.0,0.0,244.5,0,1876,100.0,Delta Air Lines
+IAH,SEA,TK,Domestic,22,7.64,10.27,259.36,6,1874,72.73,Turkish Airlines
+IAH,BOG,AF,International,22,14.73,16.82,260.64,7,2006,68.18,Air France
+IAH,BOG,MS,International,22,3.55,4.32,262.09,2,2006,90.91,EgyptAir
+IAH,SEA,QR,Domestic,22,4.59,5.27,260.91,3,1874,86.36,Qatar Airways
+IAH,ADD,AC,International,22,8.18,10.05,1148.77,7,9127,68.18,Air Canada
+IAH,ADD,QR,International,22,4.45,5.5,1150.77,4,9127,81.82,Qatar Airways
+IAH,ADD,QF,International,22,3.95,3.82,1151.82,3,9127,86.36,Qantas Airways
+IAH,ADD,KL,International,22,10.91,12.18,1148.59,4,9127,81.82,KLM Royal Dutch
+IAH,AKL,AC,International,22,2.73,4.82,1113.14,4,8831,81.82,Air Canada
+IAH,NRT,OS,International,22,5.09,5.41,877.32,3,6924,86.36,Austrian Airlines
+IAH,AUH,SK,International,22,4.86,5.45,1028.14,3,8141,86.36,Scandinavian Airlines
+IAH,AUH,AV,International,22,11.91,12.86,1025.82,5,8141,77.27,Avianca
+IAH,DXB,TK,International,22,2.05,3.82,1028.27,3,8150,86.36,Turkish Airlines
+IAH,BKK,AM,International,22,2.14,3.5,1168.91,3,9281,86.36,Aeromexico
+HOU,MEX,AA,International,22,1.36,2.0,102.05,2,741,90.91,American Airlines
+HOU,MBJ,B6,International,22,1.23,1.05,168.68,1,1282,95.45,JetBlue Airways
+HOU,MBJ,UA,International,22,7.14,9.09,169.32,6,1282,72.73,United Airlines
+IAH,BOG,AZ,International,22,0.68,1.23,260.91,1,2006,95.45,ITA Airways
+IAH,SCL,F9,International,22,12.82,14.95,630.05,8,4968,63.64,Frontier Airlines
+IAH,PVG,NK,International,22,5.86,7.5,988.05,5,7823,77.27,Spirit Airlines
+IAH,PVG,MS,International,22,3.14,4.09,986.59,2,7823,90.91,EgyptAir
+HOU,MBJ,AC,International,22,8.59,10.55,169.68,4,1282,81.82,Air Canada
+IAH,AKL,IB,International,22,13.32,16.36,1114.14,6,8831,72.73,Iberia
+IAH,IST,LH,International,22,4.05,3.82,801.95,3,6322,86.36,Lufthansa
+IAH,ICN,WN,International,22,9.14,9.73,893.68,5,7062,77.27,Southwest Airlines
+IAH,ICN,TK,International,22,7.73,8.95,892.23,3,7062,86.36,Turkish Airlines
+IAH,ZRH,AM,International,22,5.18,5.55,672.95,2,5304,90.91,Aeromexico
+IAH,ZRH,QF,International,22,2.91,3.86,673.45,2,5304,90.91,Qantas Airways
+IAH,ZRH,OZ,International,22,8.5,9.14,673.95,5,5304,77.27,Asiana Airlines
+IAH,YYZ,WN,International,21,15.05,14.48,169.9,6,1301,71.43,Southwest Airlines
+IAH,YYZ,UA,International,21,3.24,4.1,172.43,3,1301,85.71,United Airlines
+IAH,ZRH,NK,International,21,10.33,11.48,672.95,3,5304,85.71,Spirit Airlines
+IAH,YYZ,DL,International,21,2.86,3.67,172.1,4,1301,80.95,Delta Air Lines
+IAH,ICN,ET,International,21,4.67,5.71,890.86,3,7062,85.71,Ethiopian Airlines
+IAH,ICN,AM,International,21,3.24,6.29,894.29,4,7062,80.95,Aeromexico
+IAH,VIE,NH,International,21,6.9,10.57,686.0,5,5413,76.19,ANA All Nippon Airways
+IAH,VIE,QF,International,21,7.9,9.9,688.14,5,5413,76.19,Qantas Airways
+IAH,YVR,MH,International,21,0.71,0.52,238.76,1,1825,95.24,Malaysia Airlines
+IAH,YVR,NH,International,21,3.71,4.9,237.76,2,1825,90.48,ANA All Nippon Airways
+IAH,VIE,F9,International,21,6.95,8.52,686.33,4,5413,80.95,Frontier Airlines
+IAH,VIE,EK,International,21,8.67,9.1,686.29,3,5413,85.71,Emirates
+IAH,SIN,AF,International,21,1.43,2.33,1199.29,2,9534,90.48,Air France
+IAH,SIN,LH,International,21,10.57,11.52,1202.33,4,9534,80.95,Lufthansa
+IAH,SFO,NZ,Domestic,21,6.81,8.81,227.52,4,1635,80.95,Air New Zealand
+IAH,BOG,LX,International,21,18.52,20.19,260.62,4,2006,80.95,Swiss International
+IAH,SEA,SK,Domestic,21,2.14,2.38,260.29,3,1874,85.71,Scandinavian Airlines
+IAH,SFO,TK,Domestic,21,27.57,29.9,229.62,5,1635,76.19,Turkish Airlines
+IAH,SYD,NH,International,21,1.43,1.67,1082.67,2,8591,90.48,ANA All Nippon Airways
+IAH,CPH,OS,International,21,5.14,6.71,669.33,4,5276,80.95,Austrian Airlines
+IAH,SYD,DL,International,21,0.71,1.05,1081.76,1,8591,95.24,Delta Air Lines
+IAH,IST,B6,International,21,1.43,2.05,800.19,2,6322,90.48,JetBlue Airways
+IAH,SIN,QF,International,21,4.81,7.48,1201.14,4,9534,80.95,Qantas Airways
+IAH,SYD,WN,International,21,0.0,0.0,1082.57,0,8591,100.0,Southwest Airlines
+IAH,VIE,AA,International,21,3.52,4.86,686.86,4,5413,80.95,American Airlines
+IAH,VIE,AS,International,21,7.81,8.43,687.48,3,5413,85.71,Alaska Airlines
+IAH,SIN,NH,International,21,7.71,9.76,1201.33,4,9534,80.95,ANA All Nippon Airways
+IAH,FRA,QR,International,21,0.71,1.1,659.33,1,5198,95.24,Qatar Airways
+HOU,CUN,UA,International,21,7.48,8.62,118.57,2,874,90.48,United Airlines
+IAH,DXB,JL,International,21,5.67,7.71,1027.0,4,8150,80.95,Japan Airlines
+HOU,MBJ,TK,International,21,2.9,2.57,168.71,4,1282,80.95,Turkish Airlines
+HOU,MBJ,EK,International,21,0.71,0.86,166.86,1,1282,95.24,Emirates
+IAH,DXB,LX,International,21,8.52,9.14,1029.95,7,8150,66.67,Swiss International
+HOU,MEX,ET,International,21,8.76,10.0,102.48,5,741,76.19,Ethiopian Airlines
+IAH,FCO,QF,International,21,4.71,4.48,708.57,2,5589,90.48,Qantas Airways
+IAH,AUH,ET,International,21,0.71,0.76,1027.9,1,8141,95.24,Ethiopian Airlines
+IAH,NRT,CM,International,21,1.81,3.24,874.62,2,6924,90.48,Copa Airlines
+IAH,FCO,LH,International,21,0.0,0.0,710.76,0,5589,100.0,Lufthansa
+IAH,AUH,TG,International,21,10.48,11.05,1026.29,2,8141,90.48,Thai Airways
+IAH,BKK,EY,International,21,7.57,9.86,1167.62,4,9281,80.95,Etihad Airways
+HOU,MEX,OS,International,21,9.33,12.1,100.67,6,741,71.43,Austrian Airlines
+IAH,KUL,OS,International,21,4.05,5.95,1241.52,4,9875,80.95,Austrian Airlines
+IAH,SCL,AS,International,21,1.38,1.38,631.48,1,4968,95.24,Alaska Airlines
+IAH,DOH,MS,International,21,10.62,12.76,1016.57,5,8040,76.19,EgyptAir
+IAH,DOH,LH,International,21,9.24,10.0,1015.24,6,8040,71.43,Lufthansa
+IAH,PVG,OZ,International,21,9.19,10.67,986.33,6,7823,71.43,Asiana Airlines
+IAH,DOH,TK,International,21,10.76,13.05,1014.52,6,8040,71.43,Turkish Airlines
+IAH,PVG,AA,International,21,5.48,7.14,986.76,4,7823,80.95,American Airlines
+IAH,PVG,F9,International,21,12.57,15.0,988.52,6,7823,71.43,Frontier Airlines
+HOU,CUN,NK,International,21,5.05,5.24,120.19,4,874,80.95,Spirit Airlines
+IAH,BOG,BA,International,21,6.86,7.19,261.0,3,2006,85.71,British Airways
+IAH,DOH,EK,International,21,10.19,10.43,1014.24,5,8040,76.19,Emirates
+IAH,SCL,JL,International,21,2.05,2.05,629.38,1,4968,95.24,Japan Airlines
+IAH,KUL,BA,International,21,1.43,1.9,1244.19,2,9875,90.48,British Airways
+IAH,BKK,OS,International,21,2.48,3.76,1169.19,3,9281,85.71,Austrian Airlines
+IAH,BKK,KL,International,21,14.33,18.43,1168.95,9,9281,57.14,KLM Royal Dutch
+IAH,BKK,KE,International,21,8.52,10.29,1169.19,5,9281,76.19,Korean Air
+IAH,SEA,LX,Domestic,21,7.48,10.29,257.86,6,1874,71.43,Swiss International
+IAH,GRU,KL,International,21,2.62,4.43,605.43,3,4767,85.71,KLM Royal Dutch
+IAH,LIM,NZ,International,21,1.1,2.0,468.95,1,3677,95.24,Air New Zealand
+IAH,MEX,DL,International,21,2.81,2.86,101.14,3,737,85.71,Delta Air Lines
+IAH,HND,NZ,International,21,8.38,10.76,873.0,4,6924,80.95,Air New Zealand
+IAH,GRU,LX,International,21,4.38,5.38,605.81,3,4767,85.71,Swiss International
+IAH,GRU,LH,International,21,6.52,7.52,606.1,4,4767,80.95,Lufthansa
+IAH,HND,QR,International,21,2.14,2.9,874.67,3,6924,85.71,Qatar Airways
+HOU,SFO,AV,Domestic,21,4.1,4.57,229.52,4,1635,80.95,Avianca
+IAH,ZRH,ET,International,21,6.62,7.52,671.38,4,5304,80.95,Ethiopian Airlines
+IAH,BOS,MH,Domestic,21,5.14,5.71,221.0,5,1597,76.19,Malaysia Airlines
+IAH,LHR,MH,International,21,4.14,4.38,611.1,2,4822,90.48,Malaysia Airlines
+IAH,LHR,NH,International,21,3.1,3.57,613.38,2,4822,90.48,ANA All Nippon Airways
+IAH,LHR,QR,International,21,10.52,13.29,611.19,8,4822,61.9,Qatar Airways
+HOU,SFO,QF,Domestic,21,1.67,2.0,226.57,1,1635,95.24,Qantas Airways
+IAH,BOS,QR,Domestic,21,5.1,4.9,223.43,3,1597,85.71,Qatar Airways
+IAH,ADD,CX,International,21,1.95,2.62,1152.33,1,9127,95.24,Cathay Pacific
+IAH,ADD,LA,International,21,3.9,5.24,1151.19,4,9127,80.95,LATAM Airlines
+HOU,SEA,BA,Domestic,21,13.1,14.52,259.76,6,1874,71.43,British Airways
+IAH,GDL,AZ,International,21,4.62,5.0,119.62,3,865,85.71,ITA Airways
+IAH,GDL,DL,International,21,14.0,18.19,117.14,7,865,66.67,Delta Air Lines
+IAH,GDL,KL,International,21,0.71,0.67,117.52,1,865,95.24,KLM Royal Dutch
+IAH,GDL,AA,International,21,9.33,12.57,118.0,6,865,71.43,American Airlines
+IAH,MEX,MS,International,21,15.71,17.52,101.29,8,737,61.9,EgyptAir
+IAH,ICN,B6,International,20,5.1,6.4,892.55,4,7062,80.0,JetBlue Airways
+IAH,YVR,AA,International,20,5.0,6.15,235.75,2,1825,90.0,American Airlines
+IAH,CPH,AM,International,20,1.5,2.5,668.9,2,5276,90.0,Aeromexico
+IAH,YVR,CX,International,20,7.05,7.3,238.25,2,1825,90.0,Cathay Pacific
+IAH,CDG,OS,International,20,5.7,6.0,676.15,3,5338,85.0,Austrian Airlines
+IAH,CPH,AC,International,20,4.7,6.0,670.2,3,5276,85.0,Air Canada
+IAH,VIE,BA,International,20,5.85,6.6,687.75,2,5413,90.0,British Airways
+IAH,VIE,DL,International,20,3.35,3.9,685.4,3,5413,85.0,Delta Air Lines
+IAH,YVR,JL,International,20,4.95,6.9,238.35,3,1825,85.0,Japan Airlines
+IAH,SFO,AA,Domestic,20,3.6,5.85,227.75,3,1635,85.0,American Airlines
+IAH,SEA,WN,Domestic,20,7.2,7.15,260.9,5,1874,75.0,Southwest Airlines
+IAH,SFO,AF,Domestic,20,1.25,1.15,225.35,1,1635,95.0,Air France
+IAH,SFO,AC,Domestic,20,6.15,7.9,226.15,3,1635,85.0,Air Canada
+IAH,BOG,ET,International,20,8.9,11.75,261.4,5,2006,75.0,Ethiopian Airlines
+IAH,BOG,KL,International,20,0.75,1.55,259.8,1,2006,95.0,KLM Royal Dutch
+IAH,SFO,QF,Domestic,20,8.8,10.1,229.25,4,1635,80.0,Qantas Airways
+IAH,SFO,LA,Domestic,20,6.4,7.4,225.9,5,1635,75.0,LATAM Airlines
+IAH,SIN,BA,International,20,7.7,9.05,1201.6,2,9534,90.0,British Airways
+IAH,SYD,OZ,International,20,5.1,6.1,1083.25,4,8591,80.0,Asiana Airlines
+IAH,SYD,TK,International,20,1.6,1.85,1083.45,2,8591,90.0,Turkish Airlines
+IAH,VIE,AM,International,20,11.0,11.55,686.6,4,5413,80.0,Aeromexico
+IAH,VIE,AV,International,20,3.1,4.4,684.35,4,5413,80.0,Avianca
+IAH,CPH,TK,International,20,10.7,12.5,668.3,5,5276,75.0,Turkish Airlines
+IAH,IST,F9,International,20,10.35,13.25,799.9,6,6322,70.0,Frontier Airlines
+IAH,SYD,AM,International,20,9.85,10.75,1084.15,8,8591,60.0,Aeromexico
+IAH,SYD,NZ,International,20,3.75,5.65,1083.9,5,8591,75.0,Air New Zealand
+IAH,YVR,CM,International,20,3.6,5.3,237.1,3,1825,85.0,Copa Airlines
+IAH,YVR,UA,International,20,3.0,4.6,235.7,4,1825,80.0,United Airlines
+IAH,ICN,LH,International,20,8.05,11.05,892.35,6,7062,70.0,Lufthansa
+IAH,YYZ,QR,International,20,1.45,1.85,170.65,1,1301,95.0,Qatar Airways
+IAH,AKL,WN,International,20,3.3,4.75,1113.1,2,8831,90.0,Southwest Airlines
+IAH,DOH,IB,International,20,9.3,10.85,1014.85,4,8040,80.0,Iberia
+IAH,DOH,ET,International,20,0.85,0.9,1016.4,1,8040,95.0,Ethiopian Airlines
+IAH,PTY,AF,International,20,3.9,4.4,267.25,5,2046,75.0,Air France
+IAH,PVG,CX,International,20,3.1,4.9,986.05,3,7823,85.0,Cathay Pacific
+IAH,PVG,JL,International,20,7.0,9.1,987.05,5,7823,75.0,Japan Airlines
+IAH,PVG,KE,International,20,3.7,4.25,987.65,2,7823,90.0,Korean Air
+IAH,SCL,AM,International,20,9.2,10.75,632.35,5,4968,75.0,Aeromexico
+IAH,DOH,KL,International,20,8.9,12.2,1013.75,8,8040,60.0,KLM Royal Dutch
+IAH,DOH,AZ,International,20,3.75,4.3,1016.6,1,8040,95.0,ITA Airways
+IAH,KUL,CX,International,20,9.05,10.9,1244.7,5,9875,75.0,Cathay Pacific
+IAH,AKL,KE,International,20,11.1,13.6,1114.45,4,8831,80.0,Korean Air
+HOU,PUJ,QF,International,20,6.55,9.5,243.6,5,1876,75.0,Qantas Airways
+IAH,FCO,AC,International,20,8.0,10.1,709.0,6,5589,70.0,Air Canada
+HOU,PUJ,AV,International,20,2.95,4.4,244.1,3,1876,85.0,Avianca
+IAH,FCO,EK,International,20,1.5,1.95,710.3,2,5589,90.0,Emirates
+IAH,FCO,F9,International,20,7.25,9.25,710.25,4,5589,80.0,Frontier Airlines
+IAH,AUH,AZ,International,20,12.55,13.4,1026.9,4,8141,80.0,ITA Airways
+HOU,MEX,UA,International,20,2.95,3.55,101.65,2,741,90.0,United Airlines
+IAH,AUH,WN,International,20,6.2,6.1,1026.85,2,8141,90.0,Southwest Airlines
+IAH,NRT,JL,International,20,6.25,7.5,875.6,5,6924,75.0,Japan Airlines
+IAH,AUH,B6,International,20,1.5,1.4,1027.85,2,8141,90.0,JetBlue Airways
+IAH,BKK,CX,International,20,7.7,8.75,1172.7,6,9281,70.0,Cathay Pacific
+HOU,MEX,QR,International,20,22.05,23.95,103.55,6,741,70.0,Qatar Airways
+IAH,AKL,CX,International,20,9.15,9.15,1114.4,4,8831,80.0,Cathay Pacific
+IAH,NRT,TK,International,20,14.4,16.9,875.95,6,6924,70.0,Turkish Airlines
+IAH,NRT,MH,International,20,3.05,3.5,876.8,2,6924,90.0,Malaysia Airlines
+HOU,MBJ,OZ,International,20,10.5,13.0,169.45,7,1282,65.0,Asiana Airlines
+HOU,MEX,BA,International,20,20.55,22.25,101.5,6,741,70.0,British Airways
+IAH,BKK,EK,International,20,4.5,5.2,1169.8,4,9281,80.0,Emirates
+IAH,BKK,QF,International,20,1.85,2.75,1168.6,1,9281,95.0,Qantas Airways
+IAH,SEA,AZ,Domestic,20,2.3,3.25,257.1,2,1874,90.0,ITA Airways
+IAH,SEA,EY,Domestic,20,2.6,4.7,258.95,3,1874,85.0,Etihad Airways
+IAH,SEA,IB,Domestic,20,5.15,6.15,258.75,3,1874,85.0,Iberia
+IAH,BOG,CM,International,20,6.1,8.45,259.4,4,2006,80.0,Copa Airlines
+IAH,FRA,OS,International,20,6.3,7.6,660.65,3,5198,85.0,Austrian Airlines
+IAH,GDL,LA,International,20,4.35,5.3,117.5,4,865,80.0,LATAM Airlines
+IAH,GDL,AV,International,20,1.8,2.6,117.7,2,865,90.0,Avianca
+IAH,FCO,TG,International,20,9.75,10.7,708.3,4,5589,80.0,Thai Airways
+HOU,PUJ,NH,International,20,1.5,1.6,244.5,2,1876,90.0,ANA All Nippon Airways
+IAH,FRA,MS,International,20,3.3,3.45,658.5,4,5198,80.0,EgyptAir
+IAH,FCO,SK,International,20,11.25,13.9,708.4,5,5589,75.0,Scandinavian Airlines
+IAH,FCO,KL,International,20,14.1,15.6,707.25,4,5589,80.0,KLM Royal Dutch
+IAH,GRU,SK,International,20,7.1,7.05,608.2,4,4767,80.0,Scandinavian Airlines
+IAH,GDL,OZ,International,20,7.35,8.9,117.7,3,865,85.0,Asiana Airlines
+IAH,GRU,OS,International,20,3.3,3.8,605.95,4,4767,80.0,Austrian Airlines
+IAH,AKL,AZ,International,20,3.95,4.95,1113.45,3,8831,85.0,ITA Airways
+IAH,AKL,AF,International,20,15.05,16.8,1112.55,4,8831,80.0,Air France
+IAH,AKL,AV,International,20,8.4,9.9,1112.5,3,8831,85.0,Avianca
+IAH,MEX,ET,International,20,19.95,22.05,100.5,6,737,70.0,Ethiopian Airlines
+IAH,GDL,BA,International,20,1.9,3.4,117.9,2,865,90.0,British Airways
+IAH,FRA,EY,International,20,1.5,2.9,658.8,2,5198,90.0,Etihad Airways
+IAH,FRA,JL,International,20,6.5,8.1,659.05,6,5198,70.0,Japan Airlines
+IAH,LIM,OZ,International,20,11.85,12.6,469.8,4,3677,80.0,Asiana Airlines
+IAH,LIM,F9,International,20,5.0,7.7,468.55,6,3677,70.0,Frontier Airlines
+IAH,LIM,CX,International,20,9.25,11.3,466.75,5,3677,75.0,Cathay Pacific
+IAH,LIM,QR,International,20,9.3,12.35,469.0,7,3677,65.0,Qatar Airways
+IAH,MAD,CX,International,20,8.95,10.3,651.65,3,5145,85.0,Cathay Pacific
+IAH,MAD,EY,International,20,8.65,10.1,653.2,3,5145,85.0,Etihad Airways
+IAH,HND,F9,International,20,9.9,11.5,875.6,7,6924,65.0,Frontier Airlines
+IAH,LIM,AC,International,20,1.55,2.7,468.85,2,3677,90.0,Air Canada
+IAH,LHR,TG,International,20,11.35,12.0,613.25,4,4822,80.0,Thai Airways
+IAH,LHR,SQ,International,20,4.4,6.5,612.35,3,4822,85.0,Singapore Airlines
+IAH,LIM,AS,International,20,5.5,7.9,469.8,6,3677,70.0,Alaska Airlines
+IAH,HND,AZ,International,20,21.0,24.75,875.55,8,6924,60.0,ITA Airways
+IAH,LHR,B6,International,20,7.4,8.1,611.75,4,4822,80.0,JetBlue Airways
+IAH,HND,ET,International,20,11.65,12.45,875.7,5,6924,75.0,Ethiopian Airlines
+IAH,LHR,AZ,International,20,3.1,3.45,613.7,4,4822,80.0,ITA Airways
+IAH,ADD,AV,International,20,4.9,5.65,1150.7,1,9127,95.0,Avianca
+IAH,ZRH,DL,International,20,3.95,4.5,672.05,4,5304,80.0,Delta Air Lines
+IAH,BOS,OS,Domestic,20,7.1,10.05,222.0,6,1597,70.0,Austrian Airlines
+IAH,ZRH,B6,International,20,7.05,8.55,671.2,5,5304,75.0,JetBlue Airways
+IAH,ZRH,AZ,International,20,4.8,5.05,672.15,5,5304,75.0,ITA Airways
+IAH,BOS,MS,Domestic,20,3.0,4.35,223.2,2,1597,90.0,EgyptAir
+IAH,ZRH,SK,International,20,8.7,9.4,671.7,6,5304,70.0,Scandinavian Airlines
+IAH,ZRH,AS,International,19,2.58,3.58,673.68,2,5304,89.47,Alaska Airlines
+IAH,ICN,DL,International,19,1.89,2.53,894.53,2,7062,89.47,Delta Air Lines
+IAH,ADD,EY,International,19,3.53,4.74,1149.53,4,9127,78.95,Etihad Airways
+IAH,ICN,EK,International,19,0.79,1.74,892.32,1,7062,94.74,Emirates
+IAH,LHR,AV,International,19,6.58,9.05,611.42,5,4822,73.68,Avianca
+IAH,VIE,LA,International,19,3.11,3.58,685.11,3,5413,84.21,LATAM Airlines
+IAH,YVR,EK,International,19,7.11,8.16,236.32,4,1825,78.95,Emirates
+IAH,YVR,QF,International,19,3.84,5.0,238.95,2,1825,89.47,Qantas Airways
+IAH,BOS,NZ,Domestic,19,5.11,6.26,221.05,3,1597,84.21,Air New Zealand
+IAH,BOS,TG,Domestic,19,11.11,13.11,223.95,5,1597,73.68,Thai Airways
+IAH,VIE,EY,International,19,14.84,16.63,687.95,4,5413,78.95,Etihad Airways
+IAH,IST,AA,International,19,5.37,9.32,801.53,5,6322,73.68,American Airlines
+IAH,CPH,AV,International,19,3.79,4.53,669.16,3,5276,84.21,Avianca
+IAH,IST,OS,International,19,5.42,6.26,800.32,1,6322,94.74,Austrian Airlines
+IAH,BOG,NK,International,19,8.53,9.89,259.95,5,2006,73.68,Spirit Airlines
+IAH,BKK,TK,International,19,5.58,8.32,1167.11,5,9281,73.68,Turkish Airlines
+IAH,BKK,UA,International,19,3.95,5.05,1168.53,3,9281,84.21,United Airlines
+IAH,BOG,AM,International,19,11.21,11.26,259.37,3,2006,84.21,Aeromexico
+IAH,LIM,BA,International,19,8.58,10.05,466.79,3,3677,84.21,British Airways
+IAH,SIN,AS,International,19,7.74,10.05,1203.68,5,9534,73.68,Alaska Airlines
+IAH,SFO,KE,Domestic,19,13.89,17.0,227.16,6,1635,68.42,Korean Air
+IAH,SIN,TK,International,19,3.89,4.74,1200.42,3,9534,84.21,Turkish Airlines
+IAH,SYD,KL,International,19,14.79,16.47,1083.79,5,8591,73.68,KLM Royal Dutch
+IAH,IST,EY,International,19,3.16,3.84,799.47,3,6322,84.21,Etihad Airways
+IAH,SYD,ET,International,19,4.0,5.53,1084.11,4,8591,78.95,Ethiopian Airlines
+IAH,BOS,BA,Domestic,19,4.74,6.26,223.74,4,1597,78.95,British Airways
+IAH,BOG,QR,International,19,8.58,10.26,260.42,5,2006,73.68,Qatar Airways
+IAH,PTY,LA,International,19,5.26,7.53,266.63,5,2046,73.68,LATAM Airlines
+HOU,MBJ,ET,International,19,15.63,17.79,172.26,4,1282,78.95,Ethiopian Airlines
+IAH,PTY,IB,International,19,4.74,6.37,265.58,4,2046,78.95,Iberia
+IAH,BKK,AS,International,19,6.16,8.0,1172.16,5,9281,73.68,Alaska Airlines
+HOU,MBJ,MS,International,19,5.16,6.21,169.11,5,1282,73.68,EgyptAir
+IAH,DXB,ET,International,19,1.74,1.74,1026.53,2,8150,89.47,Ethiopian Airlines
+HOU,MBJ,CM,International,19,6.68,8.32,171.89,3,1282,84.21,Copa Airlines
+IAH,GRU,KE,International,19,3.89,4.58,606.11,3,4767,84.21,Korean Air
+HOU,MEX,NH,International,19,4.47,5.95,104.53,2,741,89.47,ANA All Nippon Airways
+IAH,DXB,QR,International,19,14.21,17.89,1030.11,6,8150,68.42,Qatar Airways
+IAH,NRT,NZ,International,19,1.58,1.74,873.74,2,6924,89.47,Air New Zealand
+HOU,MEX,AC,International,19,10.32,11.74,102.95,6,741,68.42,Air Canada
+HOU,MEX,TK,International,19,5.74,5.26,101.95,5,741,73.68,Turkish Airlines
+IAH,DXB,NZ,International,19,9.74,9.84,1027.42,5,8150,73.68,Air New Zealand
+IAH,DOH,F9,International,19,5.16,6.95,1015.58,5,8040,73.68,Frontier Airlines
+IAH,SCL,SK,International,19,4.63,4.95,630.11,2,4968,89.47,Scandinavian Airlines
+IAH,SCL,AV,International,19,2.0,3.37,629.74,2,4968,89.47,Avianca
+IAH,DOH,NZ,International,19,27.89,30.58,1013.11,6,8040,68.42,Air New Zealand
+IAH,LIM,UA,International,19,14.84,16.68,469.21,4,3677,78.95,United Airlines
+IAH,PVG,LA,International,19,5.74,5.95,987.47,2,7823,89.47,LATAM Airlines
+IAH,KUL,NK,International,19,12.0,14.79,1243.63,4,9875,78.95,Spirit Airlines
+IAH,DOH,AA,International,19,5.05,5.0,1016.11,2,8040,89.47,American Airlines
+IAH,IST,WN,International,19,3.0,3.74,799.21,3,6322,84.21,Southwest Airlines
+IAH,GRU,WN,International,19,3.95,6.58,604.79,5,4767,73.68,Southwest Airlines
+IAH,GRU,TK,International,19,5.95,7.63,603.37,5,4767,73.68,Turkish Airlines
+IAH,KUL,DL,International,19,2.58,4.21,1243.21,2,9875,89.47,Delta Air Lines
+IAH,SEA,LA,Domestic,19,8.63,10.37,258.21,5,1874,73.68,LATAM Airlines
+IAH,SEA,NH,Domestic,19,8.63,10.74,260.63,4,1874,78.95,ANA All Nippon Airways
+IAH,SEA,MH,Domestic,19,4.58,5.79,259.11,4,1874,78.95,Malaysia Airlines
+IAH,SEA,TG,Domestic,19,25.16,28.42,255.84,6,1874,68.42,Thai Airways
+IAH,IST,NK,International,19,5.95,6.42,799.37,3,6322,84.21,Spirit Airlines
+IAH,AKL,AM,International,19,5.58,7.37,1113.11,4,8831,78.95,Aeromexico
+IAH,ZRH,AC,International,19,4.32,4.89,672.21,3,5304,84.21,Air Canada
+IAH,AKL,AS,International,19,6.95,7.32,1113.74,4,8831,78.95,Alaska Airlines
+IAH,MEX,KE,International,19,18.58,23.53,103.11,9,737,52.63,Korean Air
+IAH,FRA,OZ,International,19,1.58,2.0,660.05,2,5198,89.47,Asiana Airlines
+IAH,GDL,MH,International,19,9.95,12.26,117.32,4,865,78.95,Malaysia Airlines
+IAH,GDL,WN,International,19,6.68,9.37,119.53,6,865,68.42,Southwest Airlines
+IAH,GDL,EK,International,19,1.32,2.21,118.37,1,865,94.74,Emirates
+IAH,YYZ,KE,International,19,7.32,9.32,170.58,3,1301,84.21,Korean Air
+IAH,YYZ,NH,International,19,7.16,7.16,173.21,4,1301,78.95,ANA All Nippon Airways
+IAH,ICN,AS,International,19,11.21,12.63,893.26,3,7062,84.21,Alaska Airlines
+IAH,ZRH,CM,International,19,19.58,21.0,674.11,4,5304,78.95,Copa Airlines
+IAH,ZRH,QR,International,19,8.37,8.89,669.63,2,5304,89.47,Qatar Airways
+IAH,FRA,KL,International,19,5.95,7.53,659.0,5,5198,73.68,KLM Royal Dutch
+IAH,MEX,UA,International,19,0.0,0.0,101.89,0,737,100.0,United Airlines
+IAH,GRU,NK,International,19,5.95,7.47,606.95,4,4767,78.95,Spirit Airlines
+HOU,PUJ,AF,International,19,6.68,7.37,246.42,4,1876,78.95,Air France
+IAH,FCO,LX,International,19,4.84,5.42,708.32,1,5589,94.74,Swiss International
+HOU,PUJ,NK,International,19,2.37,3.79,244.53,3,1876,84.21,Spirit Airlines
+IAH,GRU,QF,International,19,7.95,8.84,606.32,5,4767,73.68,Qantas Airways
+IAH,GRU,AV,International,19,10.05,13.84,604.47,6,4767,68.42,Avianca
+IAH,GRU,SQ,International,19,6.16,8.32,606.26,4,4767,78.95,Singapore Airlines
+HOU,PUJ,AZ,International,19,5.37,8.42,244.26,5,1876,73.68,ITA Airways
+HOU,PUJ,BA,International,19,4.89,6.84,245.26,4,1876,78.95,British Airways
+HOU,PUJ,ET,International,19,4.05,5.53,244.32,4,1876,78.95,Ethiopian Airlines
+IAH,GRU,MS,International,19,1.16,1.84,605.37,1,4767,94.74,EgyptAir
+IAH,FCO,AM,International,19,18.53,20.16,706.89,8,5589,57.89,Aeromexico
+IAH,FCO,AF,International,19,0.79,1.53,710.58,1,5589,94.74,Air France
+IAH,FCO,AV,International,19,3.37,4.47,708.05,2,5589,89.47,Avianca
+IAH,AUH,AS,International,19,12.05,14.68,1026.84,6,8141,68.42,Alaska Airlines
+IAH,NRT,B6,International,19,6.16,8.79,876.47,5,6924,73.68,JetBlue Airways
+IAH,PVG,B6,International,19,5.37,7.0,989.11,5,7823,73.68,JetBlue Airways
+IAH,MEX,NK,International,19,15.84,18.0,99.32,6,737,68.42,Spirit Airlines
+IAH,MEX,LA,International,19,5.11,5.63,99.68,5,737,73.68,LATAM Airlines
+IAH,FRA,QF,International,19,6.58,7.16,662.11,4,5198,78.95,Qantas Airways
+IAH,NRT,DL,International,19,5.0,7.05,876.53,4,6924,78.95,Delta Air Lines
+IAH,BOS,IB,Domestic,18,5.28,7.94,222.39,4,1597,77.78,Iberia
+IAH,SFO,DL,Domestic,18,0.83,1.56,224.72,1,1635,94.44,Delta Air Lines
+IAH,SFO,AM,Domestic,18,0.83,1.17,227.67,1,1635,94.44,Aeromexico
+IAH,BOG,SQ,International,18,15.33,16.72,258.33,5,2006,72.22,Singapore Airlines
+IAH,IST,CM,International,18,7.33,9.33,800.28,3,6322,83.33,Copa Airlines
+IAH,SYD,AZ,International,18,3.06,5.5,1082.78,3,8591,83.33,ITA Airways
+IAH,SIN,WN,International,18,6.61,6.89,1200.17,4,9534,77.78,Southwest Airlines
+IAH,SYD,AC,International,18,13.33,13.89,1083.28,1,8591,94.44,Air Canada
+IAH,SIN,UA,International,18,2.72,3.11,1202.28,1,9534,94.44,United Airlines
+IAH,HND,KE,International,18,4.44,5.44,874.72,2,6924,88.89,Korean Air
+IAH,ADD,OS,International,18,3.89,3.89,1148.44,3,9127,83.33,Austrian Airlines
+IAH,CPH,LH,International,18,8.22,9.83,670.33,3,5276,83.33,Lufthansa
+IAH,CPH,QF,International,18,5.44,6.67,668.89,2,5276,88.89,Qantas Airways
+IAH,VIE,AZ,International,18,4.89,7.06,684.94,4,5413,77.78,ITA Airways
+IAH,YVR,SK,International,18,3.06,3.44,236.67,3,1825,83.33,Scandinavian Airlines
+IAH,LHR,AA,International,18,10.78,11.83,611.67,2,4822,88.89,American Airlines
+HOU,CUN,KE,International,18,3.06,4.56,120.56,3,874,83.33,Korean Air
+IAH,LHR,AC,International,18,11.94,14.39,610.94,4,4822,77.78,Air Canada
+IAH,ICN,EY,International,18,22.94,24.22,893.33,5,7062,72.22,Etihad Airways
+HOU,CUN,F9,International,18,7.06,8.56,117.22,3,874,83.33,Frontier Airlines
+IAH,YVR,AZ,International,18,8.94,10.0,238.28,4,1825,77.78,ITA Airways
+IAH,CDG,BA,International,18,9.22,11.44,676.17,5,5338,72.22,British Airways
+IAH,ICN,AC,International,18,5.39,8.94,891.33,6,7062,66.67,Air Canada
+IAH,CPH,AA,International,18,4.5,7.06,668.56,3,5276,83.33,American Airlines
+IAH,LHR,EY,International,18,11.72,12.5,613.28,3,4822,83.33,Etihad Airways
+IAH,IST,AC,International,18,2.83,4.72,800.61,3,6322,83.33,Air Canada
+IAH,VIE,CM,International,18,10.11,9.5,687.11,4,5413,77.78,Copa Airlines
+IAH,BOG,TK,International,18,12.89,15.78,259.89,5,2006,72.22,Turkish Airlines
+IAH,LHR,LH,International,18,4.33,5.5,613.56,3,4822,83.33,Lufthansa
+IAH,BOG,NZ,International,18,10.61,12.56,260.17,5,2006,72.22,Air New Zealand
+IAH,SFO,AV,Domestic,18,7.06,8.83,226.78,5,1635,72.22,Avianca
+IAH,KUL,SK,International,18,4.0,4.44,1244.11,2,9875,88.89,Scandinavian Airlines
+HOU,MEX,NK,International,18,10.17,10.22,103.17,1,741,94.44,Spirit Airlines
+IAH,AKL,EY,International,18,1.5,1.83,1114.61,1,8831,94.44,Etihad Airways
+IAH,AKL,DL,International,18,6.33,8.0,1109.72,6,8831,66.67,Delta Air Lines
+IAH,KUL,TG,International,18,6.72,8.0,1245.44,4,9875,77.78,Thai Airways
+HOU,MEX,OZ,International,18,4.78,5.44,99.94,3,741,83.33,Asiana Airlines
+IAH,PTY,AV,International,18,7.17,7.83,264.67,2,2046,88.89,Avianca
+IAH,PVG,AZ,International,18,3.33,4.56,986.56,4,7823,77.78,ITA Airways
+IAH,PVG,AM,International,18,10.22,10.33,988.39,1,7823,94.44,Aeromexico
+IAH,DXB,EY,International,18,4.61,5.17,1027.33,4,8150,77.78,Etihad Airways
+IAH,DXB,MS,International,18,8.33,11.44,1028.06,5,8150,72.22,EgyptAir
+IAH,DXB,BA,International,18,10.22,12.72,1029.17,7,8150,61.11,British Airways
+IAH,DXB,CM,International,18,0.83,0.56,1027.67,1,8150,94.44,Copa Airlines
+HOU,MBJ,EY,International,18,13.33,14.94,170.22,3,1282,83.33,Etihad Airways
+IAH,LIM,IB,International,18,4.28,5.89,469.0,3,3677,83.33,Iberia
+IAH,SCL,WN,International,18,13.39,15.22,632.44,7,4968,61.11,Southwest Airlines
+IAH,DOH,CX,International,18,9.78,10.17,1014.33,3,8040,83.33,Cathay Pacific
+IAH,IST,KE,International,18,3.17,3.78,800.89,3,6322,83.33,Korean Air
+IAH,IST,NH,International,18,0.0,0.0,799.22,0,6322,100.0,ANA All Nippon Airways
+IAH,GRU,UA,International,18,5.17,7.94,606.56,5,4767,72.22,United Airlines
+IAH,SCL,MS,International,18,10.78,12.11,630.89,3,4968,83.33,EgyptAir
+IAH,DOH,LX,International,18,4.83,7.28,1014.22,5,8040,72.22,Swiss International
+HOU,CUN,NH,International,18,2.11,2.89,120.17,2,874,88.89,ANA All Nippon Airways
+IAH,SCL,KL,International,18,0.0,0.0,630.06,0,4968,100.0,KLM Royal Dutch
+IAH,SCL,EK,International,18,0.0,0.0,630.44,0,4968,100.0,Emirates
+IAH,PVG,SK,International,18,14.0,14.89,987.22,5,7823,72.22,Scandinavian Airlines
+IAH,MAD,AA,International,18,6.89,7.72,654.17,4,5145,77.78,American Airlines
+IAH,PVG,NZ,International,18,6.67,7.61,986.61,2,7823,88.89,Air New Zealand
+IAH,KUL,KL,International,18,6.94,9.39,1245.39,5,9875,72.22,KLM Royal Dutch
+IAH,NRT,IB,International,18,3.17,4.11,875.17,3,6924,83.33,Iberia
+IAH,NRT,LH,International,18,13.33,13.78,874.89,3,6924,83.33,Lufthansa
+IAH,NRT,QR,International,18,2.28,1.94,874.0,2,6924,88.89,Qatar Airways
+IAH,MEX,WN,International,18,0.0,0.0,101.17,0,737,100.0,Southwest Airlines
+IAH,FCO,OS,International,18,0.0,0.0,707.33,0,5589,100.0,Austrian Airlines
+IAH,GRU,B6,International,18,21.11,22.33,606.28,6,4767,66.67,JetBlue Airways
+HOU,PUJ,MS,International,18,4.17,7.0,244.28,5,1876,72.22,EgyptAir
+IAH,AKL,MH,International,18,1.89,3.5,1110.72,2,8831,88.89,Malaysia Airlines
+IAH,ADD,NH,International,18,8.67,11.61,1151.56,5,9127,72.22,ANA All Nippon Airways
+IAH,FCO,AA,International,18,5.39,6.17,708.89,3,5589,83.33,American Airlines
+IAH,NRT,AS,International,18,2.5,3.39,874.72,3,6924,83.33,Alaska Airlines
+IAH,AUH,JL,International,18,0.89,1.44,1026.61,1,8141,94.44,Japan Airlines
+IAH,HND,QF,International,18,6.06,6.33,874.17,1,6924,94.44,Qantas Airways
+IAH,HND,WN,International,18,9.39,11.28,874.33,6,6924,66.67,Southwest Airlines
+HOU,PUJ,KE,International,18,7.11,8.78,241.61,5,1876,72.22,Korean Air
+IAH,ADD,MH,International,18,4.83,5.56,1150.56,1,9127,94.44,Malaysia Airlines
+IAH,AKL,B6,International,18,14.56,16.28,1112.94,5,8831,72.22,JetBlue Airways
+IAH,GDL,CX,International,18,7.94,8.22,115.94,5,865,72.22,Cathay Pacific
+IAH,GDL,NK,International,18,1.94,3.78,115.39,2,865,88.89,Spirit Airlines
+HOU,PUJ,UA,International,18,9.89,10.11,242.89,3,1876,83.33,United Airlines
+IAH,GDL,LH,International,18,3.72,4.44,118.0,3,865,83.33,Lufthansa
+IAH,MEX,AS,International,18,13.33,13.72,103.78,2,737,88.89,Alaska Airlines
+IAH,MEX,KL,International,18,6.61,8.28,102.28,5,737,72.22,KLM Royal Dutch
+IAH,MEX,SK,International,18,2.22,3.17,99.78,1,737,94.44,Scandinavian Airlines
+IAH,ZRH,NZ,International,18,10.44,12.33,671.61,5,5304,72.22,Air New Zealand
+IAH,MEX,EK,International,18,6.89,9.22,102.89,5,737,72.22,Emirates
+IAH,ADD,SQ,International,18,15.06,16.17,1150.89,4,9127,77.78,Singapore Airlines
+IAH,MEX,JL,International,18,4.39,4.28,100.28,3,737,83.33,Japan Airlines
+IAH,ZRH,OS,International,18,19.94,24.78,673.78,7,5304,61.11,Austrian Airlines
+IAH,BOS,NH,Domestic,18,4.94,6.11,222.89,4,1597,77.78,ANA All Nippon Airways
+IAH,AKL,OZ,International,18,13.06,14.78,1112.56,4,8831,77.78,Asiana Airlines
+IAH,AKL,QR,International,18,3.17,5.28,1112.39,3,8831,83.33,Qatar Airways
+IAH,ZRH,AV,International,17,6.88,9.35,673.18,3,5304,82.35,Avianca
+IAH,AKL,UA,International,17,15.18,16.82,1113.18,4,8831,76.47,United Airlines
+IAH,AKL,AA,International,17,6.24,7.53,1112.94,5,8831,70.59,American Airlines
+IAH,FRA,IB,International,17,9.18,11.06,657.18,6,5198,64.71,Iberia
+IAH,FRA,EK,International,17,4.59,5.88,658.41,3,5198,82.35,Emirates
+IAH,GDL,UA,International,17,0.0,0.0,118.47,0,865,100.0,United Airlines
+IAH,CDG,AM,International,17,1.82,3.0,674.0,2,5338,88.24,Aeromexico
+IAH,CDG,CM,International,17,1.76,2.88,676.71,2,5338,88.24,Copa Airlines
+IAH,CDG,IB,International,17,8.41,8.47,678.41,4,5338,76.47,Iberia
+IAH,YVR,TG,International,17,3.47,3.59,237.76,3,1825,82.35,Thai Airways
+IAH,CAI,AS,International,17,3.94,4.0,915.94,2,7257,88.24,Alaska Airlines
+IAH,MEX,AA,International,17,3.88,6.06,99.65,3,737,82.35,American Airlines
+IAH,ADD,AZ,International,17,2.65,3.71,1149.35,3,9127,82.35,ITA Airways
+IAH,GRU,CM,International,17,5.12,7.53,604.06,4,4767,76.47,Copa Airlines
+IAH,ICN,AA,International,17,4.06,6.24,893.0,4,7062,76.47,American Airlines
+IAH,SYD,TG,International,17,4.59,5.06,1083.59,3,8591,82.35,Thai Airways
+IAH,SYD,OS,International,17,4.35,5.12,1084.29,3,8591,82.35,Austrian Airlines
+IAH,SYD,MH,International,17,1.35,1.47,1081.06,1,8591,94.12,Malaysia Airlines
+IAH,HND,TG,International,17,5.76,6.41,876.29,4,6924,76.47,Thai Airways
+IAH,BOS,ET,Domestic,17,8.35,10.0,222.76,3,1597,82.35,Ethiopian Airlines
+IAH,CDG,UA,International,17,1.0,1.18,676.06,1,5338,94.12,United Airlines
+IAH,ICN,TG,International,17,3.94,3.65,893.12,3,7062,82.35,Thai Airways
+HOU,PUJ,MH,International,17,1.18,2.29,243.65,1,1876,94.12,Malaysia Airlines
+IAH,HND,AM,International,17,3.18,3.76,874.24,2,6924,88.24,Aeromexico
+IAH,FRA,AZ,International,17,15.82,17.06,659.41,5,5198,70.59,ITA Airways
+IAH,CDG,LX,International,17,1.76,2.12,676.24,2,5338,88.24,Swiss International
+IAH,CDG,AA,International,17,0.88,1.65,674.47,1,5338,94.12,American Airlines
+HOU,MEX,LX,International,17,1.94,3.82,102.53,2,741,88.24,Swiss International
+IAH,HND,EK,International,17,11.82,14.53,874.47,5,6924,70.59,Emirates
+IAH,HND,KL,International,17,3.35,3.29,875.82,3,6924,82.35,KLM Royal Dutch
+IAH,DXB,OS,International,17,0.88,0.88,1029.18,1,8150,94.12,Austrian Airlines
+HOU,MEX,LA,International,17,8.12,10.53,100.76,5,741,70.59,LATAM Airlines
+IAH,SYD,CX,International,17,14.0,16.24,1082.71,6,8591,64.71,Cathay Pacific
+IAH,PTY,EK,International,17,8.94,12.29,266.59,6,2046,64.71,Emirates
+IAH,ICN,CX,International,17,0.88,0.65,892.82,1,7062,94.12,Cathay Pacific
+HOU,MEX,DL,International,17,3.24,4.06,103.12,3,741,82.35,Delta Air Lines
+IAH,DOH,DL,International,17,0.88,1.24,1013.82,1,8040,94.12,Delta Air Lines
+HOU,MEX,AM,International,17,5.35,7.94,103.47,3,741,82.35,Aeromexico
+IAH,IST,OZ,International,17,0.0,0.0,799.12,0,6322,100.0,Asiana Airlines
+HOU,MEX,AF,International,17,4.12,6.41,100.88,3,741,82.35,Air France
+HOU,MEX,JL,International,17,10.88,13.12,102.35,5,741,70.59,Japan Airlines
+HOU,MEX,KL,International,17,5.24,8.0,102.59,4,741,76.47,KLM Royal Dutch
+IAH,DXB,NH,International,17,3.59,5.29,1026.82,2,8150,88.24,ANA All Nippon Airways
+IAH,SFO,AZ,Domestic,17,6.41,8.29,226.88,2,1635,88.24,ITA Airways
+IAH,LHR,UA,International,17,7.18,7.18,611.82,4,4822,76.47,United Airlines
+IAH,BOS,AM,Domestic,17,15.35,17.0,221.59,7,1597,58.82,Aeromexico
+IAH,SFO,MH,Domestic,17,8.12,10.24,225.65,4,1635,76.47,Malaysia Airlines
+IAH,MAD,TK,International,17,1.76,1.71,651.18,2,5145,88.24,Turkish Airlines
+IAH,ADD,B6,International,17,4.82,6.82,1149.65,4,9127,76.47,JetBlue Airways
+IAH,LHR,AS,International,17,11.12,10.88,610.94,3,4822,82.35,Alaska Airlines
+IAH,CAI,KL,International,17,5.0,6.76,917.88,2,7257,88.24,KLM Royal Dutch
+IAH,DOH,TG,International,17,7.24,7.35,1013.0,2,8040,88.24,Thai Airways
+IAH,PVG,AF,International,17,8.65,11.59,989.41,5,7823,70.59,Air France
+IAH,PTY,UA,International,17,13.82,14.76,264.82,5,2046,70.59,United Airlines
+IAH,AKL,NK,International,17,6.47,8.65,1114.24,3,8831,82.35,Spirit Airlines
+IAH,KUL,EY,International,17,5.94,8.29,1241.65,3,9875,82.35,Etihad Airways
+IAH,PVG,EK,International,17,4.71,4.35,988.35,3,7823,82.35,Emirates
+IAH,DXB,AM,International,17,1.88,2.59,1028.94,2,8150,88.24,Aeromexico
+IAH,KUL,LX,International,17,17.88,20.71,1244.59,7,9875,58.82,Swiss International
+IAH,KUL,AC,International,17,4.29,5.76,1243.76,4,9875,76.47,Air Canada
+IAH,KUL,EK,International,17,2.65,3.94,1243.18,2,9875,88.24,Emirates
+IAH,DXB,LA,International,17,1.71,2.47,1027.29,1,8150,94.12,LATAM Airlines
+IAH,PTY,LX,International,17,5.88,8.35,265.53,4,2046,76.47,Swiss International
+IAH,DOH,OS,International,17,0.88,1.41,1013.76,1,8040,94.12,Austrian Airlines
+IAH,SCL,ET,International,17,6.06,7.35,630.82,5,4968,70.59,Ethiopian Airlines
+IAH,SFO,CM,Domestic,17,14.76,17.12,226.65,5,1635,70.59,Copa Airlines
+IAH,BOG,UA,International,17,1.76,3.12,260.12,2,2006,88.24,United Airlines
+IAH,SIN,AA,International,17,2.12,3.29,1202.0,2,9534,88.24,American Airlines
+IAH,DXB,WN,International,17,10.29,11.59,1028.76,3,8150,82.35,Southwest Airlines
+IAH,SIN,AC,International,17,2.59,3.59,1198.41,1,9534,94.12,Air Canada
+IAH,DXB,TG,International,17,5.76,7.41,1027.12,3,8150,82.35,Thai Airways
+IAH,SIN,CX,International,17,5.82,8.12,1202.0,5,9534,70.59,Cathay Pacific
+IAH,NRT,KE,International,17,17.71,18.71,874.65,3,6924,82.35,Korean Air
+IAH,NRT,NK,International,17,11.88,13.41,876.24,6,6924,64.71,Spirit Airlines
+IAH,AUH,TK,International,17,12.41,14.41,1027.94,4,8141,76.47,Turkish Airlines
+IAH,SFO,BA,Domestic,17,13.94,15.47,229.18,3,1635,82.35,British Airways
+IAH,NRT,SK,International,16,3.81,5.31,875.62,3,6924,81.25,Scandinavian Airlines
+IAH,IST,AZ,International,16,7.62,8.81,801.25,3,6322,81.25,ITA Airways
+IAH,IST,JL,International,16,2.81,5.0,800.12,3,6322,81.25,Japan Airlines
+IAH,IST,AS,International,16,7.44,8.56,801.12,3,6322,81.25,Alaska Airlines
+IAH,DXB,OZ,International,16,8.69,9.69,1028.94,3,8150,81.25,Asiana Airlines
+IAH,GRU,NZ,International,16,17.88,18.94,605.12,2,4767,87.5,Air New Zealand
+IAH,SYD,AS,International,16,0.0,0.0,1084.88,0,8591,100.0,Alaska Airlines
+HOU,CUN,BA,International,16,44.62,45.75,118.56,3,874,81.25,British Airways
+IAH,CAI,OZ,International,16,2.19,2.38,914.56,2,7257,87.5,Asiana Airlines
+IAH,GDL,NZ,International,16,2.56,3.44,117.69,2,865,87.5,Air New Zealand
+IAH,AKL,CM,International,16,0.94,2.0,1113.31,1,8831,93.75,Copa Airlines
+IAH,AKL,BA,International,16,3.19,3.31,1111.75,2,8831,87.5,British Airways
+IAH,YYZ,B6,International,16,1.44,1.19,173.69,1,1301,93.75,JetBlue Airways
+IAH,FRA,F9,International,16,20.25,23.69,660.12,6,5198,62.5,Frontier Airlines
+HOU,PUJ,TG,International,16,3.19,3.81,242.38,2,1876,87.5,Thai Airways
+IAH,DXB,AC,International,16,10.44,13.56,1028.62,4,8150,75.0,Air Canada
+IAH,LHR,AF,International,16,6.25,8.56,609.0,2,4822,87.5,Air France
+IAH,PTY,WN,International,16,19.88,19.94,265.31,5,2046,68.75,Southwest Airlines
+IAH,PVG,MH,International,16,8.62,10.31,986.94,4,7823,75.0,Malaysia Airlines
+IAH,KUL,OZ,International,16,3.44,5.0,1243.75,3,9875,81.25,Asiana Airlines
+IAH,PVG,TG,International,16,4.44,4.5,988.81,2,7823,87.5,Thai Airways
+IAH,PTY,AA,International,16,0.94,2.12,265.25,1,2046,93.75,American Airlines
+IAH,HKG,OS,International,16,9.31,10.06,1106.56,3,8784,81.25,Austrian Airlines
+IAH,SCL,OS,International,16,9.62,12.38,630.5,4,4968,75.0,Austrian Airlines
+IAH,SCL,NK,International,16,2.94,3.88,630.94,1,4968,93.75,Spirit Airlines
+IAH,SCL,CM,International,16,0.94,1.94,629.19,1,4968,93.75,Copa Airlines
+IAH,DOH,AV,International,16,2.56,3.75,1012.19,1,8040,93.75,Avianca
+IAH,DOH,AC,International,16,3.0,4.75,1013.81,2,8040,87.5,Air Canada
+IAH,KUL,AF,International,16,1.56,1.94,1245.06,1,9875,93.75,Air France
+IAH,SCL,SQ,International,16,2.0,3.06,629.81,2,4968,87.5,Singapore Airlines
+IAH,SCL,UA,International,16,13.0,13.56,630.88,6,4968,62.5,United Airlines
+IAH,DOH,NK,International,16,7.81,9.38,1015.25,3,8040,81.25,Spirit Airlines
+IAH,PTY,AZ,International,16,1.19,0.94,265.31,1,2046,93.75,ITA Airways
+IAH,SEA,AM,Domestic,16,8.19,9.5,259.75,4,1874,75.0,Aeromexico
+IAH,DXB,CX,International,16,2.19,3.88,1029.06,2,8150,87.5,Cathay Pacific
+HOU,MEX,IB,International,16,3.81,4.19,102.81,3,741,81.25,Iberia
+IAH,IST,TG,International,16,14.38,17.31,800.06,5,6322,68.75,Thai Airways
+IAH,BOG,MH,International,16,7.25,9.38,260.62,3,2006,81.25,Malaysia Airlines
+IAH,LHR,OS,International,16,10.56,11.5,613.25,3,4822,81.25,Austrian Airlines
+IAH,MAD,SQ,International,16,7.44,10.44,653.06,6,5145,62.5,Singapore Airlines
+IAH,MAD,WN,International,16,0.94,1.56,652.19,1,5145,93.75,Southwest Airlines
+IAH,SFO,OS,Domestic,16,4.62,8.0,225.19,4,1635,75.0,Austrian Airlines
+IAH,SFO,OZ,Domestic,16,23.62,25.94,226.69,5,1635,68.75,Asiana Airlines
+IAH,CPH,TG,International,16,2.12,3.81,670.12,2,5276,87.5,Thai Airways
+IAH,SYD,IB,International,16,2.31,3.19,1084.12,2,8591,87.5,Iberia
+IAH,IST,CX,International,16,5.5,6.19,798.38,4,6322,75.0,Cathay Pacific
+IAH,NRT,AF,International,16,1.88,2.62,876.31,2,6924,87.5,Air France
+IAH,CDG,LH,International,16,1.88,2.81,677.81,2,5338,87.5,Lufthansa
+IAH,CDG,NZ,International,16,9.81,12.38,676.81,6,5338,62.5,Air New Zealand
+IAH,CDG,JL,International,16,1.88,3.44,676.12,2,5338,87.5,Japan Airlines
+IAH,CDG,WN,International,16,0.94,1.12,677.31,1,5338,93.75,Southwest Airlines
+IAH,FRA,AM,International,16,7.56,10.69,658.19,4,5198,75.0,Aeromexico
+IAH,GRU,BA,International,16,10.06,11.19,604.88,3,4767,81.25,British Airways
+IAH,CDG,TK,International,16,0.94,1.5,679.62,1,5338,93.75,Turkish Airlines
+IAH,CDG,TG,International,16,2.19,2.19,677.69,1,5338,93.75,Thai Airways
+IAH,FRA,B6,International,16,6.56,9.0,660.5,7,5198,56.25,JetBlue Airways
+IAH,HND,AC,International,16,0.94,1.0,873.44,1,6924,93.75,Air Canada
+IAH,CDG,MH,International,16,4.56,5.38,677.25,3,5338,81.25,Malaysia Airlines
+IAH,IST,LA,International,16,6.38,8.38,801.0,2,6322,87.5,LATAM Airlines
+IAH,KUL,MS,International,16,0.0,0.0,1241.62,0,9875,100.0,EgyptAir
+IAH,NRT,LA,International,16,1.88,3.31,874.5,2,6924,87.5,LATAM Airlines
+IAH,IST,SQ,International,16,10.0,11.12,801.12,2,6322,87.5,Singapore Airlines
+IAH,IST,QR,International,16,10.62,11.0,799.62,2,6322,87.5,Qatar Airways
+IAH,MAD,F9,International,16,15.75,17.81,652.25,5,5145,68.75,Frontier Airlines
+IAH,HKG,AC,International,16,9.81,11.62,1107.69,5,8784,68.75,Air Canada
+IAH,SIN,IB,International,16,7.81,10.94,1199.94,5,9534,68.75,Iberia
+IAH,NRT,OZ,International,16,1.88,1.94,872.81,2,6924,87.5,Asiana Airlines
+IAH,NRT,QF,International,16,6.19,6.88,875.69,4,6924,75.0,Qantas Airways
+IAH,NRT,LX,International,16,3.38,4.88,876.56,3,6924,81.25,Swiss International
+IAH,VIE,QR,International,15,0.0,0.0,686.47,0,5413,100.0,Qatar Airways
+IAH,VIE,LX,International,15,20.93,22.4,687.73,4,5413,73.33,Swiss International
+IAH,CAI,NZ,International,15,8.0,10.2,918.2,4,7257,73.33,Air New Zealand
+IAH,CDG,ET,International,15,19.07,19.4,677.8,1,5338,93.33,Ethiopian Airlines
+IAH,GDL,OS,International,15,3.2,4.13,115.6,2,865,86.67,Austrian Airlines
+IAH,CAI,UA,International,15,18.0,17.87,914.6,4,7257,73.33,United Airlines
+HOU,PUJ,CX,International,15,3.4,3.47,244.47,2,1876,86.67,Cathay Pacific
+IAH,VIE,ET,International,15,6.27,9.0,683.93,4,5413,73.33,Ethiopian Airlines
+IAH,CDG,B6,International,15,8.87,9.67,676.47,6,5338,60.0,JetBlue Airways
+IAH,GDL,KE,International,15,9.2,11.4,119.07,4,865,73.33,Korean Air
+IAH,BKK,IB,International,15,2.0,2.6,1169.6,2,9281,86.67,Iberia
+IAH,BOG,SK,International,15,11.0,13.4,259.73,4,2006,73.33,Scandinavian Airlines
+IAH,SIN,MS,International,15,4.53,5.2,1199.87,2,9534,86.67,EgyptAir
+IAH,HND,MH,International,15,2.27,3.27,872.93,2,6924,86.67,Malaysia Airlines
+IAH,ADD,NZ,International,15,4.93,5.0,1149.27,1,9127,93.33,Air New Zealand
+IAH,LHR,IB,International,15,2.53,3.87,611.53,2,4822,86.67,Iberia
+IAH,SIN,SK,International,15,9.93,10.6,1201.33,2,9534,86.67,Scandinavian Airlines
+IAH,SIN,NK,International,15,7.0,8.0,1201.47,5,9534,66.67,Spirit Airlines
+IAH,NRT,AM,International,15,25.13,27.53,873.4,4,6924,73.33,Aeromexico
+IAH,IST,IB,International,15,4.53,7.27,800.93,4,6322,73.33,Iberia
+IAH,BOS,AZ,Domestic,15,0.0,0.0,222.4,0,1597,100.0,ITA Airways
+IAH,SYD,KE,International,15,6.67,7.07,1083.8,2,8591,86.67,Korean Air
+IAH,SYD,EY,International,15,8.47,9.6,1083.53,5,8591,66.67,Etihad Airways
+IAH,AUH,KL,International,15,10.33,11.13,1028.4,6,8141,60.0,KLM Royal Dutch
+IAH,SYD,CM,International,15,6.07,7.47,1082.2,3,8591,80.0,Copa Airlines
+IAH,AKL,LA,International,15,9.13,10.67,1112.8,4,8831,73.33,LATAM Airlines
+IAH,GRU,AM,International,15,5.67,5.2,607.13,3,4767,80.0,Aeromexico
+IAH,CPH,AF,International,15,2.0,3.67,668.13,2,5276,86.67,Air France
+IAH,SIN,ET,International,15,9.93,10.47,1200.4,2,9534,86.67,Ethiopian Airlines
+IAH,MAD,QR,International,15,1.0,1.6,652.47,1,5145,93.33,Qatar Airways
+IAH,DXB,QF,International,15,12.07,15.07,1029.73,5,8150,66.67,Qantas Airways
+IAH,DXB,SQ,International,15,6.0,7.07,1029.33,2,8150,86.67,Singapore Airlines
+IAH,IST,NZ,International,15,1.6,2.8,797.33,1,6322,93.33,Air New Zealand
+IAH,DXB,NK,International,15,8.33,9.4,1027.27,2,8150,86.67,Spirit Airlines
+IAH,BOG,AS,International,15,2.8,3.47,259.0,2,2006,86.67,Alaska Airlines
+IAH,IST,SK,International,15,1.6,2.27,801.93,1,6322,93.33,Scandinavian Airlines
+IAH,LHR,SK,International,15,9.73,12.93,612.53,3,4822,80.0,Scandinavian Airlines
+IAH,SFO,QR,Domestic,15,3.07,5.93,227.67,3,1635,80.0,Qatar Airways
+IAH,BOG,F9,International,15,6.27,7.4,261.27,3,2006,80.0,Frontier Airlines
+IAH,SFO,IB,Domestic,15,3.0,6.0,227.0,3,1635,80.0,Iberia
+IAH,AKL,F9,International,15,11.4,14.07,1114.2,5,8831,66.67,Frontier Airlines
+IAH,MAD,TG,International,15,12.6,15.47,651.93,5,5145,66.67,Thai Airways
+IAH,MAD,LH,International,15,10.4,12.4,652.67,3,5145,80.0,Lufthansa
+IAH,BKK,LH,International,15,6.47,9.0,1171.53,4,9281,73.33,Lufthansa
+IAH,SEA,AF,Domestic,15,6.13,7.13,261.67,2,1874,86.67,Air France
+IAH,SEA,CX,Domestic,15,1.0,1.4,258.53,1,1874,93.33,Cathay Pacific
+IAH,BOG,LH,International,15,7.33,11.2,259.6,5,2006,66.67,Lufthansa
+HOU,MEX,AV,International,15,7.53,8.4,102.27,4,741,73.33,Avianca
+IAH,MAD,AC,International,15,12.73,14.8,653.2,6,5145,60.0,Air Canada
+IAH,PTY,QR,International,15,6.4,7.47,264.4,2,2046,86.67,Qatar Airways
+IAH,SCL,QF,International,15,9.6,10.87,630.53,5,4968,66.67,Qantas Airways
+IAH,SCL,NZ,International,15,9.2,11.6,630.33,4,4968,73.33,Air New Zealand
+IAH,MAD,EK,International,15,4.2,4.13,651.73,1,5145,93.33,Emirates
+IAH,HKG,MH,International,15,13.4,14.0,1111.2,3,8784,80.0,Malaysia Airlines
+IAH,SCL,MH,International,15,0.0,0.0,630.87,0,4968,100.0,Malaysia Airlines
+IAH,DXB,KE,International,15,6.73,10.4,1029.33,4,8150,73.33,Korean Air
+IAH,SCL,IB,International,15,5.53,7.13,630.07,3,4968,80.0,Iberia
+IAH,PTY,EY,International,15,0.0,0.0,264.33,0,2046,100.0,Etihad Airways
+IAH,PVG,TK,International,15,1.93,2.47,987.33,1,7823,93.33,Turkish Airlines
+IAH,PTY,F9,International,15,1.0,1.6,264.73,1,2046,93.33,Frontier Airlines
+IAH,PTY,NH,International,15,2.33,2.53,266.8,1,2046,93.33,ANA All Nippon Airways
+IAH,PVG,ET,International,15,13.2,15.47,986.87,5,7823,66.67,Ethiopian Airlines
+IAH,KUL,JL,International,15,11.53,13.0,1242.53,3,9875,80.0,Japan Airlines
+IAH,PVG,LX,International,15,6.13,7.87,988.33,3,7823,80.0,Swiss International
+IAH,PVG,KL,International,15,6.67,6.2,986.07,2,7823,86.67,KLM Royal Dutch
+IAH,KUL,KE,International,15,7.2,8.2,1243.8,3,9875,80.0,Korean Air
+IAH,DXB,AS,International,15,13.67,14.33,1026.87,3,8150,80.0,Alaska Airlines
+IAH,DXB,AV,International,15,12.4,12.27,1027.27,4,8150,73.33,Avianca
+IAH,PVG,BA,International,15,4.13,5.13,986.33,3,7823,80.0,British Airways
+IAH,DOH,UA,International,15,16.07,17.2,1015.53,1,8040,93.33,United Airlines
+IAH,PTY,TK,International,15,12.6,17.07,264.4,5,2046,66.67,Turkish Airlines
+IAH,PVG,AV,International,15,11.53,13.07,988.73,5,7823,66.67,Avianca
+IAH,ADD,F9,International,15,6.8,7.13,1153.2,4,9127,73.33,Frontier Airlines
+IAH,AKL,QF,International,15,7.13,9.6,1114.93,4,8831,73.33,Qantas Airways
+IAH,AKL,TK,International,14,17.71,20.14,1111.5,7,8831,50.0,Turkish Airlines
+IAH,CDG,DL,International,14,0.0,0.0,676.57,0,5338,100.0,Delta Air Lines
+IAH,CAI,TK,International,14,8.64,10.71,915.57,4,7257,71.43,Turkish Airlines
+IAH,ZRH,AF,International,14,4.0,3.93,672.93,2,5304,85.71,Air France
+IAH,PVG,SQ,International,14,3.79,5.93,987.07,3,7823,78.57,Singapore Airlines
+IAH,PVG,WN,International,14,5.57,6.21,988.07,3,7823,78.57,Southwest Airlines
+IAH,KUL,F9,International,14,1.07,1.64,1245.79,1,9875,92.86,Frontier Airlines
+IAH,GDL,ET,International,14,3.93,5.21,116.07,3,865,78.57,Ethiopian Airlines
+IAH,CDG,AS,International,14,8.29,9.79,674.86,3,5338,78.57,Alaska Airlines
+IAH,GRU,EY,International,14,27.43,28.86,606.64,6,4767,57.14,Etihad Airways
+IAH,HKG,OZ,International,14,16.07,18.43,1108.29,6,8784,57.14,Asiana Airlines
+IAH,KUL,UA,International,14,7.14,9.14,1246.71,3,9875,78.57,United Airlines
+IAH,MAD,ET,International,14,4.71,5.93,652.14,2,5145,85.71,Ethiopian Airlines
+IAH,BOG,AC,International,14,2.93,3.21,258.71,2,2006,85.71,Air Canada
+IAH,GDL,TG,International,14,1.07,1.79,117.79,1,865,92.86,Thai Airways
+IAH,PVG,OS,International,14,3.5,4.43,986.86,2,7823,85.71,Austrian Airlines
+IAH,PTY,KL,International,14,3.14,3.0,265.79,1,2046,92.86,KLM Royal Dutch
+IAH,CDG,NK,International,14,2.21,3.29,676.86,2,5338,85.71,Spirit Airlines
+IAH,CDG,MS,International,14,16.07,17.29,674.93,3,5338,78.57,EgyptAir
+IAH,CDG,KL,International,14,2.43,3.79,676.29,2,5338,85.71,KLM Royal Dutch
+IAH,YVR,AS,International,14,9.5,10.5,238.14,3,1825,78.57,Alaska Airlines
+IAH,PVG,EY,International,14,5.57,6.43,987.36,4,7823,71.43,Etihad Airways
+IAH,PVG,QF,International,14,3.86,5.64,986.43,3,7823,78.57,Qantas Airways
+IAH,HND,AF,International,14,13.93,16.14,876.5,3,6924,78.57,Air France
+IAH,VIE,TG,International,14,6.5,7.64,684.57,3,5413,78.57,Thai Airways
+IAH,SYD,LX,International,14,1.07,1.5,1084.93,1,8591,92.86,Swiss International
+IAH,PTY,NZ,International,14,1.5,1.86,263.43,1,2046,92.86,Air New Zealand
+IAH,AKL,MS,International,14,6.07,6.64,1112.64,1,8831,92.86,EgyptAir
+IAH,IST,BA,International,14,5.93,5.93,799.64,3,6322,78.57,British Airways
+IAH,SCL,LX,International,14,1.07,1.64,631.86,1,4968,92.86,Swiss International
+IAH,NRT,BA,International,14,15.71,16.21,873.71,3,6924,78.57,British Airways
+IAH,IST,DL,International,14,1.36,1.57,800.79,1,6322,92.86,Delta Air Lines
+IAH,SCL,OZ,International,14,3.57,6.0,629.5,3,4968,78.57,Asiana Airlines
+IAH,SCL,DL,International,14,14.43,16.29,630.29,3,4968,78.57,Delta Air Lines
+IAH,AMS,SQ,International,14,0.0,0.0,641.07,0,5075,100.0,Singapore Airlines
+IAH,SCL,BA,International,14,11.5,13.93,630.71,6,4968,57.14,British Airways
+IAH,SEA,QF,Domestic,14,3.21,3.07,260.36,1,1874,92.86,Qantas Airways
+HOU,MEX,CM,International,14,7.57,8.71,103.14,4,741,71.43,Copa Airlines
+IAH,CAI,F9,International,14,0.0,0.0,913.79,0,7257,100.0,Frontier Airlines
+IAH,CAI,EK,International,14,6.14,8.43,917.71,5,7257,64.29,Emirates
+IAH,CAI,CX,International,14,5.36,8.57,916.36,4,7257,71.43,Cathay Pacific
+IAH,BOG,B6,International,14,5.07,5.21,261.07,2,2006,85.71,JetBlue Airways
+IAH,SIN,LA,International,14,4.64,4.79,1201.71,1,9534,92.86,LATAM Airlines
+IAH,HKG,MS,International,14,5.86,7.0,1108.57,3,8784,78.57,EgyptAir
+IAH,DOH,AM,International,14,2.14,4.43,1014.14,2,8040,85.71,Aeromexico
+IAH,SIN,EY,International,14,5.36,7.21,1200.93,4,9534,71.43,Etihad Airways
+HOU,MEX,F9,International,14,2.14,3.07,102.93,2,741,85.71,Frontier Airlines
+IAH,HKG,IB,International,14,5.86,7.5,1108.5,3,8784,78.57,Iberia
+IAH,HKG,LX,International,14,4.29,6.71,1108.79,4,8784,71.43,Swiss International
+IAH,ADD,JL,International,14,4.21,3.57,1150.14,3,9127,78.57,Japan Airlines
+IAH,ADD,WN,International,14,9.29,11.36,1148.71,3,9127,78.57,Southwest Airlines
+IAH,ADD,DL,International,14,1.07,0.93,1153.43,1,9127,92.86,Delta Air Lines
+IAH,HND,NK,International,14,7.29,9.21,875.0,2,6924,85.71,Spirit Airlines
+IAH,GDL,QR,International,14,16.5,17.64,117.57,4,865,71.43,Qatar Airways
+IAH,MAD,OZ,International,14,0.0,0.0,653.5,0,5145,100.0,Asiana Airlines
+HOU,MEX,SQ,International,14,3.79,5.71,100.29,3,741,78.57,Singapore Airlines
+IAH,BOG,EY,International,14,4.79,7.0,260.79,4,2006,71.43,Etihad Airways
+IAH,SIN,MH,International,14,7.29,9.86,1202.5,2,9534,85.71,Malaysia Airlines
+IAH,SIN,OS,International,14,5.64,7.57,1201.07,4,9534,71.43,Austrian Airlines
+IAH,BOG,OZ,International,14,8.86,9.86,260.57,3,2006,78.57,Asiana Airlines
+IAH,BOG,OS,International,14,17.79,19.86,261.29,5,2006,64.29,Austrian Airlines
+IAH,ADD,AM,International,14,8.0,9.86,1149.5,4,9127,71.43,Aeromexico
+IAH,KUL,CM,International,14,7.93,9.71,1245.57,3,9875,78.57,Copa Airlines
+IAH,MAD,QF,International,14,0.0,0.0,650.93,0,5145,100.0,Qantas Airways
+IAH,SIN,AV,International,14,2.21,2.36,1201.79,1,9534,92.86,Avianca
+IAH,SIN,TG,International,14,13.07,15.5,1200.21,3,9534,78.57,Thai Airways
+IAH,SYD,BA,International,14,1.93,2.5,1082.0,1,8591,92.86,British Airways
+IAH,SCL,EY,International,14,0.0,0.0,629.64,0,4968,100.0,Etihad Airways
+IAH,PTY,AC,International,14,0.0,0.0,265.71,0,2046,100.0,Air Canada
+IAH,CAI,AZ,International,13,10.46,11.46,915.54,3,7257,76.92,ITA Airways
+IAH,CDG,EY,International,13,1.15,1.85,676.31,1,5338,92.31,Etihad Airways
+IAH,ZRH,KL,International,13,12.85,15.92,671.23,4,5304,69.23,KLM Royal Dutch
+IAH,MEX,B6,International,13,36.46,41.77,101.46,5,737,61.54,JetBlue Airways
+IAH,CDG,CX,International,13,11.46,13.08,676.0,3,5338,76.92,Cathay Pacific
+IAH,AMS,UA,International,13,6.46,10.38,645.69,3,5075,76.92,United Airlines
+IAH,IST,AV,International,13,33.85,35.08,797.15,2,6322,84.62,Avianca
+IAH,MAD,AF,International,13,3.46,5.08,653.38,3,5145,76.92,Air France
+IAH,PTY,OZ,International,13,9.69,13.0,265.31,4,2046,69.23,Asiana Airlines
+IAH,NRT,AV,International,13,13.77,15.08,876.23,2,6924,84.62,Avianca
+IAH,PTY,NK,International,13,7.38,8.31,264.46,2,2046,84.62,Spirit Airlines
+IAH,IST,ET,International,13,6.15,8.69,796.69,2,6322,84.62,Ethiopian Airlines
+IAH,SCL,B6,International,13,3.0,3.38,628.46,2,4968,84.62,JetBlue Airways
+IAH,HKG,UA,International,13,7.77,10.23,1104.92,4,8784,69.23,United Airlines
+IAH,GRU,AF,International,13,6.62,7.69,605.62,3,4767,76.92,Air France
+IAH,CDG,SQ,International,13,6.31,6.69,678.23,2,5338,84.62,Singapore Airlines
+HOU,PUJ,AM,International,13,9.23,10.46,244.46,2,1876,84.62,Aeromexico
+IAH,HND,SK,International,13,0.0,0.0,878.54,0,6924,100.0,Scandinavian Airlines
+IAH,HND,SQ,International,13,6.31,7.0,873.38,3,6924,76.92,Singapore Airlines
+IAH,HND,TK,International,13,10.77,12.31,874.54,4,6924,69.23,Turkish Airlines
+IAH,DOH,JL,International,13,5.62,10.77,1014.15,4,8040,69.23,Japan Airlines
+IAH,VIE,NZ,International,13,2.31,3.92,684.92,2,5413,84.62,Air New Zealand
+IAH,HKG,TK,International,13,10.31,11.31,1108.23,3,8784,76.92,Turkish Airlines
+IAH,PTY,TG,International,13,5.69,6.46,265.23,4,2046,69.23,Thai Airways
+IAH,DOH,QF,International,13,2.31,3.54,1015.85,2,8040,84.62,Qantas Airways
+IAH,DOH,WN,International,13,10.31,13.08,1010.54,4,8040,69.23,Southwest Airlines
+IAH,MEX,AC,International,13,14.08,14.08,99.77,5,737,61.54,Air Canada
+IAH,DXB,AA,International,13,2.31,3.23,1028.23,2,8150,84.62,American Airlines
+IAH,CDG,AZ,International,13,7.62,11.38,676.92,4,5338,69.23,ITA Airways
+IAH,KUL,LH,International,13,8.77,9.46,1243.69,1,9875,92.31,Lufthansa
+IAH,PVG,NH,International,13,7.92,9.46,986.54,2,7823,84.62,ANA All Nippon Airways
+IAH,PVG,LH,International,13,4.15,4.54,987.46,2,7823,84.62,Lufthansa
+IAH,CDG,OZ,International,13,4.46,5.31,677.31,2,5338,84.62,Asiana Airlines
+IAH,CDG,KE,International,13,8.54,9.0,675.62,3,5338,76.92,Korean Air
+IAH,PTY,MH,International,13,5.69,7.77,266.46,3,2046,76.92,Malaysia Airlines
+IAH,HKG,AS,International,13,5.62,6.15,1108.46,3,8784,76.92,Alaska Airlines
+IAH,GRU,OZ,International,13,2.77,3.46,604.38,2,4767,84.62,Asiana Airlines
+IAH,MEX,LH,International,13,2.38,3.69,102.0,2,737,84.62,Lufthansa
+IAH,SCL,AA,International,13,9.23,10.69,631.31,4,4968,69.23,American Airlines
+IAH,SCL,AC,International,13,5.15,6.85,632.77,2,4968,84.62,Air Canada
+IAH,PVG,AS,International,13,7.62,8.38,987.23,3,7823,76.92,Alaska Airlines
+IAH,HKG,EK,International,13,3.31,3.92,1108.31,2,8784,84.62,Emirates
+IAH,SIN,LX,International,13,5.54,6.77,1201.23,2,9534,84.62,Swiss International
+IAH,SIN,EK,International,13,11.31,13.62,1200.08,5,9534,61.54,Emirates
+IAH,HND,EY,International,13,15.31,15.23,877.38,4,6924,69.23,Etihad Airways
+IAH,HND,MS,International,13,7.77,11.69,877.85,4,6924,69.23,EgyptAir
+IAH,LHR,JL,International,13,1.15,0.85,613.38,1,4822,92.31,Japan Airlines
+IAH,PTY,AS,International,13,3.46,5.15,266.46,3,2046,76.92,Alaska Airlines
+IAH,SIN,OZ,International,13,1.15,1.92,1199.23,1,9534,92.31,Asiana Airlines
+IAH,NRT,MS,International,13,3.15,5.54,873.85,2,6924,84.62,EgyptAir
+IAH,NRT,EY,International,13,5.08,7.54,874.15,3,6924,76.92,Etihad Airways
+IAH,NRT,ET,International,13,2.31,2.54,875.62,2,6924,84.62,Ethiopian Airlines
+IAH,SFO,LX,Domestic,13,3.46,4.46,227.46,3,1635,76.92,Swiss International
+IAH,SFO,JL,Domestic,13,3.77,5.0,226.77,2,1635,84.62,Japan Airlines
+IAH,DXB,SK,International,13,1.15,1.77,1029.85,1,8150,92.31,Scandinavian Airlines
+IAH,LHR,NK,International,13,26.15,27.77,610.62,5,4822,61.54,Spirit Airlines
+IAH,BOG,AA,International,13,24.15,27.46,261.08,4,2006,69.23,American Airlines
+IAH,LIM,JL,International,13,2.31,3.0,471.31,2,3677,84.62,Japan Airlines
+IAH,LIM,DL,International,13,3.46,6.31,469.54,2,3677,84.62,Delta Air Lines
+IAH,MAD,KE,International,13,7.77,8.77,652.77,2,5145,84.62,Korean Air
+HOU,MEX,KE,International,13,7.69,9.38,98.69,3,741,76.92,Korean Air
+IAH,IST,MH,International,13,5.85,7.0,800.08,2,6322,84.62,Malaysia Airlines
+IAH,BOG,NH,International,13,0.0,0.0,261.62,0,2006,100.0,ANA All Nippon Airways
+IAH,CAI,SK,International,13,2.46,2.54,915.77,2,7257,84.62,Scandinavian Airlines
+IAH,CAI,LX,International,13,3.54,4.15,916.85,2,7257,84.62,Swiss International
+IAH,CAI,QF,International,13,1.15,2.0,916.0,1,7257,92.31,Qantas Airways
+IAH,CAI,AF,International,13,0.0,0.0,914.54,0,7257,100.0,Air France
+IAH,CAI,B6,International,13,7.54,9.85,915.62,3,7257,76.92,JetBlue Airways
+IAH,CAI,DL,International,12,8.25,9.25,917.92,3,7257,75.0,Delta Air Lines
+IAH,LHR,ET,International,12,10.25,13.75,612.5,3,4822,75.0,Ethiopian Airlines
+IAH,CAI,AC,International,12,0.0,0.0,914.33,0,7257,100.0,Air Canada
+IAH,CAI,EY,International,12,5.58,6.75,916.33,1,7257,91.67,Etihad Airways
+IAH,NRT,WN,International,12,3.0,3.17,874.42,1,6924,91.67,Southwest Airlines
+IAH,CAI,SQ,International,12,0.0,0.0,916.08,0,7257,100.0,Singapore Airlines
+IAH,CAI,NH,International,12,3.67,3.33,916.08,1,7257,91.67,ANA All Nippon Airways
+IAH,IST,KL,International,12,6.75,8.0,802.17,2,6322,83.33,KLM Royal Dutch
+IAH,CAI,QR,International,12,1.25,2.42,918.83,1,7257,91.67,Qatar Airways
+IAH,CAI,MH,International,12,1.25,2.58,919.17,1,7257,91.67,Malaysia Airlines
+IAH,HKG,AF,International,12,18.33,18.67,1105.58,2,8784,83.33,Air France
+IAH,DXB,F9,International,12,3.67,4.92,1027.33,1,8150,91.67,Frontier Airlines
+IAH,KUL,TK,International,12,3.83,6.58,1245.17,3,9875,75.0,Turkish Airlines
+IAH,MAD,JL,International,12,14.17,15.33,653.42,3,5145,75.0,Japan Airlines
+IAH,MAD,LA,International,12,2.5,3.5,653.58,1,5145,91.67,LATAM Airlines
+IAH,HKG,F9,International,12,4.08,5.42,1106.92,2,8784,83.33,Frontier Airlines
+IAH,HND,OZ,International,12,15.08,18.33,873.92,5,6924,58.33,Asiana Airlines
+IAH,HKG,KE,International,12,1.75,2.67,1106.42,1,8784,91.67,Korean Air
+IAH,HKG,KL,International,12,6.67,9.42,1107.58,5,8784,58.33,KLM Royal Dutch
+IAH,HKG,LH,International,12,1.25,2.0,1113.58,1,8784,91.67,Lufthansa
+IAH,BOG,QF,International,12,4.92,6.33,258.42,2,2006,83.33,Qantas Airways
+IAH,HKG,NZ,International,12,2.5,3.0,1108.08,2,8784,83.33,Air New Zealand
+IAH,SIN,AZ,International,12,3.92,6.17,1203.75,2,9534,83.33,ITA Airways
+IAH,SIN,B6,International,12,0.0,0.0,1203.92,0,9534,100.0,JetBlue Airways
+IAH,SIN,JL,International,12,1.25,1.0,1200.0,1,9534,91.67,Japan Airlines
+IAH,MAD,SK,International,12,2.75,4.33,652.0,2,5145,83.33,Scandinavian Airlines
+IAH,SIN,DL,International,12,1.25,1.25,1203.33,1,9534,91.67,Delta Air Lines
+IAH,MAD,NH,International,12,14.42,18.42,649.75,3,5145,75.0,ANA All Nippon Airways
+IAH,DOH,BA,International,12,6.0,6.25,1014.75,2,8040,83.33,British Airways
+IAH,DOH,SQ,International,12,7.83,8.67,1011.5,3,8040,75.0,Singapore Airlines
+IAH,PVG,QR,International,12,11.33,14.42,988.92,5,7823,58.33,Qatar Airways
+IAH,CAI,AV,International,12,3.75,6.5,916.33,3,7257,75.0,Avianca
+IAH,CDG,EK,International,12,18.92,20.08,675.5,2,5338,83.33,Emirates
+IAH,GRU,AC,International,12,19.83,21.58,607.08,4,4767,66.67,Air Canada
+IAH,CDG,SK,International,12,15.17,16.67,674.67,5,5338,58.33,Scandinavian Airlines
+IAH,HKG,AZ,International,12,8.5,9.33,1107.67,3,8784,75.0,ITA Airways
+IAH,GRU,QR,International,12,5.5,7.33,605.25,3,4767,75.0,Qatar Airways
+IAH,SYD,LA,International,12,3.5,3.67,1083.75,1,8591,91.67,LATAM Airlines
+IAH,HKG,SK,International,12,7.5,9.83,1110.0,3,8784,75.0,Scandinavian Airlines
+IAH,HKG,SQ,International,12,3.08,4.25,1106.33,2,8784,83.33,Singapore Airlines
+IAH,AMS,JL,International,12,1.58,1.92,644.33,1,5075,91.67,Japan Airlines
+IAH,PTY,QF,International,12,22.83,23.58,264.58,2,2046,83.33,Qantas Airways
+IAH,SYD,JL,International,12,4.25,4.5,1082.92,2,8591,83.33,Japan Airlines
+IAH,IST,UA,International,12,1.25,2.67,800.5,1,6322,91.67,United Airlines
+IAH,PTY,ET,International,12,1.25,2.42,265.67,1,2046,91.67,Ethiopian Airlines
+IAH,PTY,DL,International,12,3.08,3.83,268.25,2,2046,83.33,Delta Air Lines
+IAH,IST,AM,International,12,1.25,1.67,800.08,1,6322,91.67,Aeromexico
+IAH,SYD,AV,International,12,4.33,6.17,1083.08,3,8591,75.0,Avianca
+IAH,LHR,KE,International,12,5.17,6.58,613.58,2,4822,83.33,Korean Air
+IAH,HND,CX,International,12,2.17,3.17,876.08,1,6924,91.67,Cathay Pacific
+IAH,HND,CM,International,12,1.25,1.25,876.58,1,6924,91.67,Copa Airlines
+IAH,SIN,QR,International,12,10.83,11.17,1200.67,2,9534,83.33,Qatar Airways
+IAH,CDG,QF,International,12,2.08,2.08,678.33,1,5338,91.67,Qantas Airways
+IAH,CDG,QR,International,12,5.75,9.58,675.33,3,5338,75.0,Qatar Airways
+IAH,GRU,ET,International,12,6.75,9.17,605.92,3,4767,75.0,Ethiopian Airlines
+IAH,GRU,TG,International,12,12.67,12.33,604.08,4,4767,66.67,Thai Airways
+IAH,HND,B6,International,12,2.5,3.75,875.08,2,6924,83.33,JetBlue Airways
+IAH,HKG,WN,International,12,10.08,10.83,1106.83,1,8784,91.67,Southwest Airlines
+IAH,SYD,SQ,International,11,17.36,18.36,1083.82,3,8591,72.73,Singapore Airlines
+IAH,SCL,QR,International,11,5.64,5.45,631.64,2,4968,81.82,Qatar Airways
+IAH,PTY,CX,International,11,27.91,29.55,263.55,2,2046,81.82,Cathay Pacific
+IAH,CAI,BA,International,11,8.91,11.36,916.55,3,7257,72.73,British Airways
+IAH,CAI,ET,International,11,9.91,10.36,917.45,1,7257,90.91,Ethiopian Airlines
+IAH,KUL,SQ,International,11,15.64,18.0,1244.82,3,9875,72.73,Singapore Airlines
+IAH,KUL,ET,International,11,2.45,2.27,1244.36,1,9875,90.91,Ethiopian Airlines
+IAH,MAD,DL,International,11,6.36,7.73,652.73,2,5145,81.82,Delta Air Lines
+IAH,KUL,B6,International,11,4.09,8.45,1242.73,3,9875,72.73,JetBlue Airways
+IAH,KUL,AA,International,11,2.73,2.36,1238.91,2,9875,81.82,American Airlines
+IAH,KUL,WN,International,11,7.09,8.82,1242.82,4,9875,63.64,Southwest Airlines
+IAH,IST,LX,International,11,2.73,5.73,799.0,2,6322,81.82,Swiss International
+IAH,SIN,KE,International,11,14.82,16.73,1201.18,2,9534,81.82,Korean Air
+IAH,DXB,DL,International,11,4.91,4.45,1028.18,3,8150,72.73,Delta Air Lines
+IAH,HKG,LA,International,11,9.09,9.64,1108.36,2,8784,81.82,LATAM Airlines
+IAH,IST,QF,International,11,2.73,3.55,803.55,2,6322,81.82,Qantas Airways
+IAH,HKG,EY,International,11,1.36,2.82,1105.82,1,8784,90.91,Etihad Airways
+IAH,ZRH,IB,International,11,5.82,6.73,670.45,2,5304,81.82,Iberia
+IAH,KUL,NH,International,11,11.36,14.45,1244.45,3,9875,72.73,ANA All Nippon Airways
+IAH,PTY,SQ,International,11,0.0,0.0,266.55,0,2046,100.0,Singapore Airlines
+IAH,DOH,SK,International,11,8.55,9.55,1015.45,2,8040,81.82,Scandinavian Airlines
+IAH,PTY,KE,International,11,4.82,4.55,264.82,2,2046,81.82,Korean Air
+IAH,HKG,AM,International,11,5.27,6.73,1107.73,1,8784,90.91,Aeromexico
+IAH,DOH,EY,International,11,1.36,2.27,1015.27,1,8040,90.91,Etihad Airways
+IAH,HND,AS,International,11,1.45,2.82,875.09,1,6924,90.91,Alaska Airlines
+IAH,GRU,AZ,International,11,2.55,2.91,604.64,1,4767,90.91,ITA Airways
+IAH,HKG,DL,International,11,1.36,1.64,1106.73,1,8784,90.91,Delta Air Lines
+IAH,HKG,B6,International,11,2.73,5.18,1104.36,2,8784,81.82,JetBlue Airways
+IAH,SCL,AZ,International,11,5.36,7.0,630.91,3,4968,72.73,ITA Airways
+IAH,DXB,LH,International,11,8.64,11.18,1027.64,3,8150,72.73,Lufthansa
+IAH,PTY,B6,International,11,16.82,17.73,268.27,3,2046,72.73,JetBlue Airways
+IAH,ADD,LX,International,11,8.18,10.91,1151.55,3,9127,72.73,Swiss International
+IAH,DXB,IB,International,11,11.09,14.82,1029.91,4,8150,63.64,Iberia
+IAH,AKL,KL,International,11,15.18,16.09,1113.0,1,8831,90.91,KLM Royal Dutch
+IAH,MAD,AS,International,11,0.0,0.0,654.0,0,5145,100.0,Alaska Airlines
+IAH,CAI,IB,International,11,4.27,3.91,914.91,1,7257,90.91,Iberia
+IAH,KUL,IB,International,11,36.36,37.82,1244.64,6,9875,45.45,Iberia
+IAH,HKG,CM,International,11,11.91,14.27,1107.45,3,8784,72.73,Copa Airlines
+IAH,PTY,LH,International,11,2.73,3.18,268.0,2,2046,81.82,Lufthansa
+IAH,CDG,AC,International,11,11.27,11.18,675.91,1,5338,90.91,Air Canada
+IAH,CDG,LA,International,11,1.36,2.27,673.36,1,5338,90.91,LATAM Airlines
+IAH,CDG,NH,International,11,0.0,0.0,678.09,0,5338,100.0,ANA All Nippon Airways
+IAH,GRU,MH,International,11,10.64,13.36,604.55,3,4767,72.73,Malaysia Airlines
+IAH,CDG,F9,International,10,1.5,1.6,677.7,1,5338,90.0,Frontier Airlines
+IAH,GRU,DL,International,10,2.5,3.5,606.8,1,4767,90.0,Delta Air Lines
+IAH,CAI,WN,International,10,1.5,3.3,916.3,1,7257,90.0,Southwest Airlines
+HOU,PUJ,TK,International,10,8.8,10.1,242.9,2,1876,80.0,Turkish Airlines
+IAH,KUL,QF,International,10,23.3,25.4,1243.2,2,9875,80.0,Qantas Airways
+IAH,DOH,KE,International,10,3.0,4.4,1014.7,2,8040,80.0,Korean Air
+IAH,GRU,AA,International,10,3.9,5.7,604.9,2,4767,80.0,American Airlines
+IAH,HND,AV,International,10,1.5,1.6,873.1,1,6924,90.0,Avianca
+IAH,HND,AA,International,10,12.9,15.1,876.7,2,6924,80.0,American Airlines
+IAH,PTY,AM,International,10,16.6,19.3,263.6,3,2046,70.0,Aeromexico
+IAH,MAD,OS,International,10,14.8,15.8,651.9,2,5145,80.0,Austrian Airlines
+IAH,KUL,AM,International,10,0.0,0.0,1242.7,0,9875,100.0,Aeromexico
+IAH,MAD,NZ,International,10,7.4,8.7,650.3,4,5145,60.0,Air New Zealand
+IAH,LHR,KL,International,10,16.5,20.3,612.0,3,4822,70.0,KLM Royal Dutch
+IAH,AMS,OZ,International,10,9.1,13.0,645.1,3,5075,70.0,Asiana Airlines
+IAH,MAD,KL,International,10,1.5,1.2,652.8,1,5145,90.0,KLM Royal Dutch
+IAH,CAI,AA,International,10,3.0,5.0,916.8,2,7257,80.0,American Airlines
+IAH,AMS,AA,International,10,2.4,3.8,645.9,1,5075,90.0,American Airlines
+IAH,ADD,IB,International,10,8.7,11.1,1152.8,3,9127,70.0,Iberia
+IAH,HND,NH,International,10,1.5,1.6,874.2,1,6924,90.0,ANA All Nippon Airways
+IAH,KUL,AZ,International,10,3.0,5.0,1247.1,2,9875,80.0,ITA Airways
+IAH,MAD,BA,International,10,9.3,11.5,651.3,2,5145,80.0,British Airways
+IAH,MAD,CM,International,10,1.6,2.3,655.2,1,5145,90.0,Copa Airlines
+IAH,CAI,NK,International,10,6.2,9.2,918.2,4,7257,60.0,Spirit Airlines
+IAH,KUL,NZ,International,10,3.0,2.4,1242.7,2,9875,80.0,Air New Zealand
+IAH,PVG,AC,International,10,0.0,0.0,985.4,0,7823,100.0,Air Canada
+IAH,GRU,NH,International,10,1.5,1.1,605.9,1,4767,90.0,ANA All Nippon Airways
+IAH,PTY,MS,International,10,11.8,16.1,264.3,5,2046,50.0,EgyptAir
+IAH,MAD,AM,International,10,14.4,18.2,654.5,3,5145,70.0,Aeromexico
+IAH,AMS,NH,International,10,1.9,1.5,640.7,1,5075,90.0,ANA All Nippon Airways
+IAH,AMS,WN,International,10,4.9,6.3,645.0,3,5075,70.0,Southwest Airlines
+IAH,IST,EK,International,10,2.2,2.6,799.8,1,6322,90.0,Emirates
+IAH,SIN,NZ,International,10,12.3,15.4,1200.1,3,9534,70.0,Air New Zealand
+IAH,FCO,BA,International,10,1.5,2.7,703.7,1,5589,90.0,British Airways
+IAH,AMS,EY,International,9,7.0,9.89,645.0,2,5075,77.78,Etihad Airways
+IAH,CAI,TG,International,9,3.67,3.44,914.89,1,7257,88.89,Thai Airways
+IAH,PTY,JL,International,9,7.67,8.0,262.0,1,2046,88.89,Japan Airlines
+IAH,SIN,AM,International,9,0.0,0.0,1199.89,0,9534,100.0,Aeromexico
+IAH,KUL,QR,International,9,19.56,25.0,1245.44,4,9875,55.56,Qatar Airways
+IAH,KUL,AV,International,9,2.56,3.22,1241.78,1,9875,88.89,Avianca
+IAH,BOG,JL,International,9,7.67,10.89,260.22,2,2006,77.78,Japan Airlines
+IAH,KUL,AS,International,9,11.33,14.44,1246.89,2,9875,77.78,Alaska Airlines
+IAH,AMS,TK,International,9,6.0,6.78,644.11,1,5075,88.89,Turkish Airlines
+IAH,MAD,UA,International,9,1.67,1.67,650.44,1,5145,88.89,United Airlines
+IAH,SIN,CM,International,9,10.22,11.11,1202.89,2,9534,77.78,Copa Airlines
+IAH,KUL,LA,International,9,38.89,40.44,1245.67,4,9875,55.56,LATAM Airlines
+IAH,CAI,LH,International,9,3.78,5.0,915.89,1,7257,88.89,Lufthansa
+IAH,AMS,LH,International,9,32.67,35.78,643.89,3,5075,66.67,Lufthansa
+IAH,DXB,AF,International,9,21.67,25.0,1028.22,2,8150,77.78,Air France
+IAH,CDG,AV,International,9,0.0,0.0,677.56,0,5338,100.0,Avianca
+IAH,HKG,BA,International,8,3.75,6.5,1110.12,2,8784,75.0,British Airways
+IAH,PTY,SK,International,8,0.0,0.0,268.75,0,2046,100.0,Scandinavian Airlines
+IAH,CAI,JL,International,8,0.0,0.0,913.88,0,7257,100.0,Japan Airlines
+IAH,AMS,SK,International,8,2.88,3.75,643.75,1,5075,87.5,Scandinavian Airlines
+IAH,AMS,AM,International,8,5.38,6.0,641.88,1,5075,87.5,Aeromexico
+IAH,PTY,OS,International,8,1.88,3.75,264.25,1,2046,87.5,Austrian Airlines
+IAH,AMS,TG,International,8,0.0,0.0,639.88,0,5075,100.0,Thai Airways
+IAH,AMS,AS,International,8,5.88,7.75,647.25,1,5075,87.5,Alaska Airlines
+IAH,AMS,CM,International,8,3.88,6.5,646.5,2,5075,75.0,Copa Airlines
+IAH,AMS,AV,International,8,5.38,6.38,644.75,1,5075,87.5,Avianca
+IAH,HKG,QF,International,8,3.75,6.0,1108.0,2,8784,75.0,Qantas Airways
+IAH,AMS,KE,International,8,3.62,5.5,643.5,1,5075,87.5,Korean Air
+IAH,HKG,QR,International,8,2.38,1.75,1105.12,1,8784,87.5,Qatar Airways
+IAH,MAD,AV,International,8,0.0,0.0,654.88,0,5145,100.0,Avianca
+IAH,CAI,CM,International,8,11.75,13.75,914.75,2,7257,75.0,Copa Airlines
+IAH,AKL,EK,International,8,0.0,0.0,1114.25,0,8831,100.0,Emirates
+IAH,SIN,KL,International,8,0.0,0.0,1200.5,0,9534,100.0,KLM Royal Dutch
+IAH,HKG,TG,International,8,5.12,6.12,1110.0,1,8784,87.5,Thai Airways
+IAH,DXB,AZ,International,8,0.0,0.0,1027.5,0,8150,100.0,ITA Airways
+IAH,CAI,KE,International,8,23.25,26.0,915.38,2,7257,75.0,Korean Air
+IAH,HKG,ET,International,8,9.25,14.0,1103.38,3,8784,62.5,Ethiopian Airlines
+IAH,HND,DL,International,8,0.0,0.0,875.75,0,6924,100.0,Delta Air Lines
+IAH,PTY,BA,International,8,11.25,15.75,264.0,3,2046,62.5,British Airways
+IAH,SCL,KE,International,8,13.25,16.25,632.12,3,4968,62.5,Korean Air
+IAH,MAD,LX,International,7,3.43,3.14,651.57,1,5145,85.71,Swiss International
+IAH,MAD,MS,International,7,2.14,4.14,651.0,1,5145,85.71,EgyptAir
+IAH,IST,MS,International,7,12.14,12.43,797.86,3,6322,57.14,EgyptAir
+IAH,MAD,B6,International,7,0.0,0.0,652.14,0,5145,100.0,JetBlue Airways
+IAH,MAD,NK,International,7,26.71,30.29,652.86,4,5145,42.86,Spirit Airlines
+IAH,AMS,ET,International,7,3.71,4.43,646.86,1,5075,85.71,Ethiopian Airlines
+IAH,MAD,AZ,International,7,0.0,0.0,657.57,0,5145,100.0,ITA Airways
+IAH,HKG,JL,International,7,4.29,7.57,1105.0,2,8784,71.43,Japan Airlines
+IAH,AMS,BA,International,7,0.0,0.0,641.86,0,5075,100.0,British Airways
+IAH,AMS,NK,International,7,23.57,27.0,644.71,2,5075,71.43,Spirit Airlines
+IAH,ZRH,NH,International,7,6.57,9.29,674.14,1,5304,85.71,ANA All Nippon Airways
+IAH,AMS,LX,International,7,4.29,5.57,643.57,2,5075,71.43,Swiss International
+IAH,IST,AF,International,6,4.83,6.83,802.83,1,6322,83.33,Air France
+IAH,CAI,OS,International,6,2.5,1.67,915.0,1,7257,83.33,Austrian Airlines
+IAH,AMS,MH,International,6,9.33,12.0,645.0,1,5075,83.33,Malaysia Airlines
+IAH,HKG,NH,International,6,26.5,27.33,1111.83,1,8784,83.33,ANA All Nippon Airways
+IAH,HKG,AA,International,6,2.5,1.83,1109.17,1,8784,83.33,American Airlines
+IAH,MAD,MH,International,6,14.33,16.83,654.17,3,5145,50.0,Malaysia Airlines
+IAH,CAI,AM,International,5,4.6,5.2,916.6,1,7257,80.0,Aeromexico
+IAH,AMS,AF,International,5,0.0,0.0,639.8,0,5075,100.0,Air France
+IAH,AMS,NZ,International,5,17.4,23.2,644.0,2,5075,60.0,Air New Zealand
+IAH,AMS,EK,International,5,0.0,0.0,645.0,0,5075,100.0,Emirates
+IAH,AMS,CX,International,5,4.0,7.0,650.4,1,5075,80.0,Cathay Pacific
+IAH,AMS,DL,International,5,3.0,3.2,648.8,1,5075,80.0,Delta Air Lines
+IAH,AMS,QR,International,5,0.0,0.0,640.0,0,5075,100.0,Qatar Airways
+IAH,AMS,F9,International,5,12.4,13.6,644.6,1,5075,80.0,Frontier Airlines
+IAH,AMS,AC,International,4,0.0,0.0,643.75,0,5075,100.0,Air Canada
+IAH,AMS,OS,International,4,10.25,10.0,643.75,2,5075,50.0,Austrian Airlines
+IAH,HKG,NK,International,4,3.75,3.75,1106.25,1,8784,75.0,Spirit Airlines
+IAH,AMS,AZ,International,4,0.0,0.0,646.25,0,5075,100.0,ITA Airways
+IAH,AMS,LA,International,4,0.0,0.0,647.25,0,5075,100.0,LATAM Airlines
+IAH,AMS,MS,International,4,0.0,0.0,639.5,0,5075,100.0,EgyptAir
+IAH,AMS,QF,International,3,0.0,0.0,647.0,0,5075,100.0,Qantas Airways
+IAH,AMS,B6,International,3,12.0,14.33,644.67,1,5075,66.67,JetBlue Airways
+IAH,HKG,AV,International,3,0.0,0.0,1106.67,0,8784,100.0,Avianca
+IAH,CAI,LA,International,3,36.33,41.67,916.0,1,7257,66.67,LATAM Airlines
+IAH,AMS,IB,International,2,0.0,0.0,647.5,0,5075,100.0,Iberia

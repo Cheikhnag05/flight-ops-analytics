@@ -33,34 +33,96 @@ AIRPORTS = {
     },
 }
 
-# ── Compagnies aériennes (BTS carrier codes) ─────────────────────────────────
+# ── Compagnies aériennes (BTS + IATA codes) ───────────────────────────────────
 AIRLINES = {
-    "AA": {"name": "American Airlines",   "hub": "IAH", "alliance": "oneworld",   "type": "Legacy",   "weight": 0.22},
-    "UA": {"name": "United Airlines",     "hub": "IAH", "alliance": "Star",       "type": "Legacy",   "weight": 0.28},
-    "WN": {"name": "Southwest Airlines",  "hub": "HOU", "alliance": "None",       "type": "LCC",      "weight": 0.25},
-    "DL": {"name": "Delta Air Lines",     "hub": "IAH", "alliance": "SkyTeam",    "type": "Legacy",   "weight": 0.10},
-    "B6": {"name": "JetBlue Airways",     "hub": "IAH", "alliance": "None",       "type": "LCC",      "weight": 0.05},
-    "NK": {"name": "Spirit Airlines",     "hub": "HOU", "alliance": "None",       "type": "ULCC",     "weight": 0.04},
-    "F9": {"name": "Frontier Airlines",   "hub": "HOU", "alliance": "None",       "type": "ULCC",     "weight": 0.03},
-    "AS": {"name": "Alaska Airlines",     "hub": "IAH", "alliance": "oneworld",   "type": "Legacy",   "weight": 0.03},
+    # ── US Domestic ──────────────────────────────────────────────────────────
+    "UA": {"name": "United Airlines",        "hub": "IAH", "alliance": "Star Alliance", "type": "Legacy",        "country": "USA",           "weight": 0.20},
+    "AA": {"name": "American Airlines",      "hub": "IAH", "alliance": "oneworld",      "type": "Legacy",        "country": "USA",           "weight": 0.15},
+    "WN": {"name": "Southwest Airlines",     "hub": "HOU", "alliance": "None",          "type": "LCC",           "country": "USA",           "weight": 0.18},
+    "DL": {"name": "Delta Air Lines",        "hub": "IAH", "alliance": "SkyTeam",       "type": "Legacy",        "country": "USA",           "weight": 0.08},
+    "B6": {"name": "JetBlue Airways",        "hub": "IAH", "alliance": "None",          "type": "LCC",           "country": "USA",           "weight": 0.04},
+    "NK": {"name": "Spirit Airlines",        "hub": "HOU", "alliance": "None",          "type": "ULCC",          "country": "USA",           "weight": 0.03},
+    "F9": {"name": "Frontier Airlines",      "hub": "HOU", "alliance": "None",          "type": "ULCC",          "country": "USA",           "weight": 0.02},
+    "AS": {"name": "Alaska Airlines",        "hub": "IAH", "alliance": "oneworld",      "type": "Legacy",        "country": "USA",           "weight": 0.02},
+    # ── Middle East ───────────────────────────────────────────────────────────
+    "EK": {"name": "Emirates",               "hub": "IAH", "alliance": "None",          "type": "Full Service",  "country": "UAE",           "weight": 0.03},
+    "QR": {"name": "Qatar Airways",          "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "Qatar",         "weight": 0.02},
+    "EY": {"name": "Etihad Airways",         "hub": "IAH", "alliance": "None",          "type": "Full Service",  "country": "UAE",           "weight": 0.01},
+    # ── Europe ────────────────────────────────────────────────────────────────
+    "TK": {"name": "Turkish Airlines",       "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Turkey",        "weight": 0.02},
+    "LH": {"name": "Lufthansa",              "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Germany",       "weight": 0.02},
+    "BA": {"name": "British Airways",        "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "UK",            "weight": 0.02},
+    "AF": {"name": "Air France",             "hub": "IAH", "alliance": "SkyTeam",       "type": "Full Service",  "country": "France",        "weight": 0.01},
+    "KL": {"name": "KLM Royal Dutch",        "hub": "IAH", "alliance": "SkyTeam",       "type": "Full Service",  "country": "Netherlands",   "weight": 0.01},
+    "IB": {"name": "Iberia",                 "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "Spain",         "weight": 0.01},
+    "AZ": {"name": "ITA Airways",            "hub": "IAH", "alliance": "SkyTeam",       "type": "Full Service",  "country": "Italy",         "weight": 0.01},
+    "SK": {"name": "Scandinavian Airlines",  "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Sweden",        "weight": 0.005},
+    "LX": {"name": "Swiss International",    "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Switzerland",   "weight": 0.005},
+    "OS": {"name": "Austrian Airlines",      "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Austria",       "weight": 0.005},
+    # ── Asia-Pacific ──────────────────────────────────────────────────────────
+    "NZ": {"name": "Air New Zealand",        "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "New Zealand",   "weight": 0.01},
+    "QF": {"name": "Qantas Airways",         "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "Australia",     "weight": 0.01},
+    "SQ": {"name": "Singapore Airlines",     "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Singapore",     "weight": 0.01},
+    "NH": {"name": "ANA All Nippon Airways", "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Japan",         "weight": 0.01},
+    "JL": {"name": "Japan Airlines",         "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "Japan",         "weight": 0.01},
+    "CX": {"name": "Cathay Pacific",         "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "Hong Kong",     "weight": 0.01},
+    "KE": {"name": "Korean Air",             "hub": "IAH", "alliance": "SkyTeam",       "type": "Full Service",  "country": "South Korea",   "weight": 0.005},
+    "OZ": {"name": "Asiana Airlines",        "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "South Korea",   "weight": 0.005},
+    "TG": {"name": "Thai Airways",           "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Thailand",      "weight": 0.005},
+    "MH": {"name": "Malaysia Airlines",      "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "Malaysia",      "weight": 0.005},
+    # ── Americas ──────────────────────────────────────────────────────────────
+    "AC": {"name": "Air Canada",             "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Canada",        "weight": 0.02},
+    "AM": {"name": "Aeromexico",             "hub": "IAH", "alliance": "SkyTeam",       "type": "Full Service",  "country": "Mexico",        "weight": 0.02},
+    "LA": {"name": "LATAM Airlines",         "hub": "IAH", "alliance": "oneworld",      "type": "Full Service",  "country": "Chile/Brazil",  "weight": 0.01},
+    "CM": {"name": "Copa Airlines",          "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Panama",        "weight": 0.01},
+    "AV": {"name": "Avianca",               "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Colombia",      "weight": 0.01},
+    # ── Africa ────────────────────────────────────────────────────────────────
+    "ET": {"name": "Ethiopian Airlines",     "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Ethiopia",      "weight": 0.005},
+    "MS": {"name": "EgyptAir",              "hub": "IAH", "alliance": "Star Alliance", "type": "Full Service",  "country": "Egypt",         "weight": 0.005},
 }
 
-# ── Top routes depuis Houston (BTS data) ─────────────────────────────────────
+# ── Routes depuis Houston IAH & HOU ──────────────────────────────────────────
 ROUTES = [
+    # ── IAH Domestic ─────────────────────────────────────────────────────────
     ("IAH", "DFW", 239,  "AA", "Domestic"), ("IAH", "LAX", 1379, "UA", "Domestic"),
     ("IAH", "ORD", 925,  "UA", "Domestic"), ("IAH", "ATL", 789,  "DL", "Domestic"),
     ("IAH", "DEN", 879,  "UA", "Domestic"), ("IAH", "LGA", 1416, "UA", "Domestic"),
     ("IAH", "MIA", 964,  "AA", "Domestic"), ("IAH", "PHX", 1009, "AA", "Domestic"),
     ("IAH", "SEA", 1874, "UA", "Domestic"), ("IAH", "SFO", 1635, "UA", "Domestic"),
-    ("IAH", "CDG", 5338, "UA", "International"), ("IAH", "LHR", 4822, "UA", "International"),
-    ("IAH", "MEX", 737,  "UA", "International"), ("IAH", "GDL", 865,  "AA", "International"),
-    ("IAH", "BOG", 2006, "UA", "International"), ("IAH", "GRU", 4767, "UA", "International"),
+    ("IAH", "BOS", 1597, "UA", "Domestic"), ("IAH", "IAD", 1208, "UA", "Domestic"),
+    ("IAH", "EWR", 1400, "UA", "Domestic"), ("IAH", "MCO", 853,  "AA", "Domestic"),
+    # ── IAH Europe ───────────────────────────────────────────────────────────
+    ("IAH", "LHR", 4822, "BA", "International"), ("IAH", "CDG", 5338, "AF", "International"),
+    ("IAH", "FRA", 5198, "LH", "International"), ("IAH", "AMS", 5075, "KL", "International"),
+    ("IAH", "MAD", 5145, "IB", "International"), ("IAH", "IST", 6322, "TK", "International"),
+    ("IAH", "FCO", 5589, "AZ", "International"), ("IAH", "ZRH", 5304, "LX", "International"),
+    ("IAH", "VIE", 5413, "OS", "International"), ("IAH", "CPH", 5276, "SK", "International"),
+    # ── IAH Middle East ───────────────────────────────────────────────────────
+    ("IAH", "DXB", 8150, "EK", "International"), ("IAH", "DOH", 8040, "QR", "International"),
+    ("IAH", "AUH", 8141, "EY", "International"),
+    # ── IAH Asia-Pacific ──────────────────────────────────────────────────────
+    ("IAH", "NRT", 6924, "NH", "International"), ("IAH", "HND", 6924, "JL", "International"),
+    ("IAH", "ICN", 7062, "KE", "International"), ("IAH", "HKG", 8784, "CX", "International"),
+    ("IAH", "SIN", 9534, "SQ", "International"), ("IAH", "SYD", 8591, "QF", "International"),
+    ("IAH", "AKL", 8831, "NZ", "International"), ("IAH", "BKK", 9281, "TG", "International"),
+    ("IAH", "KUL", 9875, "MH", "International"), ("IAH", "PVG", 7823, "UA", "International"),
+    # ── IAH Americas & Africa ────────────────────────────────────────────────
+    ("IAH", "MEX", 737,  "AM", "International"), ("IAH", "GDL", 865,  "AM", "International"),
+    ("IAH", "BOG", 2006, "AV", "International"), ("IAH", "GRU", 4767, "LA", "International"),
+    ("IAH", "SCL", 4968, "LA", "International"), ("IAH", "LIM", 3677, "LA", "International"),
+    ("IAH", "PTY", 2046, "CM", "International"), ("IAH", "YYZ", 1301, "AC", "International"),
+    ("IAH", "YVR", 1825, "AC", "International"), ("IAH", "ADD", 9127, "ET", "International"),
+    ("IAH", "CAI", 7257, "MS", "International"),
+    # ── HOU Domestic ─────────────────────────────────────────────────────────
     ("HOU", "DAL", 239,  "WN", "Domestic"), ("HOU", "MDW", 925,  "WN", "Domestic"),
     ("HOU", "BWI", 1235, "WN", "Domestic"), ("HOU", "LAS", 1222, "WN", "Domestic"),
     ("HOU", "PHX", 1009, "WN", "Domestic"), ("HOU", "DEN", 879,  "WN", "Domestic"),
     ("HOU", "LAX", 1374, "WN", "Domestic"), ("HOU", "ORL", 985,  "WN", "Domestic"),
     ("HOU", "ATL", 791,  "WN", "Domestic"), ("HOU", "MCO", 985,  "NK", "Domestic"),
+    ("HOU", "SFO", 1635, "WN", "Domestic"), ("HOU", "SEA", 1874, "WN", "Domestic"),
+    # ── HOU International ────────────────────────────────────────────────────
     ("HOU", "CUN", 874,  "WN", "International"), ("HOU", "MEX", 741,  "WN", "International"),
+    ("HOU", "MBJ", 1282, "WN", "International"), ("HOU", "PUJ", 1876, "WN", "International"),
 ]
 
 # ── Causes de retard (BTS standard) ──────────────────────────────────────────
