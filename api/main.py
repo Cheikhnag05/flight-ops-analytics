@@ -31,13 +31,25 @@ load()
 
 def safe(df): return df.where(pd.notnull(df), None).to_dict("records")
 
+def clean(val, default=0):
+    """Convert NaN/None to default for JSON safety."""
+    try:
+        if val is None: return default
+        f = float(val)
+        return default if (f != f) else f  # NaN check
+    except: return default
+
 @app.get("/")
 def root(): return {"message": "Flight Ops Analytics API", "docs": "/docs"}
 
 @app.get("/health")
 def health():
-    return {"status":"ok","flights_loaded": _flights is not None,
-            "total_flights": len(_flights) if _flights is not None else 0, "period":"2022-2026"}
+    return {"status":"ok",
+            "flights_loaded":  _flights  is not None,
+            "monthly_loaded":  _monthly  is not None,
+            "total_flights":   len(_flights)  if _flights  is not None else 0,
+            "monthly_records": len(_monthly)  if _monthly  is not None else 0,
+            "period":"2022-2026"}
 
 @app.get("/stats")
 def stats(): return _stats or {}
@@ -47,6 +59,10 @@ def overview(year: int = Query(2026), airport: Optional[str] = None):
     if _monthly is None: return {}
     df = _monthly[_monthly["year"] == year].copy()
     if airport: df = df[df["origin"] == airport.upper()]
+    if df.empty: return {"year": year, "airport": airport or "ALL", "total_flights": 0,
+                         "operated_flights":0,"cancelled_flights":0,"delayed_flights":0,
+                         "otp_rate_pct":0,"cancellation_rate_pct":0,"avg_dep_delay_min":0,
+                         "avg_turnaround_min":0,"avg_taxi_out_min":0}
     total   = int(df["total_flights"].sum())
     cancel  = int(df["cancelled_flights"].sum())
     delayed = int(df["delayed_flights"].sum())
@@ -59,9 +75,9 @@ def overview(year: int = Query(2026), airport: Optional[str] = None):
         "delayed_flights":   delayed,
         "otp_rate_pct":      round((operated - delayed) / operated * 100, 2) if operated > 0 else 0,
         "cancellation_rate_pct": round(cancel / total * 100, 3) if total > 0 else 0,
-        "avg_dep_delay_min": round(float(df["avg_dep_delay"].mean()), 2),
-        "avg_turnaround_min":round(float(df["avg_turnaround"].mean()), 2),
-        "avg_taxi_out_min":  round(float(df["avg_taxi_out"].mean()), 2),
+        "avg_dep_delay_min": round(clean(df["avg_dep_delay"].mean()), 2),
+        "avg_turnaround_min":round(clean(df["avg_turnaround"].mean()), 2),
+        "avg_taxi_out_min":  round(clean(df["avg_taxi_out"].mean()), 2),
     }
 
 @app.get("/otp")
