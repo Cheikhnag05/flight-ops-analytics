@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #060810; color: #CBD5E1; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+
+/* Scrollbar cockpit */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #0A0F1C; }
+::-webkit-scrollbar-thumb { background: #1A2840; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+
+/* Leaflet dark */
+.leaflet-container { background: #0A0F1C !important; border-radius: 8px; }
+.leaflet-tile-pane { filter: brightness(0.8) saturate(0.6); }
+
+@layer components {
+  /* Panel cockpit */
+  .panel { @apply bg-cockpit-panel border border-cockpit-border rounded-lg; }
+  .panel-sm { @apply bg-cockpit-panel border border-cockpit-border rounded-md p-3; }
+
+  /* Instrument display */
+  .instrument { @apply font-mono text-cyan-DEFAULT tabular-nums; text-shadow: 0 0 8px rgba(0,212,255,0.6); }
+  .instrument-amber { @apply font-mono text-amber-DEFAULT tabular-nums; text-shadow: 0 0 8px rgba(255,184,0,0.6); }
+  .instrument-green { @apply font-mono text-lime-DEFAULT tabular-nums; text-shadow: 0 0 8px rgba(0,255,136,0.6); }
+  .instrument-red   { @apply font-mono text-alert-DEFAULT tabular-nums; text-shadow: 0 0 8px rgba(255,59,59,0.6); }
+
+  /* Status badges */
+  .badge-on-time   { @apply text-[10px] font-semibold px-2 py-0.5 rounded bg-lime-DEFAULT/15 text-lime-DEFAULT border border-lime-DEFAULT/30; }
+  .badge-delayed   { @apply text-[10px] font-semibold px-2 py-0.5 rounded bg-amber-DEFAULT/15 text-amber-DEFAULT border border-amber-DEFAULT/30; }
+  .badge-cancelled { @apply text-[10px] font-semibold px-2 py-0.5 rounded bg-alert-DEFAULT/15 text-alert-DEFAULT border border-alert-DEFAULT/30; }
+
+  /* Glow effects */
+  .glow-cyan  { box-shadow: 0 0 12px rgba(0,212,255,0.35); }
+  .glow-amber { box-shadow: 0 0 12px rgba(255,184,0,0.35); }
+  .glow-green { box-shadow: 0 0 12px rgba(0,255,136,0.35); }
+  .glow-red   { box-shadow: 0 0 12px rgba(255,59,59,0.35); }
+
+  /* Separator line */
+  .hud-line { @apply border-t border-cockpit-border/60; }
+}
+
+/* Scanline effect subtle */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px);
+  pointer-events: none;
+  z-index: 9999;
+}

@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-06-03T11:31:24.718985",
+  "period": "2022-2026",
+  "airports": [
+    "IAH",
+    "HOU"
+  ],
+  "airlines": 8,
+  "total_flights": 206257,
+  "operated_flights": 203111,
+  "cancelled_flights": 3146,
+  "delayed_flights": 37449,
+  "otp_rate_pct": 81.56,
+  "cancellation_rate_pct": 1.525,
+  "avg_dep_delay_min": 6.58,
+  "total_routes": 28,
+  "total_distance_mi": 226900078
+}
